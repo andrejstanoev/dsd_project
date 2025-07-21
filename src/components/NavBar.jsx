@@ -4,7 +4,7 @@ import {Link, NavLink} from "react-router-dom";
 export default function NavBar(){
     return(
 
-        <nav className="flex items-center bg-[#f4f5fa] px-6 py-4">
+        <nav className="flex items-center bg-[#f4f5fa] px-6 py-4 ">
             <Link to="/">
                 <img alt="logo" src={dsdlogo} className="h-23 mr-8"/>
             </Link>
