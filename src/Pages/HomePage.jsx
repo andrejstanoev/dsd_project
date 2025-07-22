@@ -3,12 +3,10 @@ import HomepageMain from "../components/HomepageMain.jsx";
 
 export default function HomePage(){
     return (
-        <div>
-
+        <div className="">
             <NavBar/>
             <HomepageMain/>
             <footer>
-
             </footer>
         </div>
     );

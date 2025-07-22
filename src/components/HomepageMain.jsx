@@ -1,9 +1,18 @@
 import React, { useEffect, useRef, useState } from "react";
 
 const images = [
-    "https://makfax.com.mk/wp-content/uploads/2017/06/Studentski-dom-Goce-Delcev.jpg",
-    "https://sdk.mk/wp-content/uploads/2021/01/studenstki-dom-kuzman-josifovski-pitu-1.jpg",
-    "https://www.radiomof.mk/wp-content/uploads/2021/02/%D0%A1%D1%82%D1%83%D0%B4%D0%B5%D0%BD%D1%82%D1%81%D0%BA%D0%B8-%D0%B4%D0%BE%D0%BC-%D0%A1%D1%82%D0%B8%D0%B2-%D0%9D%D0%B0%D1%83%D0%BC%D0%BE%D0%B2-%D0%94%D0%A1%D0%94-%D0%A1%D0%BA%D0%BE%D0%BF%D1%98%D0%B5.jpg"
+    {
+        name:"Студентски дом „Гоце Делчев“",
+        img:"https://makfax.com.mk/wp-content/uploads/2017/06/Studentski-dom-Goce-Delcev.jpg"
+    },
+    {
+        name:"Студентски дом „Кузман Јосифовски Питу“",
+        img:"https://sdk.mk/wp-content/uploads/2021/01/studenstki-dom-kuzman-josifovski-pitu-1.jpg"
+    },
+    {
+        name:"Студентски дом „Стив Наумов“",
+        img:"https://www.radiomof.mk/wp-content/uploads/2021/02/%D0%A1%D1%82%D1%83%D0%B4%D0%B5%D0%BD%D1%82%D1%81%D0%BA%D0%B8-%D0%B4%D0%BE%D0%BC-%D0%A1%D1%82%D0%B8%D0%B2-%D0%9D%D0%B0%D1%83%D0%BC%D0%BE%D0%B2-%D0%94%D0%A1%D0%94-%D0%A1%D0%BA%D0%BE%D0%BF%D1%98%D0%B5.jpg"
+    }
 ];
 
 export default function HomepageMain() {
@@ -42,17 +51,20 @@ export default function HomepageMain() {
         <main className="bg-[#ebecf3] min-h-screen flex flex-col items-center py-8">
             <h1 className="text-[#5c5eaa] text-4xl mb-15 mt-5 font-bold">Нашите студентски домови</h1>
             <div
-                className="relative w-full max-w-[calc(100vw-8rem)] 2xl:h-[720px] h-[520px] mx-auto overflow-hidden rounded-xl shadow-lg">
+                className="relative w-full max-w-full sm:max-w-[calc(100vw-8rem)] 2xl:h-[720px] h-[520px] mx-auto overflow-hidden rounded-xl shadow-lg">
+                <p className=" tracking-wide px-4 py-2 absolute top-6 z-2 left-1/2 -translate-x-1/2 text-[25px] bg-[#a3a5d2]/80 rounded shadow text-xl font-semibold ">{images[current].name}</p>
 
                 {images.map((img, idx) => (
+                    <>
                     <img
-                        key={img}
-                        src={img}
+                        key={img.name}
+                        src={img.img}
                         className={`absolute w-full h-full object-cover transition-all duration-700 ease-in-out
-              ${idx === current ? "opacity-100 scale-100 z-10" : "opacity-0 scale-95 z-0"}
+              ${idx === current ? "opacity-100 scale-100" : "opacity-0 scale-95 z-0"}
             `}
                         alt={`slika ${idx + 1}`}
                     />
+                    </>
                 ))}
                 <button onClick={handlePreviousImg}  className="absolute left-4 top-1/2 -translate-y-1/2 z-20 bg-[#a3a5d2] hover:bg-[#9596d3] rounded-full p-2 shadow">
                     {/*levo*/}

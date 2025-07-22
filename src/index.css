@@ -4,3 +4,7 @@
     background-color: #5c5eaa;
     color: #f4f5fa;
 }
+body {
+    margin: 0;
+    padding: 0;
+}
