@@ -66,20 +66,20 @@ export default function HomepageMain() {
                     />
                     </>
                 ))}
-                <button onClick={handlePreviousImg}  className="absolute left-4 top-1/2 -translate-y-1/2 z-20 bg-[#a3a5d2] hover:bg-[#9596d3] rounded-full p-2 shadow">
+                <button onClick={handlePreviousImg}  className="absolute left-4 top-1/2 -translate-y-1/2 z-20 bg-[#a3a5d2] hover:bg-[#9596d3] rounded-md w-12 h-12 p-2 shadow">
                     {/*levo*/}
                     <svg style={{
                         color: "#5c5eaa"
-                    }} xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 24 24">
+                    }} xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 24 24"  className="-translate-x-1.5 -translate-y-1.5">
                         <path fill="currentColor"
                               d="m4.431 12.822l13 9A1 1 0 0 0 19 21V3a1 1 0 0 0-1.569-.823l-13 9a1.003 1.003 0 0 0 0 1.645"/>
                     </svg>
                 </button>
                 {/*desno*/}
-                <button onClick={handleNextImg} className="absolute right-4 top-1/2 -translate-y-1/2 z-20 bg-[#a3a5d2] hover:bg-[#9596d3] rounded-full p-2 shadow">
+                <button onClick={handleNextImg} className="absolute right-4 top-1/2 -translate-y-1/2 z-20 bg-[#a3a5d2] hover:bg-[#9596d3] rounded-md w-12 h-12 p-2 shadow">
                     <svg style={{
                         color: "#5c5eaa"
-                    }} xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 24 24">
+                    }} xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 24 24" className="-translate-x-1 -translate-y-1.5">
                         <path fill="currentColor"
                               d="M5.536 21.886a1 1 0 0 0 1.033-.064l13-9a1 1 0 0 0 0-1.644l-13-9A1 1 0 0 0 5 3v18a1 1 0 0 0 .536.886"/>
                     </svg>
