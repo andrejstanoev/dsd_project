@@ -32,7 +32,7 @@ export default function NavBar(){
                 </li>
             </ul>
             <button
-                className=" hidden sm:flex items-center justify-center w-14 h-14 rounded-full bg-[#ffd166] border-2 border-[#444692] ">
+                className=" hidden sm:flex items-center justify-center w-14 h-14 rounded-full bg-[#ffd166] border-2 border-[#444692]">
 
                 <svg className="w-7 h-7 text-[#444692]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <circle cx="11" cy="11" r="8" stroke="currentColor" strokeWidth="2"/>
