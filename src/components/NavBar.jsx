@@ -10,7 +10,7 @@ export default function NavBar(){
         setIsMenuOpen(curr=>!curr)
     }
         return(
-        <nav className=" relative flex justify-between sm:flex sm:justify-start items-center bg-[#f4f5fa] px-6 py-4">
+        <nav className=" fixed top-0 left-0 w-full z-50 flex justify-between sm:flex sm:justify-start items-center bg-[#f4f5fa] px-6 py-4">
             <Link to="/">
                 <img alt="logo" src={dsdlogo} className="h-23 mr-8"/>
             </Link>

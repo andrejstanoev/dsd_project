@@ -1,11 +1,14 @@
 import NavBar from "../components/NavBar.jsx";
 import Footer from "../components/Footer.jsx";
+import InfoForContact from "../components/InfoForContact.jsx";
 
 export default function Contact() {
     return (
-        <div>
+        <div className="pt-25 bg-[#ebecf3]">
             <NavBar/>
-            <h1>Contact</h1>
+            <div>
+                <InfoForContact/>
+            </div>
             <Footer/>
         </div>
     );

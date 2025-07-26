@@ -5,7 +5,7 @@ import Footer from "../components/Footer.jsx";
 
 export default function HomePage(){
     return (
-        <div className="">
+        <div className="pt-25 bg-[#ebecf3] h-screen">
             <NavBar/>
             <HomepageMain/>
             <StudentsSectionHP/>
