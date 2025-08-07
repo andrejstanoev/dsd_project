@@ -42,7 +42,7 @@ export default function NavBar(){
 
             {/*Hamburger ikona*/}
             <button onClick={handleToggleMenu}
-                className="sm:hidden flex items-center justify-center w-10 h-10 rounded bg-[#ffd166] border-2 border-[#444692]"
+                className="sm:hidden flex items-center justify-center w-10 h-10 rounded bg-[#ffd166] border-2 border-[#444692] cursor-pointer"
             >
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" strokeWidth="2"
                      viewBox="0 0 24 24" className="w-6 h-6 text-[#444692]">

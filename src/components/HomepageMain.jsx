@@ -48,11 +48,11 @@ export default function HomepageMain() {
     }, [current]);
 
     return (
-        <main className="bg-[#ebecf3] min-h-screen flex flex-col items-center py-8">
+        <main className="bg-[#ebecf3]  flex flex-col items-center 2xl:py-8 pb-7" >
             <h1 className="text-[#5c5eaa] text-4xl mb-15 mt-5 font-bold">Нашите студентски домови</h1>
             <div
-                className="relative w-full max-w-full sm:max-w-[calc(100vw-8rem)] 2xl:h-[720px] h-[520px] mx-auto overflow-hidden rounded-xl shadow-lg">
-                <p className=" tracking-wide px-4 py-2 absolute top-6 z-2 left-1/2 -translate-x-1/2 text-[25px] bg-[#a3a5d2]/80 rounded shadow text-xl font-semibold ">{images[current].name}</p>
+                className="relative w-full max-w-full sm:max-w-[calc(100vw-8rem)] 2xl:h-[520px] h-[420px] mx-auto overflow-hidden rounded-xl shadow-lg">
+                <p className=" text-center w-full tracking-wide px-4 py-2 absolute top-4 z-2  text-[25px] bg-slate-400/30 rounded shadow text-xl font-semibold ">{images[current].name}</p>
 
                 {images.map((img, idx) => (
                     <>
