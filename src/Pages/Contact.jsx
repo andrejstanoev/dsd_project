@@ -4,7 +4,7 @@ import InfoForContact from "../components/InfoForContact.jsx";
 
 export default function Contact() {
     return (
-        <div className="pt-25 bg-[#ebecf3]">
+        <div className="pt-25 bg-[#d3d4e9]">
             <NavBar/>
             <div>
                 <InfoForContact/>
