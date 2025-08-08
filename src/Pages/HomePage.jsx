@@ -12,10 +12,6 @@ export default function HomePage(){
             {/*<StudentsSectionHP/>*/}
             <StudentsSectionHPV2/>
             <Footer/>
-
-
-
-
         </div>
     );
 }

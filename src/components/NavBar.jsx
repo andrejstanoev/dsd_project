@@ -1,22 +1,50 @@
 import NavigationLink from "./NavigationLink.jsx"
 import dsdlogo from "../images/dsdlogo.png"
 import {Link, NavLink} from "react-router-dom";
-import {useState} from "react";
+import React, {useState} from "react";
 import HamburgerNavMenu from "./HamburgerNavMenu.jsx";
-export default function NavBar(){
+export default function NavBar() {
     const [isMenuOpen, setIsMenuOpen] = useState(false)
+    const [isClicked, setIsClicked] = useState(false)
 
-    function handleToggleMenu(){
-        setIsMenuOpen(curr=>!curr)
+    function handleToggleMenu() {
+        setIsMenuOpen(curr => !curr)
     }
-        return(
-        <nav className=" fixed top-0 left-0 w-full z-50 flex justify-between sm:flex sm:justify-start items-center bg-[#f4f5fa] px-6 py-4">
+
+    function handleToggleDomovi(){
+        setIsClicked(curr=>!curr)
+    }
+
+
+    return (
+        <nav
+            className=" fixed top-0 left-0 w-full z-50 flex justify-between sm:flex sm:justify-start items-center bg-[#f4f5fa] px-6 py-4">
             <Link to="/">
                 <img alt="logo" src={dsdlogo} className="h-23 mr-8"/>
             </Link>
             <ul className=" hidden sm:flex 2xl:w-7xl lg:w-4xl xl:w-4xl  flex items-center  border-2 border-[#444692] bg-[#f4f5fa] rounded-full px-6 py-2 -mr-6 shadow-sm">
                 <li className="mx-4">
                     <NavigationLink to="/">Почетна</NavigationLink>
+                </li>
+                <li className=" relative cursor-pointer mx-4 font-bold text-[#353767] text-[14px] lg:text-[18px] xl:text-[19px]  xl:px-4 xl:py-2 rounded-lg hover:bg-[#e8eafc]"
+                    onClick={handleToggleDomovi}
+                >
+                    <div className="flex items-center align-center">
+                        {isClicked ? <svg xmlns="http://www.w3.org/2000/svg" width="31" height="31" viewBox="0 0 24 24">
+                                <path fill="#5c5eaa"
+                                      d="m12 13.171l4.95-4.95l1.414 1.415L12 16L5.636 9.636L7.05 8.222z"/>
+                            </svg>
+                            : <svg xmlns="http://www.w3.org/2000/svg" width="31" height="31" viewBox="0 0 24 24">
+                                <path fill="#5c5eaa" d="M8.59 16.58L13.17 12L8.59 7.41L10 6l6 6l-6 6z"/>
+                            </svg>
+                        }
+                        Домови
+                    </div>
+                    { isClicked && <div className=" animate-fade-in rounded-xl  shadow-lg p-4 bg-[#f4f5fa] absolute flex flex-col z-20">
+                        <NavigationLink to="/goce">Гоце</NavigationLink>
+                        <NavigationLink to="/kuzman">Кузман</NavigationLink>
+                        <NavigationLink to="/stiv">Стив</NavigationLink>
+                    </div>}
                 </li>
                 <li className="mx-4">
                     <NavigationLink to="/vesti">Вести и објави</NavigationLink>
@@ -42,7 +70,7 @@ export default function NavBar(){
 
             {/*Hamburger ikona*/}
             <button onClick={handleToggleMenu}
-                className="sm:hidden flex items-center justify-center w-10 h-10 rounded bg-[#ffd166] border-2 border-[#444692] cursor-pointer"
+                    className="sm:hidden flex items-center justify-center w-10 h-10 rounded bg-[#ffd166] border-2 border-[#444692] cursor-pointer"
             >
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" strokeWidth="2"
                      viewBox="0 0 24 24" className="w-6 h-6 text-[#444692]">
