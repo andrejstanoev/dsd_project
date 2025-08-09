@@ -3,11 +3,11 @@ import PhoneIcon from "./PhoneIcon.jsx";
 import EmailIcon from "./EmailIcon.jsx";
 export default function InfoForContact(){
     return (
-        <div className=" min-h-screen flex flex-col items-center justify-center py-10 px-4">
+        <div className="  flex flex-col items-center justify-center py-2 px-4">
             <div className="w-full max-w-lg md:max-w-3xl lg:max-w-5xl xl:max-w-7xl 2xl:max-w-8xl p-6 md:p-10 space-y-6 mx-auto">
 
                 <div>
-                    <h2 className="text-3xl md:text-4xl font-bold text-[#5c5eaa] mb-5">Информации за контакт</h2>
+                    <h2 className="text-3xl md:text-4xl font-bold text-[#5c5eaa] mb-8">Информации за контакт</h2>
                     <h3 className="text-2xl font-bold">Христина Димова Грчнароска</h3>
                     <p className="text-sm mt-1 mb-3">
                         Службено лице за посредување со информации од јавен карактер
