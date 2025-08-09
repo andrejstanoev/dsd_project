@@ -8,8 +8,8 @@ export default function Contact() {
         <div className="pt-45 bg-[#d3d4e9]">
             <NavBar/>
             <div className="mt-2 md:mt-4 lg:mt-8">
-                <Maps/>
                 <InfoForContact/>
+                <Maps/>
             </div>
             <Footer/>
         </div>

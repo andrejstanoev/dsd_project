@@ -3,7 +3,7 @@ import PhoneIcon from "./PhoneIcon.jsx";
 import EmailIcon from "./EmailIcon.jsx";
 export default function InfoForContact(){
     return (
-        <div className="  flex flex-col items-center justify-center py-2 px-4">
+        <div className="  flex flex-col items-center justify-center mt-[-80px] px-4">
             <div className="w-full max-w-lg md:max-w-3xl lg:max-w-5xl xl:max-w-7xl 2xl:max-w-8xl p-6 md:p-10 space-y-6 mx-auto">
 
                 <div>
