@@ -18,16 +18,16 @@ export default function NavBar() {
 
     return (
         <nav
-            className=" fixed top-0 left-0 w-full z-50 flex justify-between sm:flex sm:justify-start items-center bg-[#f4f5fa] px-6 py-4">
+            className=" fixed top-0 left-0 w-full z-50 flex justify-between md:flex md:justify-start items-center bg-[#f4f5fa] px-6 py-4">
             <Link to="/">
                 <img alt="logo" src={dsdlogo} className="h-23 mr-8"/>
             </Link>
 
-            <ul className=" hidden sm:flex flex items-center justify-between border-2 border-[#444692] bg-[#f4f5fa] rounded-full px-6 py-2 shadow-sm gap-x-6">
-                <li className="mx-4">
+            <ul className="hidden md:flex flex items-center justify-between border-2 border-[#444692] bg-[#d3d4e9] rounded-full px-6 py-2 shadow-sm">
+
                     <NavigationLink to="/">Почетна</NavigationLink>
-                </li>
-                <li className=" relative cursor-pointer mx-4 font-bold text-[#353767] text-[14px] lg:text-[18px] xl:text-[19px]  xl:px-4 xl:py-2 rounded-lg hover:bg-[#e8eafc]"
+
+                <li className=" relative cursor-pointer md:mx-2 lg:mx-3 font-bold text-[#353767] text-[10px] md:text-[14px] lg:text-[18px] xl:text-[19px]  xl:px-4 xl:py-2 rounded-lg hover:bg-[#e8eafc]"
                     onClick={handleToggleDomovi}
                 >
                     <div className="flex items-center align-center">
@@ -47,18 +47,16 @@ export default function NavBar() {
                         <NavigationLink to="/stiv">Стив</NavigationLink>
                     </div>}
                 </li>
-                <li className="mx-4">
+
                     <NavigationLink to="/vesti">Вести и објави</NavigationLink>
-                </li>
-                <li className="mx-4">
+
+
                     <NavigationLink to="/zanas">За нас</NavigationLink>
-                </li>
-                <li className="mx-4">
+
                     <NavigationLink to="/kontakt">Контакт</NavigationLink>
-                </li>
-                <li className="mx-4">
+
                     <NavigationLink to="/meni">Дневно мени</NavigationLink>
-                </li>
+
                 <li>
                     <button
                         className=" hidden sm:flex items-center justify-center w-14 h-14 rounded-full bg-[#ffd166] border-2 border-[#444692]">
@@ -74,7 +72,7 @@ export default function NavBar() {
 
             {/*Hamburger ikona*/}
             <button onClick={handleToggleMenu}
-                    className="sm:hidden flex items-center justify-center w-10 h-10 rounded bg-[#ffd166] border-2 border-[#444692] cursor-pointer"
+                    className="md:hidden flex items-center justify-center w-10 h-10 rounded bg-[#ffd166] border-2 border-[#444692] cursor-pointer"
             >
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" strokeWidth="2"
                      viewBox="0 0 24 24" className="w-6 h-6 text-[#444692]">

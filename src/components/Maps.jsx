@@ -2,7 +2,7 @@ import React from "react";
 
 const Maps = () => {
     return(
-        <main className="flex justify-around items-start py-5 px-20 mb-[25px]">
+        <main className="flex justify-around items-start py-5 px-20 mb-[35px]">
             <div className=" text-center flex-col">
                 <div
                     className="relative text-right w-full max-w-md h-96 mx-auto border-[2px]"

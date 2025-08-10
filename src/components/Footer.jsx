@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = () => {
    return(
-       <main>
+
            <div
                className="h-[94px] bg-[#353767]  relative flex justify-center sm:flex sm:justify-center gap-3 items-center  px-6 py-4">
                {/*call ikona*/}
@@ -34,7 +34,7 @@ const Footer = () => {
                </svg>
            </div>
 
-       </main>
+
    );
 
 }
