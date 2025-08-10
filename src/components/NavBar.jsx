@@ -24,10 +24,10 @@ export default function NavBar() {
         <nav
             className=" fixed top-0 left-0 w-full z-50 flex justify-between md:flex md:justify-start items-center bg-[#f4f5fa] px-6 py-4">
             <Link to="/">
-                <img alt="logo" src={dsdlogo} className="h-23 mr-8"/>
+                <img alt="logo" src={dsdlogo} className="h-20 mr-8"/>
             </Link>
 
-            <ul className="hidden md:flex flex items-center justify-between border-2 border-[#444692] bg-[#d3d4e9] rounded-full px-6 py-2 shadow-sm">
+            <ul className="hidden md:flex flex items-center justify-between border-2 border-[#444692] bg-[#d3d4e9] rounded-full px-6  shadow-sm">
 
                     <NavigationLink to="/">{t("pocetna")}</NavigationLink>
 

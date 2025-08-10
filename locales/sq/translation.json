@@ -1,6 +1,6 @@
 {
-  "greetingHomePage": "Kolegjet tona studentore",
-  "studentskiDom": "Kolegj studentor",
+  "greetingHomePage": "Konviktet tona studentore",
+  "studentskiDom": "Konvikt studentor",
   "zaStudenti": "Për studentët",
   "kakoDaAplicirash": "Si të aplikoni",
   "cpp": "FAQ – Pyetje të shpeshta",
@@ -15,5 +15,12 @@
   "infozakontakt": "Informacione për kontakt",
   "sLLice": "Person përgjegjës për ndërmjetësimin e informacionit me karakter publik",
   "telefon": "Telefoni",
-  "adresa": "Adresa"
+  "adresa": "Adresa",
+  "zanasRecenica": "Të krijojmë një vend më të mirë për të jetuar për të gjithë studentët.",
+  "vraboteni": "të punësuar",
+  "smesteniStudenti": "studentë të akomoduar",
+  "godiniPostoenje": "vite ekzistence",
+  "pasijaZaUspeh": "pasione për sukses",
+  "misijaIVizija": "Misioni dhe vizioni",
+  "misijata": "Konvikti Shtetëror Studentor është një institucion publik me rol kyç në mbështetjen e studentëve që studiojnë larg vendbanimit të tyre. Qëllimi ynë është të ofrojmë akomodim të përballueshëm dhe cilësor, ushqim të shëndetshëm dhe të balancuar, kujdes shëndetësor dhe aktivitete të ndryshme kulturore, argëtuese dhe sportive-rekreative, duke krijuar një mjedis të sigurt dhe mbështetës për zhvillimin akademik dhe personal. Ne synojmë të shndërrohemi në një qendër bashkëkohore të jetës dhe bashkëpunimit studentor, e cila do të jetë shembull kujdesi dhe mbështetjeje për të rinjtë, duke i motivuar ata të arrijnë rezultate të shkëlqyera dhe të realizojnë potencialin e tyre të plotë."
 }
