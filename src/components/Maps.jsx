@@ -1,6 +1,7 @@
 import React from "react";
-
+import { useTranslation } from 'react-i18next';
 const Maps = () => {
+    const { t } = useTranslation();
     return(
         <main className="flex justify-around items-start py-5 px-20 mb-[35px]">
             <div className=" text-center flex-col">
@@ -22,7 +23,7 @@ const Maps = () => {
                 </div>
 
 
-                <h4 className="text-xl mt-4">Студентски дом <br/> ”Кузман Јосифовски- Питу”</h4>
+                <h4 className="text-xl mt-4">{t("studentskiDom")} <br/> ”Кузман Јосифовски- Питу”</h4>
             </div>
             <div className="text-center flex-col">
                 <div
@@ -42,7 +43,7 @@ const Maps = () => {
                     </div>
                 </div>
 
-                <h4 className="text-xl mt-4">Студентски дом <br/>”Гоце Делчев”</h4>
+                <h4 className="text-xl mt-4">{t("studentskiDom")} <br/>”Гоце Делчев”</h4>
             </div>
             <div className=" text-center flex-col">
                 <div className="relative text-right w-full max-w-md h-96 mx-auto border-[2px]"
@@ -61,7 +62,7 @@ const Maps = () => {
                 </div>
 
 
-                <h4 className="text-xl mt-4">Студентски дом <br/>”Стив Наумов”</h4>
+                <h4 className="text-xl mt-4">{t("studentskiDom")} <br/>”Стив Наумов”</h4>
             </div>
         </main>
     );

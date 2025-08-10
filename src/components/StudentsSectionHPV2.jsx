@@ -1,29 +1,31 @@
 import React from "react";
 import AccordionItem from "./AccordionItem.jsx";
+import { useTranslation } from 'react-i18next';
 
-const elementi = [
-    {
-        id: 1,
-        title:"Како да аплицираш (линк до е-услуги + кратко упатство со слики)",
-        body:"It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like)."
-    },
-    {
-        id: 2,
-        title:"ЧПП – Често поставувани прашања (Кога се објавуваат резултати, како да пријавиш дефект, итн.)",
-        body:"It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like)."
-    },
-    {
-        id: 3,
-        title:"Внатрешен правилник / кодекс на однесување (PDF или HTML)",
-        body:"It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like)."
-    },
-    {
-        id: 4,
-        title:"Проблеми и пријави (линк до секцијата на управници и студентски управници во „За нас“)",
-        body:"It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like)."
-    }
-]
 export default function StudentsSectionHPV2(){
+    const { t } = useTranslation();
+    const elementi = [
+        {
+            id: 1,
+            title:`${t("kakoDaAplicirash")} (линк до е-услуги + кратко упатство со слики)`,
+            body:"It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like)."
+        },
+        {
+            id: 2,
+            title:`${t("cpp")} (Кога се објавуваат резултати, како да пријавиш дефект, итн.)`,
+            body:"It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like)."
+        },
+        {
+            id: 3,
+            title:`${t("vnatresenPravilnik")} (PDF или HTML)`,
+            body:"It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like)."
+        },
+        {
+            id: 4,
+            title:`${t("problemiPrijavi")} (линк до секцијата на управници и студентски управници во „За нас“)`,
+            body:"It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like)."
+        }
+    ]
     return(
         <div className="w-full max-w-screen-xl mx-auto px-4 2xl:py-8">
 
@@ -32,7 +34,7 @@ export default function StudentsSectionHPV2(){
                     <path fill="#5c5eaa" d="M8.59 16.58L13.17 12L8.59 7.41L10 6l6 6l-6 6z"/>
                 </svg>
                 <div className=" text-[#2c2c2c] text-[25px] font-semibold font-['Poppins']">
-                    За студенти
+                    {t("zaStudenti")}
                 </div>
             </div>
             <div className="flex flex-col gap-6 mt-4 ml-4">
@@ -45,10 +47,7 @@ export default function StudentsSectionHPV2(){
 
                     {/* Citat */}
                     <div className="text-[#ebecf3] text-xl md:text-2xl font-semibold font-['Inter'] md:w-1/2">
-                        “Ние сме убедени дека домовите може да ги направиме поубаво место за живеење за сите
-                        студенти. Во таа насока, за нас од исклучителна важност е придонесот на студентите,
-                        споделување на нивните идеи и проблеми кои ќе придонесат во реализација и обезбедување на
-                        подобри услови за нив”
+                        {t("citat")}
                     </div>
 
                     {/* slika del */}

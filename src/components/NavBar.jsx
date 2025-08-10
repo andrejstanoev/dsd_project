@@ -3,9 +3,13 @@ import dsdlogo from "../images/dsdlogo.png"
 import {Link, NavLink} from "react-router-dom";
 import React, {useState} from "react";
 import HamburgerNavMenu from "./HamburgerNavMenu.jsx";
+import MacedonianFlag from "./MacedonianFlag.jsx";
+import AlbanianFlag from "./AlbanianFlag.jsx";
+import { useTranslation } from 'react-i18next';
 export default function NavBar() {
     const [isMenuOpen, setIsMenuOpen] = useState(false)
     const [isClicked, setIsClicked] = useState(false)
+    const { t } = useTranslation();
 
     function handleToggleMenu() {
         setIsMenuOpen(curr => !curr)
@@ -25,7 +29,7 @@ export default function NavBar() {
 
             <ul className="hidden md:flex flex items-center justify-between border-2 border-[#444692] bg-[#d3d4e9] rounded-full px-6 py-2 shadow-sm">
 
-                    <NavigationLink to="/">Почетна</NavigationLink>
+                    <NavigationLink to="/">{t("pocetna")}</NavigationLink>
 
                 <li className=" relative cursor-pointer md:mx-2 lg:mx-3 font-bold text-[#353767] text-[10px] md:text-[14px] lg:text-[18px] xl:text-[19px]  xl:px-4 xl:py-2 rounded-lg hover:bg-[#e8eafc]"
                     onClick={handleToggleDomovi}
@@ -39,7 +43,7 @@ export default function NavBar() {
                                 <path fill="#5c5eaa" d="M8.59 16.58L13.17 12L8.59 7.41L10 6l6 6l-6 6z"/>
                             </svg>
                         }
-                        Домови
+                        {t("domovi")}
                     </div>
                     { isClicked && <div className=" animate-fade-in rounded-xl  shadow-lg p-4 bg-[#f4f5fa] absolute flex flex-col z-20">
                         <NavigationLink to="/goce">Гоце</NavigationLink>
@@ -48,12 +52,12 @@ export default function NavBar() {
                     </div>}
                 </li>
 
-                    <NavigationLink to="/vesti">Вести и објави</NavigationLink>
+                    <NavigationLink to="/vesti">{t("vestiIObjavi")}</NavigationLink>
 
 
-                    <NavigationLink to="/zanas">За нас</NavigationLink>
+                    <NavigationLink to="/zanas">{t("zaNas")}</NavigationLink>
 
-                    <NavigationLink to="/kontakt">Контакт</NavigationLink>
+                    <NavigationLink to="/kontakt">{t("kontakt")}</NavigationLink>
 
                     <NavigationLink to="/meni">Дневно мени</NavigationLink>
 
@@ -69,6 +73,10 @@ export default function NavBar() {
                 </li>
             </ul>
 
+            <div>
+                <MacedonianFlag/>
+                <AlbanianFlag/>
+            </div>
 
             {/*Hamburger ikona*/}
             <button onClick={handleToggleMenu}
