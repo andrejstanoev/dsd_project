@@ -38,7 +38,7 @@ export default function StudentsSectionHPV2(){
                 </div>
             </div>
             <div className="flex flex-col gap-6 mt-4 ml-4">
-                {elementi.map(el => <AccordionItem title={el.title} body={el.body} key={el.id}/>)}
+                {elementi.map(el => <AccordionItem title={el.title} body={el.body} color="#5c5eaa" key={el.id}/>)}
             </div>
 
             <div className="w-full px-4 py-5 my-10">

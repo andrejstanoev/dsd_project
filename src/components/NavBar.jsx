@@ -31,7 +31,7 @@ export default function NavBar() {
 
                     <NavigationLink to="/">{t("pocetna")}</NavigationLink>
 
-                <li className=" relative cursor-pointer md:mx-2 lg:mx-3 font-bold text-[#353767] text-[10px] md:text-[14px] lg:text-[18px] xl:text-[19px]  xl:px-4 xl:py-2 rounded-lg hover:bg-[#e8eafc]"
+                <li className=" relative cursor-pointer md:mx-2 lg:mx-3 font-bold text-[#353767] text-[10px] md:text-[14px] lg:text-[16px] xl:text-[17px]  xl:px-4 xl:py-1 rounded-lg hover:bg-[#e8eafc]"
                     onClick={handleToggleDomovi}
                 >
                     <div className="flex items-center align-center">
