@@ -12,7 +12,7 @@ export default function ContactCard({ name, jobTitle, phone, email }) {
             <div className="text-center py-4">
 
                   <span className="mt-[6px] mr-2 text-black text-lg">&#9679;</span>
-                  <span className="text-[17px]">
+                  <span className="text-[17px] whitespace-pre-line">
                     {jobTitle}
                   </span>
 

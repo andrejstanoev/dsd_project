@@ -5,11 +5,13 @@ import Contact from "./Pages/Contact.jsx";
 import Goce from "./Pages/Goce.jsx";
 import Kuzman from "./Pages/Kuzman.jsx";
 import Stiv from "./Pages/Stiv.jsx";
+import ScrollToTop from "./components/ScrollToTop.jsx";
 
 function App() {
 
   return (
       <BrowserRouter>
+          <ScrollToTop/>
           <Routes>
               <Route path="/" element={<HomePage/>}/>
               <Route path="zanas" element={<AboutUs/>}/>
