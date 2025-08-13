@@ -45,7 +45,7 @@ export default function HamburgerNavMenu( {setIsMenuOpen} ){
                          to="/kontakt">Контакт</NavLink>
 
                 <NavLink className="py-1 px-1 rounded hover:bg-indigo-200" onClick={() => setIsMenuOpen(false)}
-                         to="/meni">Дневно мени</NavLink>
+                         to="/meni">Документи</NavLink>
 
             </ul>
         </div>

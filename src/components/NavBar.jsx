@@ -59,7 +59,7 @@ export default function NavBar() {
 
                     <NavigationLink to="/kontakt">{t("kontakt")}</NavigationLink>
 
-                    <NavigationLink to="/meni">Дневно мени</NavigationLink>
+                    <NavigationLink to="/meni">Документи</NavigationLink>
 
                 <li>
                     <button
