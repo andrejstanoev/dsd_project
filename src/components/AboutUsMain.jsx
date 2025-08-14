@@ -42,8 +42,7 @@ export default function AboutUsMain() {
                 <p className=" text-[#353767] bg-[#a3a5d2]/60 rounded-[15px] lg:text-[36px] text-lg p-2 font-bold text-center bottom-8 md:bottom-24 -translate-x-1/2 left-1/2 z-10 absolute max-w-[90%]">{t("zanasRecenica")}</p>
             </div>
 
-            <div
-                className=" grid grid-cols-2 gap-x-8 justify-items-center lg:flex lg:justify-center gap-y-4 lg:gap-x-20 mt-8 px-5">
+            <div className=" grid grid-cols-2 gap-x-8 justify-items-center lg:flex lg:justify-center gap-y-4 lg:gap-x-20 mt-8 px-5">
 
                 <div
                     className=" min-w-[120px] rounded-[15px] flex flex-col items-center w-fit bg-[#a3a5d2]/60 text-[#353767] px-2 lg:px-8">
