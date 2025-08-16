@@ -30,7 +30,8 @@ export default function GoceMain() {
         </div>
 
         {/*ikonki*/}
-        <div className="mb-4 px-10 grid grid-cols-2 gap-4 justify-items-center md:flex md:justify-center md:gap-x-7 lg:gap-x-8 lg:text-[19px] xl:text-[22px] xl:gap-x-10">
+        <div
+            className="mb-4 px-10 grid grid-cols-2 gap-4 justify-items-center md:flex md:justify-center md:gap-x-7 lg:gap-x-8 lg:text-[19px] xl:text-[22px] xl:gap-x-10">
             <div
                 className="flex items-center justify-center w-fit bg-[#F5C144] px-3 py-1 rounded-[15px] border xl:w-[270px]">
                 <span className="pr-1">
@@ -105,6 +106,76 @@ export default function GoceMain() {
 
             <div className=" lg:text-[22px] mt-4 px-9 whitespace-pre-line ">
                 {t("zaGoceDomotInfo")}
+            </div>
+
+        </div>
+
+        <div className="px-10 mt-8">
+            <div className="flex flex-col items-center gap-y-4 md:flex-row md:justify-around xl:px-9">
+                <p className="flex items-center w-[220px] justify-center border-2 border-[#353767] rounded-[13px] bg-[#353767] text-white px-3 py-1 font-semibold lg:text-[20px] lg:w-[300px] xl:text-[22px]">
+                    {/*<span>*/}
+                    {/*    <svg className="inline" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path*/}
+                    {/*        fill="currentColor" d="M21 7L9 19l-5.5-5.5l1.41-1.41L9 16.17L19.59 5.59z"/></svg>*/}
+                    {/*</span>*/}
+                    <span>{t("pravilnikZaDomuvanje")}</span>
+                </p>
+
+                <p className="w-[220px] flex items-center justify-center border-2 border-[#353767] rounded-[13px] bg-[#F5C144] text-[#353767] px-3 py-1 font-semibold lg:text-[20px] lg:w-[300px] xl:text-[22px]">
+                    {/*<span>*/}
+                    {/*    <svg className="inline" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path*/}
+                    {/*        fill="currentColor" d="M21 7L9 19l-5.5-5.5l1.41-1.41L9 16.17L19.59 5.59z"/></svg>*/}
+                    {/*</span>*/}
+                    <span>{t("prijaviProblem")}</span>
+                </p>
+            </div>
+        </div>
+
+        {/*tipovi na sobi*/}
+        <div className="px-10 mt-8">
+
+            <div className="flex items-center">
+                <svg xmlns="http://www.w3.org/2000/svg" width="31" height="31" viewBox="0 0 24 24">
+                    <path fill="#5c5eaa" d="M8.59 16.58L13.17 12L8.59 7.41L10 6l6 6l-6 6z"/>
+                </svg>
+                <div className="text-[#353767] text-[20px]  lg:text-[26px] font-semibold font-['Poppins']">
+                    {t("tipoviNaSobi")}
+                </div>
+            </div>
+
+            {/*<div className=" lg:text-[22px] mt-4 px-9 whitespace-pre-line ">*/}
+            {/*    {t("zaGoceDomotInfo")}*/}
+            {/*</div>*/}
+
+            <div className="pt-4 px-9 space-y-2">
+
+                <p className="space-x-2 lg:text-[20px]">
+                    <span>&#9679;</span>
+                    <span>{t("dvoKrevetnaToalet")}</span>
+                </p>
+                {/*sliki*/}
+                <div></div>
+
+                <p className="space-x-2 lg:text-[20px]">
+                    <span>&#9679;</span>
+                    <span>{t("dvoKrevetnaKujna")}</span>
+                </p>
+                {/*sliki*/}
+                <div></div>
+
+                <p className="space-x-2 lg:text-[20px]">
+                    <span>&#9679;</span>
+                    <span>{t("apsoloventskaToalet")}</span>
+                </p>
+                {/*sliki*/}
+                <div></div>
+
+                <p className="space-x-2 lg:text-[20px]">
+                    <span>&#9679;</span>
+                    <span>{t("apsoloventskaKujna")}</span>
+                </p>
+                {/*sliki*/}
+                <div></div>
+
             </div>
 
         </div>
