@@ -61,5 +61,15 @@
   "dvoKrevetnaToalet": "Двокреветна соба со тоалет",
   "dvoKrevetnaKujna": "Двокреветна соба со кујна",
   "apsoloventskaToalet": "Апсолвентска соба со тоалет",
-  "apsoloventskaKujna": "Апсолвентска соба со кујна"
+  "apsoloventskaKujna": "Апсолвентска соба со кујна",
+  "povolnostiVoDomot": "Поволности во домот",
+  "peralna": "Перална",
+  "internet": "Интернет",
+  "citalna": "Читална",
+  "parking": "Паркинг",
+  "kafeBar": "Кафе бар",
+  "korisniInformacii": "Корисни информации",
+  "rabVreme": "Работно време на управата и рецепцијата",
+  "sovetNaStanari": "Совет на станари",
+  "lokacijaNajbliskaPostojka": "Локација од најблиска автобуска постојка"
 }

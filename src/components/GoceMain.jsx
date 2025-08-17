@@ -3,6 +3,8 @@ import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import LocationIcon from "./LocationIcon.jsx";
 import React from "react";
+import PhoneIcon from "./PhoneIcon.jsx";
+import EmailIcon from "./EmailIcon.jsx";
 export default function GoceMain() {
     const { t } = useTranslation();
     const responsive = {
@@ -13,8 +15,8 @@ export default function GoceMain() {
     };
     return <div className="flex-1 flex flex-col pt-5">
 
-        <div className="text-center pt-5">
-            <h1>{t("studentskiDom")} “Гоце Делчев”</h1>
+        <div className="flex justify-center pt-5 ">
+            <h1 className="md:text-[23px] lg:text-[25px] xl:text-[30px] text-[19px] px-3 py-1 rounded-[15px] border-1 border-[#353767] bg-[#A3A5D2] w-fit text-[#353767] font-bold">{t("studentskiDom")} “Гоце Делчев”</h1>
         </div>
 
         {/*karusel*/}
@@ -175,6 +177,120 @@ export default function GoceMain() {
                 </p>
                 {/*sliki*/}
                 <div></div>
+
+            </div>
+
+        </div>
+        {/*povolnosti*/}
+        <div className="px-10 mt-8">
+
+            <div className="flex items-center">
+                <svg xmlns="http://www.w3.org/2000/svg" width="31" height="31" viewBox="0 0 24 24">
+                    <path fill="#5c5eaa" d="M8.59 16.58L13.17 12L8.59 7.41L10 6l6 6l-6 6z"/>
+                </svg>
+                <div className="text-[#353767] text-[20px]  lg:text-[26px] font-semibold font-['Poppins']">
+                    {t("povolnostiVoDomot")}
+                </div>
+            </div>
+
+            <div className=" mt-4 px-9 grid grid-cols-2 justify-items-center gap-y-2 md:flex md:justify-center md:gap-x-2 lg:gap-x-6 xl:justify-around ">
+
+                <div
+                    className="lg:w-[160px] lg:text-[20px] sm:w-[140px] sm:text-[17px] flex items-center justify-center gap-x-2 px-2 py-1 rounded-[15px] bg-[#353767] w-[120px] text-white font-semibold">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="23" viewBox="0 0 24 24">
+                        <path fill="currentColor" d="M21 7L9 19l-5.5-5.5l1.41-1.41L9 16.17L19.59 5.59z"/>
+                    </svg>
+                    <p>{t("peralna")}</p>
+                </div>
+
+                <div
+                    className="lg:w-[160px] lg:text-[20px] sm:w-[140px] sm:text-[17px] flex items-center justify-center gap-x-2 px-2 py-1 rounded-[15px] bg-[#353767] w-[120px] text-white font-semibold">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="23" viewBox="0 0 24 24">
+                        <path fill="currentColor" d="M21 7L9 19l-5.5-5.5l1.41-1.41L9 16.17L19.59 5.59z"/>
+                    </svg>
+                    <p>{t("internet")}</p>
+                </div>
+
+                <div
+                    className="lg:w-[160px] lg:text-[20px] sm:w-[140px] sm:text-[17px] flex items-center justify-center gap-x-2 px-2 py-1 rounded-[15px] bg-[#353767] w-[120px] text-white font-semibold">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="23" viewBox="0 0 24 24">
+                        <path fill="currentColor" d="M21 7L9 19l-5.5-5.5l1.41-1.41L9 16.17L19.59 5.59z"/>
+                    </svg>
+                    <p>{t("citalna")}</p>
+                </div>
+
+                <div
+                    className="lg:w-[160px] lg:text-[20px] sm:w-[140px] sm:text-[17px] flex items-center justify-center gap-x-2 px-2 py-1 rounded-[15px] bg-[#353767] w-[120px] text-white font-semibold">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="23" viewBox="0 0 24 24">
+                        <path fill="currentColor" d="M21 7L9 19l-5.5-5.5l1.41-1.41L9 16.17L19.59 5.59z"/>
+                    </svg>
+                    <p>{t("parking")}</p>
+                </div>
+
+                <div
+                    className="lg:w-[160px] lg:text-[20px] sm:w-[140px] sm:text-[17px] flex items-center justify-center gap-x-2 px-2 py-1 rounded-[15px] bg-[#353767] w-[120px] text-white font-semibold">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="23" viewBox="0 0 24 24">
+                        <path fill="currentColor" d="M21 7L9 19l-5.5-5.5l1.41-1.41L9 16.17L19.59 5.59z"/>
+                    </svg>
+                    <p>{t("kafeBar")}</p>
+                </div>
+
+            </div>
+
+        </div>
+
+        {/*korisni informacii*/}
+        <div className="px-10 mt-8">
+
+            <div className="flex items-center">
+                <svg xmlns="http://www.w3.org/2000/svg" width="31" height="31" viewBox="0 0 24 24">
+                    <path fill="#5c5eaa" d="M8.59 16.58L13.17 12L8.59 7.41L10 6l6 6l-6 6z"/>
+                </svg>
+                <div className="text-[#353767] text-[20px]  lg:text-[26px] font-semibold font-['Poppins']">
+                    {t("korisniInformacii")}
+                </div>
+            </div>
+
+            <div className="mt-4 px-9">
+
+                <div className="flex items-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="31" height="31" viewBox="0 0 24 24">
+                        <path fill="#5c5eaa" d="M8.59 16.58L13.17 12L8.59 7.41L10 6l6 6l-6 6z"/>
+                    </svg>
+                    <p>{t("rabVreme")}: <strong>9:00-16:00</strong></p>
+                </div>
+
+                <div className="flex items-center">
+                    <PhoneIcon/>
+                    <p className="pl-2"><strong>888 888 888</strong></p>
+                </div>
+
+                <div className="flex items-center">
+                    <EmailIcon/>
+                    <p className="pl-2"><strong>proben.gmail.com</strong></p>
+                </div>
+
+                <div className="flex items-center">
+                    <svg className="" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                        <path fill="#353767"
+                              d="M7.8 2h8.4C19.4 2 22 4.6 22 7.8v8.4a5.8 5.8 0 0 1-5.8 5.8H7.8C4.6 22 2 19.4 2 16.2V7.8A5.8 5.8 0 0 1 7.8 2m-.2 2A3.6 3.6 0 0 0 4 7.6v8.8C4 18.39 5.61 20 7.6 20h8.8a3.6 3.6 0 0 0 3.6-3.6V7.6C20 5.61 18.39 4 16.4 4zm9.65 1.5a1.25 1.25 0 0 1 1.25 1.25A1.25 1.25 0 0 1 17.25 8A1.25 1.25 0 0 1 16 6.75a1.25 1.25 0 0 1 1.25-1.25M12 7a5 5 0 0 1 5 5a5 5 0 0 1-5 5a5 5 0 0 1-5-5a5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3a3 3 0 0 0 3 3a3 3 0 0 0 3-3a3 3 0 0 0-3-3"/>
+                    </svg>
+                    <p className="pl-2">{t("sovetNaStanari")}</p>
+                </div>
+
+                <div className="flex items-center">
+                    <svg className="text-[#353767]" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                        <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                           stroke-width="2">
+                            <path
+                                d="M8 6v6m7-6v6M2 12h19.6M18 18h3s.5-1.7.8-2.8c.1-.4.2-.8.2-1.2s-.1-.8-.2-1.2l-1.4-5C20.1 6.8 19.1 6 18 6H4a2 2 0 0 0-2 2v10h3"/>
+                            <circle cx="7" cy="18" r="2"/>
+                            <path d="M9 18h5"/>
+                            <circle cx="16" cy="18" r="2"/>
+                        </g>
+                    </svg>
+                    <p className="pl-2">{t("lokacijaNajbliskaPostojka")}</p>
+                </div>
 
             </div>
 
