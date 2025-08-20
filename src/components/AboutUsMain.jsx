@@ -180,20 +180,19 @@ export default function AboutUsMain() {
                     </div>
                 </div>
 
-                <div
-                    className="mt-4 mx-9 px-9 py-3 lg:px-12 flex flex-col lg:flex-row  lg:justify-start gap-6 bg-[#a3a5d2] border-4 border-[#5c5eaa] rounded-[15px]">
+                <div className="mt-4 mx-9 px-9 py-3 lg:px-12 flex flex-col lg:flex-row  lg:justify-start gap-6 bg-[#a3a5d2] border-4 border-[#5c5eaa] rounded-[15px]">
                     <div>
                         <img src="src/images/direktor_slika%201.png" className="w-full max-w-[350px] h-[300px]"
                              alt="Директор"/>
                     </div>
-                    <div className="text-15px lg:text-[20px] px-4 lg:px-6  h-[300px] w-2/3 ">
+                    <div className="text-15px lg:text-[20px] px-4 lg:px-6  w-2/3 ">
                         {t("tekstsZaDirektorot")}
                     </div>
                 </div>
 
                 <div className="py-6 px-11">
-                    <AccordionItem title={t("rabotnoIskustvo")} body="nesto" color="#FFD166"/>
-                    <AccordionItem title={t("proekti")} body="nesto" color="#FFD166"/>
+                    <AccordionItem title={t("rabotnoIskustvo")} body={t("rabotnoIskustvoDirektor")} color="#FFD166"/>
+                    <AccordionItem title={t("proekti")} body={t("proektiDirektor")} color="#FFD166"/>
                 </div>
 
             </div>
