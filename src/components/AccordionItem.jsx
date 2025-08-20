@@ -24,6 +24,6 @@ export default function AccordionItem({title, body, color}) {
               {title}
             </span>
             </div>
-            {isOpen && <div className="bg-red-700 ml-12 mt-2">{body}</div>}
+            {isOpen && <div className=" ml-12 mt-2 whitespace-pre-line" dangerouslySetInnerHTML={{ __html: body }}/>}
         </div>);
 }

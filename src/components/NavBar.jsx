@@ -73,7 +73,7 @@ export default function NavBar() {
                 </li>
             </ul>
 
-            <div>
+            <div className="md: ml-auto space-x-2">
                 <MacedonianFlag/>
                 <AlbanianFlag/>
             </div>
