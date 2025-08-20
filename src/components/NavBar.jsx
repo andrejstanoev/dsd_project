@@ -6,6 +6,7 @@ import HamburgerNavMenu from "./HamburgerNavMenu.jsx";
 import MacedonianFlag from "./MacedonianFlag.jsx";
 import AlbanianFlag from "./AlbanianFlag.jsx";
 import { useTranslation } from 'react-i18next';
+import GreatBritainFlag from "./GreatBritainFlag.jsx";
 export default function NavBar() {
     const [isMenuOpen, setIsMenuOpen] = useState(false)
     const [isClicked, setIsClicked] = useState(false)
@@ -76,6 +77,7 @@ export default function NavBar() {
             <div className="md: ml-auto space-x-2">
                 <MacedonianFlag/>
                 <AlbanianFlag/>
+                <GreatBritainFlag/>
             </div>
 
             {/*Hamburger ikona*/}
