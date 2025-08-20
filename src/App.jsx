@@ -6,6 +6,7 @@ import Goce from "./Pages/Goce.jsx";
 import Kuzman from "./Pages/Kuzman.jsx";
 import Stiv from "./Pages/Stiv.jsx";
 import ScrollToTop from "./components/ScrollToTop.jsx";
+import NewsAndAnnouncements from "./Pages/NewsAndAnnouncements.jsx";
 
 function App() {
 
@@ -19,6 +20,7 @@ function App() {
               <Route path="goce" element={<Goce/>}/>
               <Route path="kuzman" element={<Kuzman/>}/>
               <Route path="stiv" element={<Stiv/>}/>
+              <Route path="vesti" element={<NewsAndAnnouncements/>}/>
           </Routes>
       </BrowserRouter>
 
