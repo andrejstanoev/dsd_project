@@ -1,6 +1,7 @@
 import React from "react";
 import AccordionItem from "./AccordionItem.jsx";
 import { useTranslation } from 'react-i18next';
+import pravilnikPdf from "../assets/pravilnik.pdf"
 
 export default function StudentsSectionHPV2(){
     const { t } = useTranslation();
@@ -8,7 +9,7 @@ export default function StudentsSectionHPV2(){
         {
             id: 1,
             title:`${t("kakoDaAplicirash")} (линк до е-услуги + кратко упатство со слики)`,
-            body:`<a href="https://e-uslugi.mon.gov.mk/">https://e-uslugi.mon.gov.mk/</a>`
+            body:`<a target="_blank" class="text-blue-600 underline" href="https://e-uslugi.mon.gov.mk/">https://e-uslugi.mon.gov.mk/</a>`
         },
         {
             id: 2,
@@ -18,7 +19,9 @@ export default function StudentsSectionHPV2(){
         {
             id: 3,
             title:`${t("vnatresenPravilnik")} (PDF или HTML)`,
-            body:"It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like)."
+            body:`<a href="${pravilnikPdf}" download="Pravilnik_DSD_Skopje.pdf" class="text-blue-600 underline" target="_blank" rel="noopener">
+             ${t("vnatresenPravilnik")} (PDF)
+           </a>\``
         },
         {
             id: 4,

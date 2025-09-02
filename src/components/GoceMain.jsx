@@ -5,6 +5,7 @@ import LocationIcon from "./LocationIcon.jsx";
 import React from "react";
 import PhoneIcon from "./PhoneIcon.jsx";
 import EmailIcon from "./EmailIcon.jsx";
+import pravilnikPdf from "../assets/pravilnik.pdf"
 export default function GoceMain() {
     const { t } = useTranslation();
     const responsive = {
@@ -22,18 +23,17 @@ export default function GoceMain() {
         {/*karusel*/}
         <div className="py-12">
             <Carousel responsive={responsive} autoPlay={false} autoPlaySpeed={3000} infinite>
-                <div><img className="h-[350px] w-[507px] px-3 rounded-[10px]" src="src/images/goce1slika.jpg"
+                <div><img className="h-[350px] w-[507px] px-3 rounded-[10px]" src="../images/goce/goce1slika.jpg"
                           alt="Slide 1"/></div>
-                <div><img className="h-[350px] px-3 rounded-[10px]" src="src/images/goce2slika.jpg" alt="Slide 2"/>
+                <div><img className="h-[350px] px-3 rounded-[10px]" src="../images/goce/goce2slika.jpg" alt="Slide 2"/>
                 </div>
-                <div><img className="h-[350px] px-3 rounded-[10px]" src="src/images/goce3slika.jpg" alt="Slide 3"/>
+                <div><img className="h-[350px] px-3 rounded-[10px]" src="../images/goce/goce3slika.jpg" alt="Slide 3"/>
                 </div>
             </Carousel>
         </div>
 
         {/*ikonki*/}
-        <div
-            className="mb-4 px-10 grid grid-cols-2 gap-4 justify-items-center md:flex md:justify-center md:gap-x-7 lg:gap-x-8 lg:text-[19px] xl:text-[22px] xl:gap-x-10">
+        <div className="mb-4 px-10 grid grid-cols-2 gap-4 justify-items-center md:flex md:justify-center md:gap-x-7 lg:gap-x-8 lg:text-[19px] xl:text-[22px] xl:gap-x-10">
             <div
                 className="flex items-center text-[#353767] border-[#353767] justify-center w-fit bg-[#F5C144] px-3 py-1 rounded-[15px] border xl:w-[270px]">
                 <span className="pr-1">
@@ -65,32 +65,42 @@ export default function GoceMain() {
                 {t("nedelnoMeni")}
             </div>
 
+            <a href="https://www.google.com/maps/place/Goce+Delcev+State+Student+Dormitory/@41.9994401,21.3902085,283m/data=!3m1!1e3!4m6!3m5!1s0x1354140d49f68bdf:0x2fde4cf8d6abdfff!8m2!3d41.9993828!4d21.3903916!16s%2Fg%2F11cm72pr9f?entry=ttu&g_ep=EgoyMDI1MDgyNS4wIKXMDSoASAFQAw%3D%3D"
+               target="_blank"
+               rel="noopener noreferrer"
+               className="inline-block"
+            >
+                <div className="justify-center text-[#353767] border-[#353767] flex items-center w-fit bg-[#F5C144] px-3 py-1 rounded-[15px] border xl:w-[270px]">
+                    <span className="pr-1">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 512 512"><path
+                            fill="none" stroke="#353767" stroke-linecap="round" stroke-linejoin="round"
+                            stroke-width="32"
+                            d="M256 48c-79.5 0-144 61.39-144 137c0 87 96 224.87 131.25 272.49a15.77 15.77 0 0 0 25.5 0C304 409.89 400 272.07 400 185c0-75.61-64.5-137-144-137"/><circle
+                            cx="256" cy="192" r="48" fill="none" stroke="currentColor" stroke-linecap="round"
+                            stroke-linejoin="round" stroke-width="32"/></svg>
+                    </span>
+                    {t("lokacija")}
+                </div>
+            </a>
 
-            <div
-                className="justify-center text-[#353767] border-[#353767] flex items-center w-fit bg-[#F5C144] px-3 py-1 rounded-[15px] border xl:w-[270px]">
-                <span className="pr-1">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 512 512"><path
-                        fill="none" stroke="#353767" stroke-linecap="round" stroke-linejoin="round"
-                        stroke-width="32"
-                        d="M256 48c-79.5 0-144 61.39-144 137c0 87 96 224.87 131.25 272.49a15.77 15.77 0 0 0 25.5 0C304 409.89 400 272.07 400 185c0-75.61-64.5-137-144-137"/><circle
-                        cx="256" cy="192" r="48" fill="none" stroke="currentColor" stroke-linecap="round"
-                        stroke-linejoin="round" stroke-width="32"/></svg>
-                </span>
-                {t("lokacija")}
-            </div>
-
-            <div
-                className=" justify-center text-[#353767] border-[#353767] flex items-center w-fit bg-[#F5C144] px-3 py-1 rounded-[15px] border xl:w-[270px]">
-                <span className="pr-1">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 512 512"><path
-                        fill="none" stroke="#353767" stroke-linecap="round" stroke-linejoin="round"
-                        stroke-width="32"
-                        d="M256 48c-79.5 0-144 61.39-144 137c0 87 96 224.87 131.25 272.49a15.77 15.77 0 0 0 25.5 0C304 409.89 400 272.07 400 185c0-75.61-64.5-137-144-137"/><circle
-                        cx="256" cy="192" r="48" fill="none" stroke="currentColor" stroke-linecap="round"
-                        stroke-linejoin="round" stroke-width="32"/></svg>
-                </span>
-                {t("kafeBarCitalna")}
-            </div>
+            <a href="https://www.google.com/maps/place/%D0%9A%D0%B0%D1%84%D0%B5+%D0%B1%D0%B0%D1%80+%D0%A7%D0%B8%D1%82%D0%B0%D0%BB%D0%BD%D0%B0/@41.9991219,21.3900861,141m/data=!3m1!1e3!4m6!3m5!1s0x1354152f088f4fef:0xa1ab4975af04b270!8m2!3d41.999096!4d21.3899524!16s%2Fg%2F11x201m731?entry=ttu&g_ep=EgoyMDI1MDgyNS4wIKXMDSoASAFQAw%3D%3D"
+               target="_blank"
+               rel="noopener noreferrer"
+               className="inline-block"
+            >
+                <div
+                    className=" justify-center text-[#353767] border-[#353767] flex items-center w-fit bg-[#F5C144] px-3 py-1 rounded-[15px] border xl:w-[270px]">
+                    <span className="pr-1">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 512 512"><path
+                            fill="none" stroke="#353767" stroke-linecap="round" stroke-linejoin="round"
+                            stroke-width="32"
+                            d="M256 48c-79.5 0-144 61.39-144 137c0 87 96 224.87 131.25 272.49a15.77 15.77 0 0 0 25.5 0C304 409.89 400 272.07 400 185c0-75.61-64.5-137-144-137"/><circle
+                            cx="256" cy="192" r="48" fill="none" stroke="currentColor" stroke-linecap="round"
+                            stroke-linejoin="round" stroke-width="32"/></svg>
+                    </span>
+                    {t("kafeBarCitalna")}
+                </div>
+            </a>
 
         </div>
 
@@ -114,13 +124,20 @@ export default function GoceMain() {
 
         <div className="px-10 mt-8">
             <div className="flex flex-col items-center gap-y-4 md:flex-row md:justify-around xl:px-9">
-                <p className="flex items-center w-[220px] justify-center border-2 border-[#353767] rounded-[13px] bg-[#353767] text-white px-3 py-1 font-semibold lg:text-[20px] lg:w-[300px] xl:text-[22px]">
-                    {/*<span>*/}
-                    {/*    <svg className="inline" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path*/}
-                    {/*        fill="currentColor" d="M21 7L9 19l-5.5-5.5l1.41-1.41L9 16.17L19.59 5.59z"/></svg>*/}
-                    {/*</span>*/}
-                    <span>{t("pravilnikZaDomuvanje")}</span>
-                </p>
+                <a href={pravilnikPdf}
+                   download="Pravilnik_DSD_Skopje.pdf"
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   className="inline-block"
+                >
+                    <p className="flex items-center w-[220px] justify-center border-2 border-[#353767] rounded-[13px] bg-[#353767] text-white px-3 py-1 font-semibold lg:text-[20px] lg:w-[300px] xl:text-[22px]">
+                        {/*<span>*/}
+                        {/*    <svg className="inline" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path*/}
+                        {/*        fill="currentColor" d="M21 7L9 19l-5.5-5.5l1.41-1.41L9 16.17L19.59 5.59z"/></svg>*/}
+                        {/*</span>*/}
+                        <span>{t("pravilnikZaDomuvanje")}</span>
+                    </p>
+                </a>
 
                 <p className="w-[220px] flex items-center justify-center border-2 border-[#353767] rounded-[13px] bg-[#F5C144] text-[#353767] px-3 py-1 font-semibold lg:text-[20px] lg:w-[300px] xl:text-[22px]">
                     {/*<span>*/}
