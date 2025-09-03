@@ -56,7 +56,7 @@ export default function StudentsSectionHPV2(){
                     {/* slika del */}
                     <div className="relative md:w-1/2 w-full">
                         <img
-                            src="src/images/studenti.png"
+                            src="src/images/studenti2.png"
                             alt="Студенти"
                             className="w-full h-auto rounded-[30px] border-4 md:border-[10px] border-[#5c5eaa]"
                         />
