@@ -5,7 +5,7 @@ export default function MonNews() {
         <div className="w-full max-w-7xl my-8 flex justify-center">
             <div
                 style={{
-                    border: '10px solid #5C5EAA',
+                    border: '5px solid #5C5EAA',
                     borderRadius: '30px',
                     overflow: 'hidden',
                     width: '530px',

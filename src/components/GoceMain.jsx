@@ -17,7 +17,7 @@ export default function GoceMain() {
     return <div className="flex-1 flex flex-col pt-5">
 
         <div className="flex justify-center pt-5 ">
-            <h1 className="md:text-[23px] lg:text-[25px] xl:text-[30px] text-[19px] px-3 py-1 rounded-[15px] border-1 border-[#353767] bg-[#A3A5D2] w-fit text-[#353767] font-bold">{t("studentskiDom")} “Гоце Делчев”</h1>
+            <h1 className="md:text-[23px] lg:text-[25px] xl:text-[40px] text-[19px] px-3 py-2 rounded-[15px] bg-[#A3A5D2]/90 shadow-lg backdrop-blur-md w-fit text-[#353767] font-bold">{t("studentskiDom")} “Гоце Делчев”</h1>
         </div>
 
         {/*karusel*/}

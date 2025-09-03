@@ -39,7 +39,7 @@ export default function AboutUsMain() {
                 <img className="w-full h-[300px] lg:h-[500px] object-cover" src="src/images/ZA_nas_slika%201.png"
                      alt="studenti"/>
                 <div className="absolute inset-0 bg-[#5c5eaa]/50 "/>
-                <p className=" text-[#353767] bg-[#a3a5d2]/60 rounded-[15px] lg:text-[36px] text-lg p-2 font-bold text-center bottom-8 md:bottom-24 -translate-x-1/2 left-1/2 z-10 absolute max-w-[90%]">{t("zanasRecenica")}</p>
+                <p className=" text-[#353767] bg-[#a3a5d2]/30 backdrop-blur-md  rounded-[15px] lg:text-[36px] text-lg p-2 font-bold text-center bottom-8 md:bottom-24 -translate-x-1/2 left-1/2 z-10 absolute max-w-[90%]">{t("zanasRecenica")}</p>
             </div>
 
             <div className=" grid grid-cols-2 gap-x-8 justify-items-center lg:flex lg:justify-center gap-y-4 lg:gap-x-20 mt-8 px-5">

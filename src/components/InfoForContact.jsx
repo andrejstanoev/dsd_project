@@ -11,8 +11,7 @@ export default function InfoForContact(){
 
                 <div>
                     <h2 className="text-3xl md:text-4xl font-bold text-[#5c5eaa] mb-8
-                    md:text-[23px] lg:text-[25px] xl:text-[32px] text-[19px] px-3 py-1  rounded-[15px] border-1
-                    border-[#353767] bg-[#A3A5D2] lg:w-106 lg:h-12 pl-5 text-[#353767] font-bold
+                    md:text-[23px] lg:text-[25px] xl:text-[32px] text-[19px] px-3 py-1  rounded-[15px] bg-[#A3A5D2]/90 shadow-lg backdrop-blur-md lg:w-106 lg:h-12 pl-5 text-[#353767] font-bold
                     ">{t("infozakontakt")}</h2>
                     <h3 className="text-2xl font-bold">Христина Димова Грчнароска</h3>
                     <p className="text-sm mt-1 mb-3">

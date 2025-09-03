@@ -12,7 +12,7 @@ export default function NewsSectionFB() {
 
             <div
                 style={{
-                    border: '10px solid #5C5EAA',
+                    border: '5px solid #5C5EAA',
                     borderRadius: '30px',
                     overflow: 'hidden',
                     width: '900px',

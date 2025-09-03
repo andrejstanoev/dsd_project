@@ -57,9 +57,11 @@ export default function HomepageMain() {
         return () => clearTimeout(timeoutRef.current);
     }, [current]);
 
+    //old class for border: border-1 border-[#353767]
+
     return (
-        <main className=" flex flex-col items-center 2xl:py-8 pb-7" >
-            <h1 className=" text-center text-[#5c5eaa] mt-10 text-4xl mb-15 mt-5 font-bold md:text-[23px] lg:text-[25px] xl:text-[40px] text-[19px] px-3 py-2 mt-5 rounded-[15px] border-1 border-[#353767] bg-[#A3A5D2] lg:w-150 lg:h-17 text-center text-[#353767] font-bold">{t("greetingHomePage")}</h1>
+        <main className=" flex flex-col items-center 2xl:py-8 pb-7 mt-3" >
+            <h1 className="text-center text-[#5c5eaa] text-4xl mb-15  font-bold md:text-[23px] lg:text-[25px] xl:text-[40px] text-[19px] px-3 py-2 rounded-[15px] bg-[#A3A5D2]/90 shadow-lg backdrop-blur-md  lg:w-150 lg:h-17 text-center text-[#353767] font-bold">{t("greetingHomePage")}</h1>
             <div className="relative w-full max-w-full sm:max-w-[calc(90vw-8rem)] 2xl:h-[520px] h-[420px]  mx-auto overflow-hidden rounded-xl shadow-lg">
                 <p className=" text-center w-full tracking-wide px-4 py-2 absolute top-4 z-2  text-[25px] bg-slate-400/30 rounded shadow text-xl font-semibold ">{images[current].name}</p>
 
@@ -76,7 +78,7 @@ export default function HomepageMain() {
                     />
                     </>
                 ))}
-                <button onClick={handlePreviousImg}  className=" cursor-pointer absolute left-4 top-1/2 -translate-y-1/2 z-20 bg-[#a3a5d2] hover:bg-[#9596d3] rounded-md w-12 h-12 p-2 shadow">
+                <button onClick={handlePreviousImg}  className=" cursor-pointer absolute left-4 top-1/2 -translate-y-1/2 z-20 bg-[#a3a5d2]/50 backdrop-blur-md hover:bg-[#9596d3] rounded-md w-12 h-12 p-2 shadow-lg">
                     {/*levo*/}
                     <svg style={{
                         color: "#5c5eaa"
@@ -86,7 +88,7 @@ export default function HomepageMain() {
                     </svg>
                 </button>
                 {/*desno*/}
-                <button onClick={handleNextImg} className=" cursor-pointer absolute right-4 top-1/2 -translate-y-1/2 z-20 bg-[#a3a5d2] hover:bg-[#9596d3] rounded-md w-12 h-12 p-2 shadow">
+                <button onClick={handleNextImg} className=" cursor-pointer absolute right-4 top-1/2 -translate-y-1/2 z-20 bg-[#a3a5d2]/50 backdrop-blur-md hover:bg-[#9596d3] rounded-md w-12 h-12 p-2 shadow-lg">
                     <svg style={{
                         color: "#5c5eaa"
                     }} xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 24 24" className="-translate-x-1 -translate-y-1.5">
