@@ -23,17 +23,30 @@ export default function GoceMain() {
         {/*karusel*/}
         <div className="py-12">
             <Carousel responsive={responsive} autoPlay={false} autoPlaySpeed={3000} infinite>
-                <div><img className="h-[350px] w-[507px] px-3 rounded-[10px]" src="../images/goce/goce1slika.jpg"
+                <div><img className="h-[350px] w-[507px] px-3 rounded-[10px]" src="src/images/goce/goce1slika.jpg"
                           alt="Slide 1"/></div>
-                <div><img className="h-[350px] px-3 rounded-[10px]" src="../images/goce/goce2slika.jpg" alt="Slide 2"/>
+                <div><img className="h-[350px] px-3 rounded-[10px]" src="src/images/goce/goce2slika.jpg" alt="Slide 2"/>
                 </div>
-                <div><img className="h-[350px] px-3 rounded-[10px]" src="../images/goce/goce3slika.jpg" alt="Slide 3"/>
+                <div><img className="h-[350px] px-3 rounded-[10px]" src="src/images/goce/goce3slika.jpg" alt="Slide 3"/>
+                </div>
+                <div><img className="h-[350px] w-[507px] px-3 rounded-[10px]" src="src/images/goce/goce4slika.jpg"
+                          alt="Slide 1"/></div>
+                <div><img className="h-[350px] px-3 rounded-[10px]" src="src/images/goce/goce5slika.jpg" alt="Slide 2"/>
+                </div>
+                <div><img className="h-[350px] px-3 rounded-[10px]" src="src/images/goce/goce6slika.jpg" alt="Slide 3"/>
+                </div>
+                <div><img className="h-[350px] w-[507px] px-3 rounded-[10px]" src="src/images/goce/goce7slika.jpg"
+                          alt="Slide 1"/></div>
+                <div><img className="h-[350px] px-3 rounded-[10px]" src="src/images/goce/goce8slika.jpg" alt="Slide 2"/>
+                </div>
+                <div><img className="h-[350px] px-3 rounded-[10px]" src="src/images/goce/goce9slika.jpg" alt="Slide 3"/>
                 </div>
             </Carousel>
         </div>
 
         {/*ikonki*/}
-        <div className="mb-4 px-10 grid grid-cols-2 gap-4 justify-items-center md:flex md:justify-center md:gap-x-7 lg:gap-x-8 lg:text-[19px] xl:text-[22px] xl:gap-x-10">
+        <div
+            className="mb-4 px-10 grid grid-cols-2 gap-4 justify-items-center md:flex md:justify-center md:gap-x-7 lg:gap-x-8 lg:text-[19px] xl:text-[22px] xl:gap-x-10">
             <div
                 className="flex items-center text-[#353767] border-[#353767] justify-center w-fit bg-[#F5C144] px-3 py-1 rounded-[15px] border xl:w-[270px]">
                 <span className="pr-1">

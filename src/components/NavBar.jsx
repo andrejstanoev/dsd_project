@@ -23,12 +23,12 @@ export default function NavBar() {
 
     return (
         <nav
-            className=" fixed top-0 left-0 w-full z-50 flex justify-between md:flex md:justify-start items-center bg-[#f4f5fa] px-6 py-4">
+            className=" fixed top-0 left-0 w-full z-50 flex justify-between md:flex md:justify-between items-center bg-[#f4f5fa] px-6 py-4">
             <Link to="/">
-                <img alt="logo" src={dsdlogo} className="h-20 mr-8"/>
+                <img alt="logo" src={dsdlogo} className="h-20"/>
             </Link>
-
-            <ul className="hidden md:flex flex items-center justify-between border-2 border-[#444692] bg-[#d3d4e9] rounded-full px-6  shadow-sm">
+            {/*old classes : "hidden md:flex flex items-center justify-between border-2 border-[#444692] bg-[#d3d4e9] rounded-full px-6  shadow-sm"*/}
+            <ul className="hidden md:flex flex items-center justify-between bg-[#d3d4e9]/70 shadow-xl backdrop-blur-xl rounded-full px-6 py-1 ring-1 ring-white/15">
 
                     <NavigationLink to="/">{t("pocetna")}</NavigationLink>
 
@@ -62,19 +62,19 @@ export default function NavBar() {
 
                     <NavigationLink to="/meni">Документи</NavigationLink>
 
-                <li>
-                    <button
-                        className=" hidden sm:flex items-center justify-center w-14 h-14 rounded-full bg-[#ffd166] border-2 border-[#444692]">
+                {/*<li>*/}
+                {/*    <button*/}
+                {/*        className=" hidden sm:flex items-center justify-center w-14 h-14 rounded-full bg-[#ffd166] border-2 border-[#444692]">*/}
 
-                        <svg className="w-7 h-7 text-[#444692]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <circle cx="11" cy="11" r="8" stroke="currentColor" strokeWidth="2"/>
-                            <line x1="25" y1="25" x2="16.65" y2="16.65" stroke="currentColor" strokeWidth="2"/>
-                        </svg>
-                    </button>
-                </li>
+                {/*        /!*<svg className="w-7 h-7 text-[#444692]" fill="none" stroke="currentColor" viewBox="0 0 24 24">*!/*/}
+                {/*        /!*    <circle cx="11" cy="11" r="8" stroke="currentColor" strokeWidth="2"/>*!/*/}
+                {/*        /!*    <line x1="25" y1="25" x2="16.65" y2="16.65" stroke="currentColor" strokeWidth="2"/>*!/*/}
+                {/*        /!*</svg>*!/*/}
+                {/*    </button>*/}
+                {/*</li>*/}
             </ul>
-
-            <div className="md: ml-auto space-x-2">
+            {/*old class md:ml-auto*/}
+            <div className=" space-x-2">
                 <MacedonianFlag/>
                 <AlbanianFlag/>
                 <GreatBritainFlag/>
