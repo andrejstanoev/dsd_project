@@ -147,7 +147,8 @@ transition-transform duration-300 hover:scale-105 hover:bg-[#FFD75A]">
                    rel="noopener noreferrer"
                    className="inline-block"
                 >
-                    <p className="flex items-center w-[220px] justify-center border-2 border-[#353767] rounded-[13px] bg-[#353767] text-white px-3 py-1 font-semibold lg:text-[20px] lg:w-[300px] xl:text-[22px]">
+                    <p className="flex items-center w-[220px] justify-center border-2 border-[#353767] rounded-[13px] bg-[#353767] text-white px-3 py-1 font-semibold lg:text-[20px] lg:w-[300px] xl:text-[22px]
+transition-transform duration-300 hover:scale-105 hover:bg-[#40427a]">
                         {/*<span>*/}
                         {/*    <svg className="inline" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path*/}
                         {/*        fill="currentColor" d="M21 7L9 19l-5.5-5.5l1.41-1.41L9 16.17L19.59 5.59z"/></svg>*/}
@@ -156,7 +157,8 @@ transition-transform duration-300 hover:scale-105 hover:bg-[#FFD75A]">
                     </p>
                 </a>
 
-                <p className="w-[220px] flex items-center justify-center border-2 border-[#353767] rounded-[13px] bg-[#F5C144] text-[#353767] px-3 py-1 font-semibold lg:text-[20px] lg:w-[300px] xl:text-[22px]">
+                <p className="w-[220px] flex items-center justify-center border-2 border-[#353767] rounded-[13px] bg-[#F5C144] text-[#353767] px-3 py-1 font-semibold lg:text-[20px] lg:w-[300px] xl:text-[22px]
+transition-transform duration-300 hover:scale-105 hover:bg-[#FFD75A]">
                     {/*<span>*/}
                     {/*    <svg className="inline" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path*/}
                     {/*        fill="currentColor" d="M21 7L9 19l-5.5-5.5l1.41-1.41L9 16.17L19.59 5.59z"/></svg>*/}
