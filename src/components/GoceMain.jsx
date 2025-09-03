@@ -48,7 +48,8 @@ export default function GoceMain() {
         <div
             className="mb-4 px-10 grid grid-cols-2 gap-4 justify-items-center md:flex md:justify-center md:gap-x-7 lg:gap-x-8 lg:text-[19px] xl:text-[22px] xl:gap-x-10">
             <div
-                className="flex items-center text-[#353767] border-[#353767] justify-center w-fit bg-[#F5C144] px-3 py-1 rounded-[15px] border xl:w-[270px]">
+                className="flex items-center text-[#353767] border-[#353767] justify-center w-fit bg-[#F5C144] px-3 py-1 rounded-[15px] border xl:w-[270px]
+transition-transform duration-300 hover:scale-105 hover:bg-[#FFD75A]">
                 <span className="pr-1">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path
                         fill="#353767"
@@ -65,7 +66,8 @@ export default function GoceMain() {
             </div>
 
             <div
-                className="justify-center text-[#353767] border-[#353767] flex items-center w-fit bg-[#F5C144] px-3 py-1 rounded-[15px] border xl:w-[270px]">
+                className="flex items-center text-[#353767] border-[#353767] justify-center w-fit bg-[#F5C144] px-3 py-1 rounded-[15px] border xl:w-[270px]
+transition-transform duration-300 hover:scale-105 hover:bg-[#FFD75A]">
                 <span className="pr-1">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 20 20"><g
                         fill="#353767"><path fill-rule="evenodd"
@@ -83,7 +85,8 @@ export default function GoceMain() {
                rel="noopener noreferrer"
                className="inline-block"
             >
-                <div className="justify-center text-[#353767] border-[#353767] flex items-center w-fit bg-[#F5C144] px-3 py-1 rounded-[15px] border xl:w-[270px]">
+                <div className="flex items-center text-[#353767] border-[#353767] justify-center w-fit bg-[#F5C144] px-3 py-1 rounded-[15px] border xl:w-[270px]
+transition-transform duration-300 hover:scale-105 hover:bg-[#FFD75A]">
                     <span className="pr-1">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 512 512"><path
                             fill="none" stroke="#353767" stroke-linecap="round" stroke-linejoin="round"
@@ -102,7 +105,8 @@ export default function GoceMain() {
                className="inline-block"
             >
                 <div
-                    className=" justify-center text-[#353767] border-[#353767] flex items-center w-fit bg-[#F5C144] px-3 py-1 rounded-[15px] border xl:w-[270px]">
+                    className="flex items-center text-[#353767] border-[#353767] justify-center w-fit bg-[#F5C144] px-3 py-1 rounded-[15px] border xl:w-[270px]
+transition-transform duration-300 hover:scale-105 hover:bg-[#FFD75A]">
                     <span className="pr-1">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 512 512"><path
                             fill="none" stroke="#353767" stroke-linecap="round" stroke-linejoin="round"
