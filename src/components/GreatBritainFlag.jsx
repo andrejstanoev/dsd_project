@@ -1,7 +1,15 @@
 import i18n from "../../i18n.js";
+import {useDSD} from "../contexts/DSDContext.jsx";
 
 export default function GreatBritainFlag() {
-    return <svg onClick={() => i18n.changeLanguage('en')}
+    const {setCurrentLanguage} = useDSD()
+
+    function handleClick(){
+        setCurrentLanguage("en")
+        i18n.changeLanguage('en')
+    }
+
+    return <svg onClick={handleClick}
                 className="inline cursor-pointer hover:scale-110 transition-transform" xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 640 480">
         <path fill="#012169" d="M0 0h640v480H0z"/>
         <path fill="#fff" d="m75 0l244 181L562 0h78v62L400 241l240 178v61h-80L320 301L81 480H0v-60l239-178L0 64V0z"/>

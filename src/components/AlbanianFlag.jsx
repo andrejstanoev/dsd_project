@@ -1,9 +1,16 @@
 import i18n from '../../i18n.js';
+import {useDSD} from "../contexts/DSDContext.jsx";
 export default function AlbanianFlag() {
+    const {setCurrentLanguage} = useDSD()
+
+    function handleClick(){
+        setCurrentLanguage("sq")
+        i18n.changeLanguage('sq')
+    }
     return (
         <div className="inline">
             <svg
-                onClick={() => i18n.changeLanguage('sq')}
+                onClick={handleClick}
                 className="inline cursor-pointer hover:scale-110 transition-transform"
                 xmlns="http://www.w3.org/2000/svg"
                 width="40"

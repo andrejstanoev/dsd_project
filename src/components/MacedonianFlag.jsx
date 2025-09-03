@@ -1,10 +1,19 @@
 import i18n from '../../i18n.js';
+import {useDSD} from "../contexts/DSDContext.jsx";
 
 export default function MacedonianFlag() {
+
+    const {setCurrentLanguage} = useDSD()
+
+    function handleClick(){
+        setCurrentLanguage("mk")
+        i18n.changeLanguage('mk')
+    }
+
     return (
         <div className="inline">
             <svg
-                onClick={() => i18n.changeLanguage('mk')}
+                onClick={handleClick}
                 className="inline cursor-pointer hover:scale-110 transition-transform"
                 xmlns="http://www.w3.org/2000/svg"
                 width="40"

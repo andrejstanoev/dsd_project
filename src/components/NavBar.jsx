@@ -60,7 +60,7 @@ export default function NavBar() {
 
                     <NavigationLink to="/kontakt">{t("kontakt")}</NavigationLink>
 
-                    <NavigationLink to="/meni">Документи</NavigationLink>
+                    <NavigationLink to="/dokumenti">{t("dokumenti")}</NavigationLink>
 
                 {/*<li>*/}
                 {/*    <button*/}
