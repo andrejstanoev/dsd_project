@@ -2,8 +2,10 @@
 import {NavLink} from "react-router-dom";
 import React, {useState} from "react";
 import NavigationLink from "./NavigationLink.jsx";
+import {useTranslation} from "react-i18next";
 export default function HamburgerNavMenu( {setIsMenuOpen} ){
     const [isClicked, setIsClicked] = useState(false)
+    const {t} = useTranslation();
 
     function handleToggleDomovi(){
         setIsClicked(curr=>!curr)
@@ -14,7 +16,7 @@ export default function HamburgerNavMenu( {setIsMenuOpen} ){
             className="sm:hidden absolute top-24 left-0 w-full bg-[#f4f5fa] border border-[#444692] rounded-md mt-2 px-4 py-4 z-40 shadow-md ">
             <ul className="flex flex-col space-y-2">
 
-                    <NavLink className="py-1 px-1 rounded hover:bg-indigo-200" onClick={()=>setIsMenuOpen(false)} to="/">Почетна</NavLink>
+                    <NavLink className="py-1 px-1 rounded hover:bg-indigo-200" onClick={()=>setIsMenuOpen(false)} to="/">{t("pocetna")}</NavLink>
 
                 <li className=" cursor-pointer py-1 px-1 rounded hover:bg-indigo-200" onClick={handleToggleDomovi}>
                     <div className="flex items-center align-center">
@@ -26,7 +28,7 @@ export default function HamburgerNavMenu( {setIsMenuOpen} ){
                                 <path fill="#5c5eaa" d="M8.59 16.58L13.17 12L8.59 7.41L10 6l6 6l-6 6z"/>
                             </svg>
                         }
-                        Домови
+                        {t("domovi")}
                     </div>
                     { isClicked && <div className=" p-4 bg-[#f4f5fa]  flex flex-col z-20">
                         <NavLink className="py-1 px-1 rounded hover:bg-indigo-200"  to="/goce">Гоце</NavLink>
@@ -36,16 +38,16 @@ export default function HamburgerNavMenu( {setIsMenuOpen} ){
                 </li>
 
                 <NavLink className="py-1 px-1 rounded hover:bg-indigo-200" onClick={() => setIsMenuOpen(false)}
-                         to="/vesti">Вести и објави</NavLink>
+                         to="/vesti">{t("vestiIObjavi")}</NavLink>
 
                 <NavLink className="py-1 px-1 rounded hover:bg-indigo-200" onClick={() => setIsMenuOpen(false)}
-                         to="/zanas">За нас</NavLink>
+                         to="/zanas">{t("zaNas")}</NavLink>
 
                 <NavLink className="py-1 px-1 rounded hover:bg-indigo-200" onClick={() => setIsMenuOpen(false)}
-                         to="/kontakt">Контакт</NavLink>
+                         to="/kontakt">{t("kontakt")}</NavLink>
 
                 <NavLink className="py-1 px-1 rounded hover:bg-indigo-200" onClick={() => setIsMenuOpen(false)}
-                         to="/meni">Документи</NavLink>
+                         to="/dokumenti">{t("dokumenti")}</NavLink>
 
             </ul>
         </div>
