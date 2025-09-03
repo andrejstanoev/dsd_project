@@ -13,7 +13,7 @@ export default function MonNews() {
                 }}
             >
                 <iframe
-                    src="https://mon.gov.mk/search/?s=%D0%A1%D1%82%D1%83%D0%B4%D0%B5%D0%BD%D1%82%D1%81%D0%BA%D0%B8+%D0%B4%D0%BE%D0%BC%D0%BE%D0%B2%D0%B8"
+                    src="https://mon.gov.mk/mk-MK/odnosi-so-javnost/novosti"
                     title="Новости од МОН"
                     width="100%"
                     height="600"
@@ -23,3 +23,4 @@ export default function MonNews() {
         </div>
     );
 }
+// old src "https://mon.gov.mk/search/?s=%D0%A1%D1%82%D1%83%D0%B4%D0%B5%D0%BD%D1%82%D1%81%D0%BA%D0%B8+%D0%B4%D0%BE%D0%BC%D0%BE%D0%B2%D0%B8"
