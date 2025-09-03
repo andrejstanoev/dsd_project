@@ -268,7 +268,7 @@ export default function AboutUsMain() {
                 </div>
 
                 <div className="px-8">
-                    <img alt="органограм" src="src/images/organogram2.png"/>
+                    <img alt="органограм" src="src/images/organogram_mk.png"/>
                 </div>
 
             </div>
