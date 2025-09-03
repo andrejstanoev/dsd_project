@@ -2,8 +2,10 @@ import React from "react";
 import { useTranslation } from 'react-i18next';
 import AccordionItem from "./AccordionItem.jsx";
 import ContactCard from "./ContactCard.jsx";
+import {useDSD} from "../contexts/DSDContext.jsx";
 export default function AboutUsMain() {
     const { t } = useTranslation();
+    const {currentLanguage} = useDSD()
 
     const contacts =[
         {
@@ -268,7 +270,11 @@ export default function AboutUsMain() {
                 </div>
 
                 <div className="px-8">
-                    <img alt="органограм" src="src/images/organogram_mk.png"/>
+                    {currentLanguage === "mk" ?
+                        <img alt="органограм" src="src/images/organogram_mk.png"/> : currentLanguage === "en" ?
+                            <img alt="органограм" src="src/images/organogram_en.png"/> :
+                            <img alt="органограм" src="src/images/organogram_sq.png"/>}
+
                 </div>
 
             </div>
