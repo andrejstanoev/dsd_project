@@ -10,7 +10,7 @@ export default function HomepageMain() {
     const images = [
         {
             name:`${t("studentskiDom")} „Гоце Делчев“`,
-            img:"https://makfax.com.mk/wp-content/uploads/2017/06/Studentski-dom-Goce-Delcev.jpg",
+            img:"./src/images/goce/goce1slika.jpg",
             page:"goce"
         },
         {
@@ -60,7 +60,7 @@ export default function HomepageMain() {
     return (
         <main className=" flex flex-col items-center 2xl:py-8 pb-7" >
             <h1 className=" text-center text-[#5c5eaa] mt-10 text-4xl mb-15 mt-5 font-bold md:text-[23px] lg:text-[25px] xl:text-[40px] text-[19px] px-3 py-2 mt-5 rounded-[15px] border-1 border-[#353767] bg-[#A3A5D2] lg:w-150 lg:h-17 text-center text-[#353767] font-bold">{t("greetingHomePage")}</h1>
-            <div className="relative w-full max-w-full sm:max-w-[calc(100vw-8rem)] 2xl:h-[520px] h-[420px]  mx-auto overflow-hidden rounded-xl shadow-lg">
+            <div className="relative w-full max-w-full sm:max-w-[calc(90vw-8rem)] 2xl:h-[520px] h-[420px]  mx-auto overflow-hidden rounded-xl shadow-lg">
                 <p className=" text-center w-full tracking-wide px-4 py-2 absolute top-4 z-2  text-[25px] bg-slate-400/30 rounded shadow text-xl font-semibold ">{images[current].name}</p>
 
                 {images.map((img, idx) => (
