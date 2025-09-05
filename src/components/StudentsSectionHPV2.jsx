@@ -13,12 +13,30 @@ export default function StudentsSectionHPV2(){
         },
         {
             id: 2,
-            title:`${t("cpp")} (Кога се објавуваат резултати, како да пријавиш дефект, итн.)`,
-            body:"It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like)."
+            title:`${t("cpp")}`,
+            body:`<dl class="[&>dt]:font-semibold [&>dt]:text-slate-800 [&>dd]:text-slate-700 [&>dd]:leading-relaxed">
+                    <dt>${t("p1")}</dt>
+                    <dd>${t("o1")}</dd>
+                    
+                    <dt>${t("p2")}</dt>
+                    <dd>${t("o2")}</dd>
+                    
+                    <dt>${t("p3")}</dt>
+                    <dd>${t("o3")}</dd>
+                    
+                    <dt>${t("p4")}</dt>
+                    <dd>${t("o4")}</dd>
+                    
+                    <dt>${t("p5")}</dt>
+                    <dd>${t("o5")}</dd>
+                    
+                    <dt>${t("p6")}</dt>
+                    <dd>${t("o6")}</dd>
+                </dl>`
         },
         {
             id: 3,
-            title:`${t("vnatresenPravilnik")} (PDF или HTML)`,
+            title:`${t("vnatresenPravilnik")}`,
             body:`<a href="${pravilnikPdf}" download="Pravilnik_DSD_Skopje.pdf" class="text-blue-600 underline" target="_blank" rel="noopener">
              ${t("vnatresenPravilnik")} (PDF)
            </a>\``

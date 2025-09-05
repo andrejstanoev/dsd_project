@@ -1,8 +1,25 @@
 import React from "react";
 import {useTranslation} from "react-i18next";
+import DocumentCard from "./DocumentCard.jsx";
 
 export default function DocumentsMain() {
     const { t } = useTranslation();
+
+    const akti = [
+        {
+            tekst:t("interenOglas"),
+            url:"src/assets/интерен-оглас-012022.pdf"
+        },
+        {
+            tekst:t("prijavaZaInterenOglas"),
+            url:"src/assets/Пријава-за-интерен-оглас-ЈП-Водовод-и-канализација-003.pdf"
+        },
+        {
+            tekst:t("odlukaZaUnapreduvanje"),
+            url:"src/assets/одлука-за-избор.pdf"
+        }
+    ]
+
     return (
         <div className="flex-1 flex flex-col pt-5">
 
@@ -75,60 +92,60 @@ export default function DocumentsMain() {
 
                 <div className="mt-4 mb-5 px-9 whitespace-pre-line text-center flex flex-col md:flex-row gap-6 md:gap-8 ">
 
-                    <div
-                        className=" flex flex-col w-full max-w-xs sm:max-w-sm md:max-w-md bg-violet-300/90 rounded-xl  shadow-xl">
-                        <div className="py-4 px-2 flex-1">
-                            <p className="text-[30px] text-center leading-snug whitespace-normal break-words">
-                                {t("interenOglas")}
-                            </p>
-                        </div>
-                        <div className="mt-3 flex justify-center bg-slate-300 p-4">
-                            <button
-                                type="button"
-                                onClick={() => window.open("src/assets/интерен-оглас-012022.pdf", "_blank", "noreferrer")}
-                                className="text-[20px] rounded-[13px] bg-[#353767] text-white px-3 py-1 cursor-pointer"
-                            >
-                                {t("pregledaj")}
-                            </button>
-                        </div>
-                    </div>
+                    {/*<div*/}
+                    {/*    className=" flex flex-col w-full max-w-xs sm:max-w-sm md:max-w-md bg-violet-300/90 rounded-xl  shadow-xl">*/}
+                    {/*    <div className="py-4 px-2 flex-1 ">*/}
+                    {/*        <p className="text-[30px] text-center leading-snug whitespace-normal break-words">*/}
+                    {/*            {t("interenOglas")}*/}
+                    {/*        </p>*/}
+                    {/*    </div>*/}
+                    {/*    <div className="mt-3 flex justify-center bg-slate-300 p-4">*/}
+                    {/*        <button*/}
+                    {/*            type="button"*/}
+                    {/*            onClick={() => window.open("src/assets/интерен-оглас-012022.pdf", "_blank", "noreferrer")}*/}
+                    {/*            className="text-[20px] rounded-[13px] bg-[#353767] text-white px-3 py-1 cursor-pointer"*/}
+                    {/*        >*/}
+                    {/*            {t("pregledaj")}*/}
+                    {/*        </button>*/}
+                    {/*    </div>*/}
+                    {/*</div>*/}
 
-                    <div
-                        className="flex flex-col w-full max-w-xs sm:max-w-sm md:max-w-md bg-violet-300/90 rounded-xl  shadow-xl">
-                        <div className="py-4 px-2 flex-1">
-                            <p className="text-center text-[30px] leading-snug whitespace-normal break-words">
-                                {t("prijavaZaInterenOglas")}
-                            </p>
-                        </div>
-                        <div className="mt-3 flex justify-center bg-slate-300 p-4">
-                            <button
-                                type="button"
-                                onClick={() => window.open("src/assets/Пријава-за-интерен-оглас-ЈП-Водовод-и-канализација-003.pdf", "_blank", "noreferrer")}
-                                className="text-[20px] rounded-[13px] bg-[#353767] text-white px-3 py-1 cursor-pointer"
-                            >
-                                {t("pregledaj")}
-                            </button>
-                        </div>
-                    </div>
+                    {/*<div*/}
+                    {/*    className="flex flex-col w-full max-w-xs sm:max-w-sm md:max-w-md bg-violet-300/90 rounded-xl  shadow-xl">*/}
+                    {/*    <div className="py-4 px-2 flex-1">*/}
+                    {/*        <p className="text-center text-[30px] leading-snug whitespace-normal break-words">*/}
+                    {/*            {t("prijavaZaInterenOglas")}*/}
+                    {/*        </p>*/}
+                    {/*    </div>*/}
+                    {/*    <div className="mt-3 flex justify-center bg-slate-300 p-4">*/}
+                    {/*        <button*/}
+                    {/*            type="button"*/}
+                    {/*            onClick={() => window.open("src/assets/Пријава-за-интерен-оглас-ЈП-Водовод-и-канализација-003.pdf", "_blank", "noreferrer")}*/}
+                    {/*            className="text-[20px] rounded-[13px] bg-[#353767] text-white px-3 py-1 cursor-pointer"*/}
+                    {/*        >*/}
+                    {/*            {t("pregledaj")}*/}
+                    {/*        </button>*/}
+                    {/*    </div>*/}
+                    {/*</div>*/}
 
-                    <div
-                        className=" flex flex-col w-full max-w-xs sm:max-w-sm md:max-w-md bg-violet-300/90 rounded-xl  shadow-xl">
-                        <div className="py-4 px-2 flex-1">
-                            <p className="text-center text-[30px] leading-snug whitespace-normal break-words">
-                                {t("odlukaZaUnapreduvanje")}
-                            </p>
-                        </div>
-                        <div className="mt-3 flex justify-center bg-slate-300 p-4">
-                            <button
-                                type="button"
-                                onClick={() => window.open("src/assets/одлука-за-избор.pdf", "_blank", "noreferrer")}
-                                className="text-[20px] rounded-[13px] bg-[#353767] text-white px-3 py-1 cursor-pointer"
-                            >
-                                {t("pregledaj")}
-                            </button>
-                        </div>
-                    </div>
-
+                    {/*<div*/}
+                    {/*    className=" flex flex-col w-full max-w-xs sm:max-w-sm md:max-w-md bg-violet-300/90 rounded-xl  shadow-xl">*/}
+                    {/*    <div className="py-4 px-2 flex-1">*/}
+                    {/*        <p className="text-center text-[30px] leading-snug whitespace-normal break-words">*/}
+                    {/*            {t("odlukaZaUnapreduvanje")}*/}
+                    {/*        </p>*/}
+                    {/*    </div>*/}
+                    {/*    <div className="mt-3 flex justify-center bg-slate-300 p-4">*/}
+                    {/*        <button*/}
+                    {/*            type="button"*/}
+                    {/*            onClick={() => window.open("src/assets/одлука-за-избор.pdf", "_blank", "noreferrer")}*/}
+                    {/*            className="text-[20px] rounded-[13px] bg-[#353767] text-white px-3 py-1 cursor-pointer"*/}
+                    {/*        >*/}
+                    {/*            {t("pregledaj")}*/}
+                    {/*        </button>*/}
+                    {/*    </div>*/}
+                    {/*</div>*/}
+                    {akti.map(akt=><DocumentCard tekst={akt.tekst} url={akt.url}/>)}
                 </div>
 
             </div>
