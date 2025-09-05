@@ -78,7 +78,7 @@ export default function DocumentsMain() {
                     <div
                         className=" flex flex-col w-full max-w-xs sm:max-w-sm md:max-w-md bg-violet-300/90 rounded-xl  shadow-xl">
                         <div className="py-4 px-2 flex-1">
-                            <p className="text-center text-base sm:text-lg leading-snug whitespace-normal break-words">
+                            <p className="text-[30px] text-center leading-snug whitespace-normal break-words">
                                 {t("interenOglas")}
                             </p>
                         </div>
@@ -96,7 +96,7 @@ export default function DocumentsMain() {
                     <div
                         className="flex flex-col w-full max-w-xs sm:max-w-sm md:max-w-md bg-violet-300/90 rounded-xl  shadow-xl">
                         <div className="py-4 px-2 flex-1">
-                            <p className="text-center text-base sm:text-lg leading-snug whitespace-normal break-words">
+                            <p className="text-center text-[30px] leading-snug whitespace-normal break-words">
                                 {t("prijavaZaInterenOglas")}
                             </p>
                         </div>
@@ -114,7 +114,7 @@ export default function DocumentsMain() {
                     <div
                         className=" flex flex-col w-full max-w-xs sm:max-w-sm md:max-w-md bg-violet-300/90 rounded-xl  shadow-xl">
                         <div className="py-4 px-2 flex-1">
-                            <p className="text-center text-base sm:text-lg leading-snug whitespace-normal break-words">
+                            <p className="text-center text-[30px] leading-snug whitespace-normal break-words">
                                 {t("odlukaZaUnapreduvanje")}
                             </p>
                         </div>
