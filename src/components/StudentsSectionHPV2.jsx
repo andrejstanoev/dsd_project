@@ -51,10 +51,12 @@ export default function StudentsSectionHPV2(){
         <div className="w-full max-w-screen-xl mx-auto px-4 2xl:py-8">
 
             <div className="flex items-center">
-                <svg xmlns="http://www.w3.org/2000/svg" width="31" height="31" viewBox="0 0 24 24">
-                    <path fill="#5c5eaa" d="M8.59 16.58L13.17 12L8.59 7.41L10 6l6 6l-6 6z"/>
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" className="pr-2">
+                    <path fill="#5c5eaa"
+                          d="M12 2A10 10 0 0 0 2 12a10 10 0 0 0 10 10a10 10 0 0 0 10-10A10 10 0 0 0 12 2"/>
                 </svg>
-                <div className=" text-[#2c2c2c] text-[25px] font-semibold font-['Poppins']">
+
+                <div className=" text-[#2c2c2c] text-[25px] xl:text-[30px] font-semibold font-['Poppins']">
                     {t("zaStudenti")}
                 </div>
             </div>
@@ -64,10 +66,10 @@ export default function StudentsSectionHPV2(){
 
             <div className="w-full px-4 py-5 my-10">
                 <div
-                    className="mx-auto max-w-7xl bg-[#a3a5d2] border-4 border-[#5c5eaa] rounded-[15px] shadow-lg p-6 md:p-12 flex flex-col-reverse md:flex-row items-center gap-8">
+                    className="mx-auto max-w-7xl bg-gradient-to-br from-[#b8baf2] to-[#a3a5d2] border border-white/20 rounded-[15px] shadow-xl shadow-[#6769b7]/50 p-6 md:p-12 flex flex-col-reverse md:flex-row items-center gap-8">
 
                     {/* Citat */}
-                    <div className="text-[#ebecf3] text-xl md:text-2xl font-semibold font-['Inter'] md:w-1/2">
+                    <div className="text-[#ebecf3] text-xl md:text-2xl xl:text-[25px] font-semibold md:w-1/2">
                         {t("citat")}
                     </div>
 
@@ -76,7 +78,7 @@ export default function StudentsSectionHPV2(){
                         <img
                             src="src/images/studenti2.png"
                             alt="Студенти"
-                            className="w-full h-auto rounded-[30px] border-4 md:border-[10px] border-[#5c5eaa]"
+                            className="w-full h-auto rounded-[30px] border-1 shadow-xl border-[#5c5eaa]"
                         />
                         <div className="absolute inset-0 bg-[#5c5eaa]/50 rounded-[30px]"/>
                     </div>

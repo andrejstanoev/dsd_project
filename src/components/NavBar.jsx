@@ -25,14 +25,14 @@ export default function NavBar() {
         <nav
             className=" fixed top-0 left-0 w-full z-50 flex justify-between md:flex md:justify-between items-center bg-[#f4f5fa] px-6 py-4">
             <Link to="/">
-                <img alt="logo" src={dsdlogo} className="h-20"/>
+                <img alt="logo" src={dsdlogo} className="h-20 xl:h-22"/>
             </Link>
             {/*old classes : "hidden md:flex flex items-center justify-between border-2 border-[#444692] bg-[#d3d4e9] rounded-full px-6  shadow-sm"*/}
             <ul className="hidden md:flex flex items-center justify-between bg-[#d3d4e9]/70 shadow-xl backdrop-blur-xl rounded-full px-6 py-1 ring-1 ring-white/15">
 
                     <NavigationLink to="/">{t("pocetna")}</NavigationLink>
 
-                <li className=" relative cursor-pointer md:mx-2 lg:mx-3 font-bold text-[#353767] text-[10px] md:text-[14px] lg:text-[16px] xl:text-[17px]  xl:px-4 xl:py-1 rounded-lg hover:bg-[#e8eafc]"
+                <li className=" relative cursor-pointer md:mx-2 lg:mx-3 font-bold text-[#353767] text-[10px] md:text-[14px] lg:text-[16px] xl:text-[22px]  xl:px-4 xl:py-1 rounded-lg hover:bg-[#e8eafc]"
                     onClick={handleToggleDomovi}
                 >
                     <div className="flex items-center align-center">

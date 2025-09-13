@@ -15,19 +15,19 @@ export default function DocumentsMain() {
 
     return (<div className="flex-1 flex flex-col pt-5">
 
-            <div className="px-10 mt-8">
+            <div className=" px-4 lg:px-23 pt-8">
 
                 <div className="flex items-center">
                     <svg xmlns="http://www.w3.org/2000/svg" width="31" height="31" viewBox="0 0 24 24">
                         <path fill="#5c5eaa" d="M8.59 16.58L13.17 12L8.59 7.41L10 6l6 6l-6 6z"/>
                     </svg>
-                    <div className="text-[#353767] text-[20px]  lg:text-[26px] font-semibold font-['Poppins']">
+                    <div className="text-[#353767] text-[20px]  lg:text-[26px] xl:text-[35px] font-semibold font-['Poppins']">
                         {t("baranjeZaPristapDoInformacii")}
                     </div>
                 </div>
 
                 <div className=" lg:text-[22px] mt-4 px-9 whitespace-pre-line text-center ">
-                    <p>{t("prezemiBaranjeZaPristapDoInformacii")}</p>
+                    <p className="xl:text-[26px]"> {t("prezemiBaranjeZaPristapDoInformacii")}</p>
                     <p className="pt-4  ">
                         <a
                             href="src/assets/Барање-за-пристап-до-информации-од-јавен-карактер.docx"
@@ -41,10 +41,10 @@ export default function DocumentsMain() {
                             >
                                 {/* Текст */}
                                 <span
-                                    className="relative z-10 transform transition-all duration-300 ease-in-out group-hover:-translate-x-2 group-hover:opacity-0"
+                                    className="text-[24px] relative z-10 transform transition-all duration-300 ease-in-out group-hover:-translate-x-2 group-hover:opacity-0"
                                 >
-      {t("prezemi")}
-    </span>
+                                  {t("prezemi")}
+                                </span>
 
                                 {/* Стрелка */}
                                 <span
@@ -52,21 +52,21 @@ export default function DocumentsMain() {
                  opacity-0 transform translate-x-2 transition-all duration-300 ease-in-out
                  group-hover:opacity-100 group-hover:translate-x-0"
                                 >
-      <svg
-          xmlns="http://www.w3.org/2000/svg"
-          className="w-6 h-6"
-          fill="none"
-          viewBox="0 0 24 24"
-          stroke="currentColor"
-          strokeWidth="2"
-      >
-        <path
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            d="M12 3v12m0 0l4-4m-4 4-4-4M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
-        />
-      </svg>
-    </span>
+                                  <svg
+                                      xmlns="http://www.w3.org/2000/svg"
+                                      className="w-6 h-6"
+                                      fill="none"
+                                      viewBox="0 0 24 24"
+                                      stroke="currentColor"
+                                      strokeWidth="2"
+                                  >
+                                    <path
+                                        strokeLinecap="round"
+                                        strokeLinejoin="round"
+                                        d="M12 3v12m0 0l4-4m-4 4-4-4M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+                                    />
+                                  </svg>
+                                </span>
                             </button>
                         </a>
 
@@ -74,19 +74,19 @@ export default function DocumentsMain() {
                 </div>
             </div>
 
-            <div className="px-10 mt-8">
+            <div className=" px-4 lg:px-23 pt-8">
 
                 <div className="flex items-center">
                     <svg xmlns="http://www.w3.org/2000/svg" width="31" height="31" viewBox="0 0 24 24">
                         <path fill="#5c5eaa" d="M8.59 16.58L13.17 12L8.59 7.41L10 6l6 6l-6 6z"/>
                     </svg>
-                    <div className="text-[#353767] text-[20px]  lg:text-[26px] font-semibold font-['Poppins']">
+                    <div className="text-[#353767] text-[20px]  lg:text-[26px] xl:text-[35px] font-semibold font-['Poppins']">
                         {t("postapkaZaVseluvanjeVoGoce")}
                     </div>
                 </div>
 
                 <div className=" lg:text-[22px] mt-4 px-9 whitespace-pre-line text-center ">
-                    <p>{t("prezemiPostapkaZaVseluvanjeVoGoce")}</p>
+                    <p className="xl:text-[26px]">{t("prezemiPostapkaZaVseluvanjeVoGoce")}</p>
                     <p className="pt-4  ">
                         <a
                             href="src/assets/ПОСТАПКА%20ЗА%20ВСЕЛУВАЊЕ%20за%20гоце%202025.docx"
@@ -100,32 +100,32 @@ export default function DocumentsMain() {
                             >
                                 {/* Текст */}
                                 <span
-                                    className="relative z-10 transform transition-all duration-300 ease-in-out group-hover:-translate-x-2 group-hover:opacity-0"
+                                    className=" text-[24px] relative z-10 transform transition-all duration-300 ease-in-out group-hover:-translate-x-2 group-hover:opacity-0"
                                 >
-      {t("prezemi")}
-    </span>
+                                  {t("prezemi")}
+                                </span>
 
                                 {/* Стрелка */}
                                 <span
                                     className="absolute inset-0 flex items-center justify-center z-0 pointer-events-none
                  opacity-0 transform translate-x-2 transition-all duration-300 ease-in-out
                  group-hover:opacity-100 group-hover:translate-x-0"
-                                >
-      <svg
-          xmlns="http://www.w3.org/2000/svg"
-          className="w-6 h-6"
-          fill="none"
-          viewBox="0 0 24 24"
-          stroke="currentColor"
-          strokeWidth="2"
-      >
-        <path
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            d="M12 3v12m0 0l4-4m-4 4-4-4M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
-        />
-      </svg>
-    </span>
+                                                            >
+                                  <svg
+                                      xmlns="http://www.w3.org/2000/svg"
+                                      className="w-6 h-6"
+                                      fill="none"
+                                      viewBox="0 0 24 24"
+                                      stroke="currentColor"
+                                      strokeWidth="2"
+                                  >
+                                    <path
+                                        strokeLinecap="round"
+                                        strokeLinejoin="round"
+                                        d="M12 3v12m0 0l4-4m-4 4-4-4M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+                                    />
+                                  </svg>
+                                </span>
                             </button>
                         </a>
 
@@ -135,13 +135,13 @@ export default function DocumentsMain() {
             </div>
 
 
-            <div className="px-10 mt-8">
+            <div className=" px-4 lg:px-23 pt-8">
 
                 <div className="flex items-center">
                     <svg xmlns="http://www.w3.org/2000/svg" width="31" height="31" viewBox="0 0 24 24">
                         <path fill="#5c5eaa" d="M8.59 16.58L13.17 12L8.59 7.41L10 6l6 6l-6 6z"/>
                     </svg>
-                    <div className="text-[#353767] text-[20px]  lg:text-[26px] font-semibold font-['Poppins']">
+                    <div className="text-[#353767] text-[20px]  lg:text-[26px] xl:text-[35px] font-semibold font-['Poppins']">
                         {t("akti")}
                     </div>
                 </div>

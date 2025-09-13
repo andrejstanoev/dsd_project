@@ -8,9 +8,9 @@ import NewsNaslov from "../components/NewsNaslov.jsx";
 
 export default function NewsAndAnnouncements() {
     return (
-        <div className="min-h-screen flex flex-col pt-18 bg-[#d3d4e9]">
+        <div className="min-h-screen flex flex-col pt-25 bg-[#d3d4e9]">
             <NavBar />
-            <div className="flex-1 mt-2 md:mt-4 lg:mt-8">
+            <div className="flex-1">
             <NewsNaslov/>
             </div>
             <div

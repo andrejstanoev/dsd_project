@@ -13,7 +13,7 @@ export default function HamburgerNavMenu( {setIsMenuOpen} ){
 
     return (
         <div
-            className="sm:hidden absolute top-24 left-0 w-full bg-[#f4f5fa] border border-[#444692] rounded-md mt-2 px-4 py-4 z-40 shadow-md ">
+            className="md:hidden absolute top-24 left-0 w-full bg-[#f4f5fa] border border-[#444692] rounded-md mt-2 px-4 py-4 z-40 shadow-md ">
             <ul className="flex flex-col space-y-2">
 
                     <NavLink className="py-1 px-1 rounded hover:bg-indigo-200" onClick={()=>setIsMenuOpen(false)} to="/">{t("pocetna")}</NavLink>

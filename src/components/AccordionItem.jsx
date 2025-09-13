@@ -20,7 +20,7 @@ export default function AccordionItem({title, body, color}) {
                     </svg>
                 }
 
-            <span className="text-black text-xl font-normal font-['Inter']">
+            <span className="text-black text-xl xl:text-[25px] font-normal font-['Inter']">
               {title}
             </span>
             </div>
