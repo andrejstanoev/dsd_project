@@ -3,7 +3,7 @@ import { useTranslation } from 'react-i18next';
 const Maps = () => {
     const { t } = useTranslation();
     return(
-        <main className="flex justify-around items-start py-5 px-20 mb-[35px]">
+        <main className="flex flex-col lg:flex-row justify-around items-start py-5 px-20 mb-[35px] gap-6 lg:gap-10">
             <div className=" text-center flex-col">
                 <div
                     className="relative text-right w-full max-w-md h-96 mx-auto border-[2px]"
