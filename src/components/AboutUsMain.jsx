@@ -193,7 +193,7 @@ export default function AboutUsMain() {
                         <img src="src/images/direktor_slika%201.png" className="w-full max-w-[350px] h-[300px]"
                              alt="Директор"/>
                     </div>
-                    <div className="text-15px lg:text-[20px] xl:text-[25px] px-4 lg:px-6  w-2/3 ">
+                    <div className="text-10px lg:text-[20px]  xl:text-[22px] pt-6 lg:pt-8 px-4 lg:px-6  lg:w-2/3 ">
                         {t("tekstsZaDirektorot")}
                     </div>
                 </div>
