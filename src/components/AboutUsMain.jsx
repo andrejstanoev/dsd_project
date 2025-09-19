@@ -44,33 +44,35 @@ export default function AboutUsMain() {
                 <p className=" text-[#353767] bg-[#a3a5d2]/30 backdrop-blur-md  rounded-[15px] lg:text-[38px] text-lg p-2 font-bold text-center bottom-8 md:bottom-24 -translate-x-1/2 left-1/2 z-10 absolute max-w-[90%]">{t("zanasRecenica")}</p>
             </div>
 
-            <div className=" grid grid-cols-2 gap-x-8 justify-items-center lg:flex lg:justify-center gap-y-4 lg:gap-x-20 mt-8 px-5">
+            <div
+                className="grid grid-cols-2 gap-6 justify-items-center lg:flex lg:justify-center lg:gap-x-25 mt-8 px-5 flex-wrap">
+                {[
+                    {number: "170", label: t("vraboteni")},
+                    {number: "12 000", label: t("smesteniStudenti")},
+                    {number: "67", label: t("godiniPostoenje")},
+                    {number: "100%", label: t("pasijaZaUspeh")},
+                ].map((item, i) => (
+                    <div
+                        key={i}
+                        className="relative w-[155px] h-[155px] flex flex-col justify-center items-center
+                 rounded-full bg-purple/30 backdrop-blur-[25px] border border-[#F4F5FA]/50
+                 shadow-[0_8px_32px_rgba(0,0,0,0.1),inset_0_1px_0_rgba(255,255,255,0.5),inset_0_-1px_0_rgba(255,255,255,0.1),inset_0_0_20px_10px_rgba(255,255,255,1)] overflow-hidden">
 
-                <div
-                    className=" min-w-[120px] rounded-[15px] flex flex-col items-center w-fit bg-[#a3a5d2]/60 text-[#353767] px-2 lg:px-8">
-                    <p className="text-[17px] lg:text-[28px] font-bold xl:text-[35px]">170</p>
-                    <p className="text-[14px] lg:text-[20px] xl:text-[28px]">{t("vraboteni")}</p>
-                </div>
+                        {/* before (prv red) */}
+                        <div
+                            className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-white/80 to-transparent"></div>
 
-                <div
-                    className=" min-w-[120px] rounded-[15px] flex flex-col items-center w-fit bg-[#a3a5d2]/60 text-[#353767] px-2 lg:px-8">
-                    <p className="text-[17px] lg:text-[28px] font-bold xl:text-[35px]">12 000</p>
-                    <p className="text-[14px] lg:text-[20px] xl:text-[28px]">{t("smesteniStudenti")}</p>
-                </div>
+                        {/* after (levo) */}
+                        <div
+                            className="absolute top-0 left-0 w-px h-full bg-gradient-to-b from-white/80 via-transparent to-white/30"></div>
 
-                <div
-                    className="min-w-[120px] rounded-[15px] flex flex-col items-center w-fit bg-[#a3a5d2]/60 text-[#353767] px-2 lg:px-8">
-                    <p className="text-[17px] lg:text-[28px] font-bold xl:text-[35px]">67</p>
-                    <p className="text-[14px] lg:text-[20px] xl:text-[28px]">{t("godiniPostoenje")}</p>
-                </div>
-
-                <div
-                    className="min-w-[120px] rounded-[15px] flex flex-col items-center w-fit bg-[#a3a5d2]/60 text-[#353767] px-2 lg:px-8">
-                    <p className="text-[17px] lg:text-[28px] font-bold xl:text-[35px]">100%</p>
-                    <p className="text-[14px] lg:text-[20px] xl:text-[28px]">{t("pasijaZaUspeh")}</p>
-                </div>
-
+                        {/* content */}
+                        <p className="text-lg lg:text-2xl font-bold text-[#353767]">{item.number}</p>
+                        <p className="text-sm lg:text-lg text-[#353767] mt-1 text-center">{item.label}</p>
+                    </div>
+                ))}
             </div>
+
 
             <div className=" px-4 lg:px-23 pt-8">
 
@@ -78,7 +80,8 @@ export default function AboutUsMain() {
                     <svg xmlns="http://www.w3.org/2000/svg" width="31" height="31" viewBox="0 0 24 24">
                         <path fill="#5c5eaa" d="M8.59 16.58L13.17 12L8.59 7.41L10 6l6 6l-6 6z"/>
                     </svg>
-                    <div className="text-[#353767] text-[20px]  lg:text-[26px] xl:text-[35px] font-semibold font-['Poppins']">
+                    <div
+                        className="text-[#353767] text-[20px]  lg:text-[26px] xl:text-[35px] font-semibold font-['Poppins']">
                         {t("misijaIVizija")}
                     </div>
                 </div>
@@ -95,7 +98,8 @@ export default function AboutUsMain() {
                     <svg xmlns="http://www.w3.org/2000/svg" width="31" height="31" viewBox="0 0 24 24">
                         <path fill="#5c5eaa" d="M8.59 16.58L13.17 12L8.59 7.41L10 6l6 6l-6 6z"/>
                     </svg>
-                    <div className="text-[#353767] text-[20px]  lg:text-[26px] xl:text-[35px] font-semibold font-['Poppins']">
+                    <div
+                        className="text-[#353767] text-[20px]  lg:text-[26px] xl:text-[35px] font-semibold font-['Poppins']">
                         {t("seZaUdobenZivot")}
                     </div>
                 </div>
@@ -177,12 +181,14 @@ export default function AboutUsMain() {
                     <svg xmlns="http://www.w3.org/2000/svg" width="31" height="31" viewBox="0 0 24 24">
                         <path fill="#5c5eaa" d="M8.59 16.58L13.17 12L8.59 7.41L10 6l6 6l-6 6z"/>
                     </svg>
-                    <div className="text-[#353767] text-[20px]  lg:text-[26px] xl:text-[35px] font-semibold font-['Poppins']">
+                    <div
+                        className="text-[#353767] text-[20px]  lg:text-[26px] xl:text-[35px] font-semibold font-['Poppins']">
                         {t("direktorNaDSDSKopje")}
                     </div>
                 </div>
 
-                <div className="mt-4 mx-9 px-9 py-3 lg:px-12 flex flex-col md:flex-row  lg:justify-start gap-6 bg-gradient-to-br from-[#b8baf2] shadow-xl shadow-[#6769b7]/50 to-[#a3a5d2] border border-white/20 rounded-[15px]">
+                <div
+                    className="mt-4 mx-9 px-9 py-3 lg:px-12 flex flex-col md:flex-row  lg:justify-start gap-6 bg-gradient-to-br from-[#b8baf2] shadow-xl shadow-[#6769b7]/50 to-[#a3a5d2] border border-white/20 rounded-[15px]">
                     <div>
                         <img src="src/images/direktor_slika%201.png" className="w-full max-w-[350px] h-[300px]"
                              alt="Директор"/>
@@ -232,7 +238,8 @@ export default function AboutUsMain() {
                     <svg xmlns="http://www.w3.org/2000/svg" width="31" height="31" viewBox="0 0 24 24">
                         <path fill="#5c5eaa" d="M8.59 16.58L13.17 12L8.59 7.41L10 6l6 6l-6 6z"/>
                     </svg>
-                    <div className="text-[#353767] text-[20px]  lg:text-[26px] xl:text-[35px] font-semibold font-['Poppins']">
+                    <div
+                        className="text-[#353767] text-[20px]  lg:text-[26px] xl:text-[35px] font-semibold font-['Poppins']">
                         {t("opstiInformacii")}
                     </div>
                 </div>
@@ -249,7 +256,8 @@ export default function AboutUsMain() {
                     <svg xmlns="http://www.w3.org/2000/svg" width="31" height="31" viewBox="0 0 24 24">
                         <path fill="#5c5eaa" d="M8.59 16.58L13.17 12L8.59 7.41L10 6l6 6l-6 6z"/>
                     </svg>
-                    <div className="text-[#353767] text-[20px]  lg:text-[26px] xl:text-[35px] font-semibold font-['Poppins']">
+                    <div
+                        className="text-[#353767] text-[20px]  lg:text-[26px] xl:text-[35px] font-semibold font-['Poppins']">
                         {t("organizacioniEdinici")}
                     </div>
                 </div>
@@ -272,7 +280,8 @@ export default function AboutUsMain() {
                     <svg xmlns="http://www.w3.org/2000/svg" width="31" height="31" viewBox="0 0 24 24">
                         <path fill="#5c5eaa" d="M8.59 16.58L13.17 12L8.59 7.41L10 6l6 6l-6 6z"/>
                     </svg>
-                    <div className="text-[#353767] text-[20px]  lg:text-[26px] xl:text-[35px] font-semibold font-['Poppins']">
+                    <div
+                        className="text-[#353767] text-[20px]  lg:text-[26px] xl:text-[35px] font-semibold font-['Poppins']">
                         {t("organogram")}
                     </div>
                 </div>
