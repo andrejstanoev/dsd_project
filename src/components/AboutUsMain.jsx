@@ -205,15 +205,23 @@ export default function AboutUsMain() {
                     <svg xmlns="http://www.w3.org/2000/svg" width="31" height="31" viewBox="0 0 24 24">
                         <path fill="#5c5eaa" d="M8.59 16.58L13.17 12L8.59 7.41L10 6l6 6l-6 6z"/>
                     </svg>
-                    <div className="text-[#353767] text-[20px]  lg:text-[26px] xl:text-[35px] font-semibold font-['Poppins']">
+                    <div
+                        className="text-[#353767] text-[20px]  lg:text-[26px] xl:text-[35px] font-semibold font-['Poppins']">
                         {t("organizacija")}
                     </div>
                 </div>
 
-                <div className="mt-4 px-9 flex flex-wrap gap-x-10 gap-y-10 justify-center">
-
-                    {contacts.map(c => <ContactCard name={c.name} jobTitle={c.jobTitle} phone={c.phone}
-                                                    email={c.email}/>)}
+                <div className="mt-4 px-9 grid grid-cols-1 gap-x-10 gap-y-10 justify-items-center
+                  lg:grid-cols-2">
+                    {contacts.map(c => (
+                        <ContactCard
+                            key={c.email}
+                            name={c.name}
+                            jobTitle={c.jobTitle}
+                            phone={c.phone}
+                            email={c.email}
+                        />
+                    ))}
                 </div>
 
             </div>
