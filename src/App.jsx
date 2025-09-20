@@ -1,4 +1,4 @@
-import {BrowserRouter, Route, Routes} from "react-router-dom";
+import {BrowserRouter, HashRouter, Route, Routes} from "react-router-dom";
 import HomePage from "./Pages/HomePage.jsx";
 import AboutUs from "./Pages/AboutUs.jsx";
 import Contact from "./Pages/Contact.jsx";
@@ -14,7 +14,7 @@ function App() {
 
   return (
       <DSDProvider>
-          <BrowserRouter>
+          <HashRouter>
               <ScrollToTop/>
               <Routes>
                   <Route path="/" element={<HomePage/>}/>
@@ -26,7 +26,7 @@ function App() {
                   <Route path="vesti" element={<NewsAndAnnouncements/>}/>
                   <Route path="dokumenti" element={<Documents/>}/>
               </Routes>
-          </BrowserRouter>
+          </HashRouter>
       </DSDProvider>
 
   )

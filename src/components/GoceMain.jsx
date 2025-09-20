@@ -15,10 +15,10 @@ export default function GoceMain() {
         tablet: {breakpoint: {max: 1024, min: 464}, items: 2},
         mobile: {breakpoint: {max: 464, min: 0}, items: 1},
     };
-    return <div className="flex-1 flex flex-col pt-5">
+    return <div className="flex-1 flex flex-col pt-16">
 
-        <div className="flex justify-center pt-5 ">
-            <h1 className="md:text-[23px] lg:text-[25px] xl:text-[40px] text-[19px] px-3 py-2 rounded-[15px] bg-[#A3A5D2]/90 shadow-xl backdrop-blur-md w-fit text-[#353767] font-bold">{t("studentskiDom")} “Гоце
+        <div className="flex justify-center  ">
+            <h1 className="text-[#5c5eaa] text-4xl font-['Poppins'] md:text-[30px] lg:text-[35px] xl:text-[44px] text-[25px] px-5 py-3 rounded-[15px] bg-gradient-to-br from-[#b8baf2] to-[#a3a5d2] shadow-xl shadow-[#6769b7]/40 shadow-xl text-center text-[#353767] font-bold">{t("studentskiDom")} “Гоце
                 Делчев”</h1>
         </div>
 
@@ -51,9 +51,9 @@ export default function GoceMain() {
             className="mb-4 px-10 grid grid-cols-2 gap-4 justify-items-center md:flex md:justify-center md:gap-x-7 lg:gap-x-8 lg:text-[19px] xl:text-[22px] xl:gap-x-10">
             <div
                 className="flex items-center text-[#353767] border-[#353767] justify-center w-fit bg-[#F5C144] px-3 py-1 rounded-[15px] border xl:w-[270px]
-transition-transform duration-300 hover:scale-105 hover:bg-[#FFD75A]">
+transition-transform duration-300 hover:scale-105 hover:bg-[#FFD75A] text-xl lg:text-[24px] xl:text-[28px]">
                 <span className="pr-1">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path
+                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24"><path
                         fill="#353767"
                         d="M7.965 6.202a.82.82 0 0 0-.537.106h-.014c-.375.22-.713.497-1.001.823c-.24.277-.37.557-.404.827c-.02.16-.006.322.041.475l.018.01c.27.793.622 1.556 1.052 2.274a13.4 13.4 0 0 0 2.03 2.775l.024.034l.038.028l.023.027l.028.024a13.6 13.6 0 0 0 2.782 2.04c1.155.629 1.856.926 2.277 1.05v.006c.123.038.235.055.348.055a1.6 1.6 0 0 0 .964-.414c.325-.288.6-.627.814-1.004v-.007c.201-.38.133-.738-.157-.981A12 12 0 0 0 14.41 13c-.448-.243-.903-.096-1.087.15l-.393.496c-.202.246-.568.212-.568.212l-.01.006c-2.731-.697-3.46-3.462-3.46-3.462s-.034-.376.219-.568l.492-.396c.236-.192.4-.646.147-1.094a12 12 0 0 0-1.347-1.88a.75.75 0 0 0-.44-.263M12.58 5a.5.5 0 0 0 0 1c1.264 0 2.314.413 3.145 1.205c.427.433.76.946.978 1.508c.219.563.319 1.164.293 1.766a.5.5 0 0 0 1 .042a5.4 5.4 0 0 0-.361-2.17a5.4 5.4 0 0 0-1.204-1.854l-.01-.01C15.39 5.502 14.085 5 12.579 5"/><path
                         fill="currentColor"
@@ -69,9 +69,9 @@ transition-transform duration-300 hover:scale-105 hover:bg-[#FFD75A]">
 
             <div
                 className="flex items-center text-[#353767] border-[#353767] justify-center w-fit bg-[#F5C144] px-3 py-1 rounded-[15px] border xl:w-[270px]
-transition-transform duration-300 hover:scale-105 hover:bg-[#FFD75A]">
+transition-transform duration-300 hover:scale-105 hover:bg-[#FFD75A] text-xl lg:text-[24px] xl:text-[28px]">
                 <span className="pr-1">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 20 20"><g
+                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 20 20"><g
                         fill="#353767"><path fill-rule="evenodd"
                                              d="M16.5 4.5h-13A.5.5 0 0 0 3 5v11a.5.5 0 0 0 .5.5h13a.5.5 0 0 0 .5-.5V5a.5.5 0 0 0-.5-.5M4 15.5v-10h12v10z"
                                              clip-rule="evenodd"/><path fill-rule="evenodd"
@@ -88,9 +88,9 @@ transition-transform duration-300 hover:scale-105 hover:bg-[#FFD75A]">
                className="inline-block"
             >
                 <div className="flex items-center text-[#353767] border-[#353767] justify-center w-fit bg-[#F5C144] px-3 py-1 rounded-[15px] border xl:w-[270px]
-transition-transform duration-300 hover:scale-105 hover:bg-[#FFD75A]">
+transition-transform duration-300 hover:scale-105 hover:bg-[#FFD75A] text-xl lg:text-[24px] xl:text-[28px]">
                     <span className="pr-1">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 512 512"><path
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 512 512"><path
                             fill="none" stroke="#353767" stroke-linecap="round" stroke-linejoin="round"
                             stroke-width="32"
                             d="M256 48c-79.5 0-144 61.39-144 137c0 87 96 224.87 131.25 272.49a15.77 15.77 0 0 0 25.5 0C304 409.89 400 272.07 400 185c0-75.61-64.5-137-144-137"/><circle
@@ -107,10 +107,10 @@ transition-transform duration-300 hover:scale-105 hover:bg-[#FFD75A]">
                className="inline-block"
             >
                 <div
-                    className="flex items-center text-[#353767] border-[#353767] justify-center w-fit bg-[#F5C144] px-3 py-1 rounded-[15px] border xl:w-[270px]
-transition-transform duration-300 hover:scale-105 hover:bg-[#FFD75A]">
+                    className="flex items-center text-[#353767] border-[#353767] justify-center w-fit bg-[#F5C144] px-3 py-1 rounded-[15px] border
+transition-transform duration-300 hover:scale-105 hover:bg-[#FFD75A] text-xl lg:text-[24px] xl:text-[28px]">
                     <span className="pr-1">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 512 512"><path
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 512 512"><path
                             fill="none" stroke="#353767" stroke-linecap="round" stroke-linejoin="round"
                             stroke-width="32"
                             d="M256 48c-79.5 0-144 61.39-144 137c0 87 96 224.87 131.25 272.49a15.77 15.77 0 0 0 25.5 0C304 409.89 400 272.07 400 185c0-75.61-64.5-137-144-137"/><circle
@@ -124,40 +124,40 @@ transition-transform duration-300 hover:scale-105 hover:bg-[#FFD75A]">
         </div>
 
         {/*za domot*/}
-        <div className="px-10 mt-8">
+        <div className="px-4 lg:px-23 pt-8">
 
             <div className="flex items-center">
                 <svg xmlns="http://www.w3.org/2000/svg" width="31" height="31" viewBox="0 0 24 24">
                     <path fill="#5c5eaa" d="M8.59 16.58L13.17 12L8.59 7.41L10 6l6 6l-6 6z"/>
                 </svg>
-                <div className="text-[#353767] text-[20px]  lg:text-[26px] font-semibold font-['Poppins']">
+                <div className="text-[#353767] text-[20px]  lg:text-[26px] xl:text-[35px] font-semibold font-['Poppins']">
                     {t("zadomot")}
                 </div>
             </div>
 
-            <div className=" lg:text-[22px] mt-4 px-9 whitespace-pre-line ">
+            <div className=" lg:text-[22px] xl:text-[25px] mt-4 px-9 whitespace-pre-line ">
                 {t("zaGoceDomotInfo")}
             </div>
 
         </div>
 
-        <div className="px-10 mt-8">
+        <div className="px-4 lg:px-23 pt-8">
             <div className="flex flex-col items-center gap-y-4 md:flex-row md:justify-around xl:px-9">
                 <a
                     href={pravilnikPdf}
                     download="Pravilnik_DSD_Skopje.pdf"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="group relative flex items-center w-[220px] justify-center border-2 border-[#353767]
+                    className="group relative flex items-center justify-center border-2 border-[#353767]
              rounded-[13px] bg-[#353767] text-white px-3 py-1 font-semibold cursor-pointer
-             lg:text-[20px] lg:w-[300px] xl:text-[22px]
+
              overflow-hidden transition-all duration-300 ease-in-out
              hover:bg-white hover:text-[#353767]"
                 >
                     {/* Текст */}
                     <span
                         className="relative z-10 transform transition-all duration-300 ease-in-out
-               group-hover:-translate-x-2 group-hover:opacity-0"
+               group-hover:-translate-x-2 group-hover:opacity-0 text-[19px] lg:text-[23px] xl:text-[25px]"
                     >
     {t("pravilnikZaDomuvanje")}
   </span>
@@ -186,8 +186,8 @@ transition-transform duration-300 hover:scale-105 hover:bg-[#FFD75A]">
                 </a>
 
 
-                <p className="w-[220px] flex items-center justify-center border-2 border-[#353767] rounded-[13px] bg-[#F5C144] text-[#353767] px-3 py-1 font-semibold lg:text-[20px] lg:w-[300px] xl:text-[22px]
-transition-transform duration-300 hover:scale-105 hover:bg-[#FFD75A]">
+                <p className=" flex items-center justify-center border-2 border-[#353767] rounded-[13px] bg-[#F5C144] text-[#353767] px-3 py-1 font-semibold
+transition-transform duration-300 hover:scale-105 hover:bg-[#FFD75A] text-[19px] lg:text-[23px] xl:text-[25px]">
                     {/*<span>*/}
                     {/*    <svg className="inline" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path*/}
                     {/*        fill="currentColor" d="M21 7L9 19l-5.5-5.5l1.41-1.41L9 16.17L19.59 5.59z"/></svg>*/}
@@ -198,13 +198,13 @@ transition-transform duration-300 hover:scale-105 hover:bg-[#FFD75A]">
         </div>
 
         {/*tipovi na sobi*/}
-        <div className="px-10 mt-8">
+        <div className="px-4 lg:px-23 pt-8">
 
             <div className="flex items-center">
                 <svg xmlns="http://www.w3.org/2000/svg" width="31" height="31" viewBox="0 0 24 24">
                     <path fill="#5c5eaa" d="M8.59 16.58L13.17 12L8.59 7.41L10 6l6 6l-6 6z"/>
                 </svg>
-                <div className="text-[#353767] text-[20px]  lg:text-[26px] font-semibold font-['Poppins']">
+                <div className="text-[#353767] text-[20px]  lg:text-[26px] xl:text-[35px] font-semibold font-['Poppins']">
                     {t("tipoviNaSobi")}
                 </div>
             </div>
@@ -217,28 +217,28 @@ transition-transform duration-300 hover:scale-105 hover:bg-[#FFD75A]">
 
                 <p className="space-x-2 lg:text-[20px]">
                     <span>&#9679;</span>
-                    <span>{t("dvoKrevetnaToalet")}</span>
+                    <span className="lg:text-[22px] xl:text-[25px]">{t("dvoKrevetnaToalet")}</span>
                 </p>
                 {/*sliki*/}
                 <div></div>
 
                 <p className="space-x-2 lg:text-[20px]">
                     <span>&#9679;</span>
-                    <span>{t("dvoKrevetnaKujna")}</span>
+                    <span className="lg:text-[22px] xl:text-[25px]">{t("dvoKrevetnaKujna")}</span>
                 </p>
                 {/*sliki*/}
                 <div></div>
 
                 <p className="space-x-2 lg:text-[20px]">
                     <span>&#9679;</span>
-                    <span>{t("apsoloventskaToalet")}</span>
+                    <span className="lg:text-[22px] xl:text-[25px]">{t("apsoloventskaToalet")}</span>
                 </p>
                 {/*sliki*/}
                 <div></div>
 
                 <p className="space-x-2 lg:text-[20px]">
                     <span>&#9679;</span>
-                    <span>{t("apsoloventskaKujna")}</span>
+                    <span className="lg:text-[22px] xl:text-[25px]">{t("apsoloventskaKujna")}</span>
                 </p>
                 {/*sliki*/}
                 <div></div>
@@ -247,13 +247,13 @@ transition-transform duration-300 hover:scale-105 hover:bg-[#FFD75A]">
 
         </div>
         {/*povolnosti*/}
-        <div className="px-10 mt-8">
+        <div className="px-4 lg:px-23 pt-8">
 
             <div className="flex items-center">
                 <svg xmlns="http://www.w3.org/2000/svg" width="31" height="31" viewBox="0 0 24 24">
                     <path fill="#5c5eaa" d="M8.59 16.58L13.17 12L8.59 7.41L10 6l6 6l-6 6z"/>
                 </svg>
-                <div className="text-[#353767] text-[20px]  lg:text-[26px] font-semibold font-['Poppins']">
+                <div className="text-[#353767] text-[20px]  lg:text-[26px] xl:text-[35px] font-semibold font-['Poppins']">
                     {t("povolnostiVoDomot")}
                 </div>
             </div>
@@ -326,13 +326,13 @@ transition-transform duration-300 hover:scale-105 hover:bg-[#FFD75A]">
         </div>
 
         {/*korisni informacii*/}
-        <div className="px-10 mt-8">
+        <div className="px-4 lg:px-23 pt-8 pb-8">
 
             <div className="flex items-center">
                 <svg xmlns="http://www.w3.org/2000/svg" width="31" height="31" viewBox="0 0 24 24">
                     <path fill="#5c5eaa" d="M8.59 16.58L13.17 12L8.59 7.41L10 6l6 6l-6 6z"/>
                 </svg>
-                <div className="text-[#353767] text-[20px]  lg:text-[26px] font-semibold font-['Poppins']">
+                <div className="text-[#353767] text-[20px]  lg:text-[26px] xl:text-[35px] font-semibold font-['Poppins']">
                     {t("korisniInformacii")}
                 </div>
             </div>
@@ -343,17 +343,17 @@ transition-transform duration-300 hover:scale-105 hover:bg-[#FFD75A]">
                     <svg xmlns="http://www.w3.org/2000/svg" width="31" height="31" viewBox="0 0 24 24">
                         <path fill="#5c5eaa" d="M8.59 16.58L13.17 12L8.59 7.41L10 6l6 6l-6 6z"/>
                     </svg>
-                    <p>{t("rabVreme")}: <strong>9:00-16:00</strong></p>
+                    <p className="text-[19px] lg:text-[21px] xl:text-[23px]">{t("rabVreme")}: <strong>9:00-16:00</strong></p>
                 </div>
 
                 <div className="flex items-center">
                     <PhoneIcon/>
-                    <p className="pl-2"><strong>888 888 888</strong></p>
+                    <p className="pl-2 text-[19px] lg:text-[21px] xl:text-[23px]"><strong>888 888 888</strong></p>
                 </div>
 
                 <div className="flex items-center">
                     <EmailIcon/>
-                    <p className="pl-2"><strong>proben.gmail.com</strong></p>
+                    <p className="pl-2 text-[19px] lg:text-[21px] xl:text-[23px]"><strong>proben.gmail.com</strong></p>
                 </div>
 
                 <div className="flex items-center">
@@ -361,7 +361,7 @@ transition-transform duration-300 hover:scale-105 hover:bg-[#FFD75A]">
                         <path fill="#353767"
                               d="M7.8 2h8.4C19.4 2 22 4.6 22 7.8v8.4a5.8 5.8 0 0 1-5.8 5.8H7.8C4.6 22 2 19.4 2 16.2V7.8A5.8 5.8 0 0 1 7.8 2m-.2 2A3.6 3.6 0 0 0 4 7.6v8.8C4 18.39 5.61 20 7.6 20h8.8a3.6 3.6 0 0 0 3.6-3.6V7.6C20 5.61 18.39 4 16.4 4zm9.65 1.5a1.25 1.25 0 0 1 1.25 1.25A1.25 1.25 0 0 1 17.25 8A1.25 1.25 0 0 1 16 6.75a1.25 1.25 0 0 1 1.25-1.25M12 7a5 5 0 0 1 5 5a5 5 0 0 1-5 5a5 5 0 0 1-5-5a5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3a3 3 0 0 0 3 3a3 3 0 0 0 3-3a3 3 0 0 0-3-3"/>
                     </svg>
-                    <p className="pl-2">{t("sovetNaStanari")}</p>
+                    <p className="pl-2 text-[19px] lg:text-[21px] xl:text-[23px]">{t("sovetNaStanari")}</p>
                 </div>
 
                 <div className="flex items-center">
@@ -376,7 +376,7 @@ transition-transform duration-300 hover:scale-105 hover:bg-[#FFD75A]">
                             <circle cx="16" cy="18" r="2"/>
                         </g>
                     </svg>
-                    <p className="pl-2">{t("lokacijaNajbliskaPostojka")}</p>
+                    <p className="pl-2 text-[19px] lg:text-[21px] xl:text-[23px]">{t("lokacijaNajbliskaPostojka")}</p>
                 </div>
 
             </div>

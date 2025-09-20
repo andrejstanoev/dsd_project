@@ -39,7 +39,7 @@ export default function StudentsSectionHPV2(){
             title:`${t("vnatresenPravilnik")}`,
             body:`<a href="${pravilnikPdf}" download="Pravilnik_DSD_Skopje.pdf" class="text-blue-600 underline" target="_blank" rel="noopener">
              ${t("vnatresenPravilnik")} (PDF)
-           </a>\``
+           </a>`
         },
         {
             id: 4,

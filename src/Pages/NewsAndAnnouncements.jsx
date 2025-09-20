@@ -5,7 +5,7 @@ import MonNews from "../components/MonNews.jsx"
 import NewsNaslov from "../components/NewsNaslov.jsx";
 export default function NewsAndAnnouncements() {
     return (
-        <div className="min-h-screen flex pt-20 flex-col bg-[#d3d4e9]">
+        <div className="min-h-screen flex pt-25 flex-col bg-[#d3d4e9]">
             <NavBar />
             <div className="flex-1">
                 <NewsNaslov/>
