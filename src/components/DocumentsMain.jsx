@@ -1,16 +1,20 @@
 import React from "react";
 import {useTranslation} from "react-i18next";
 import DocumentCard from "./DocumentCard.jsx";
-
+import baranje from "../assets/Барање-за-пристап-до-информации-од-јавен-карактер.docx"
+import postapkaZaVseluvanje from "../assets/ПОСТАПКА ЗА ВСЕЛУВАЊЕ за гоце 2025.docx"
+import interenOglas from "../assets/интерен-оглас-012022.pdf"
+import prijavaInterenOglas from "../assets/Пријава-за-интерен-оглас-ЈП-Водовод-и-канализација-003.pdf"
+import odlukaZaIzbor from "../assets/одлука-за-избор.pdf"
 export default function DocumentsMain() {
     const {t} = useTranslation();
 
     const akti = [{
-        tekst: t("interenOglas"), url: "src/assets/интерен-оглас-012022.pdf"
+        tekst: t("interenOglas"), url: interenOglas
     }, {
-        tekst: t("prijavaZaInterenOglas"), url: "src/assets/Пријава-за-интерен-оглас-ЈП-Водовод-и-канализација-003.pdf"
+        tekst: t("prijavaZaInterenOglas"), url: prijavaInterenOglas
     }, {
-        tekst: t("odlukaZaUnapreduvanje"), url: "src/assets/одлука-за-избор.pdf"
+        tekst: t("odlukaZaUnapreduvanje"), url: odlukaZaIzbor
     }]
 
     return (<div className="flex-1 flex flex-col pt-5">
@@ -30,7 +34,7 @@ export default function DocumentsMain() {
                     <p className="xl:text-[26px]"> {t("prezemiBaranjeZaPristapDoInformacii")}</p>
                     <p className="pt-4  ">
                         <a
-                            href="src/assets/Барање-за-пристап-до-информации-од-јавен-карактер.docx"
+                            href={baranje}
                             download="Барање_за_пристап_информации.docx"
                             target="_blank"
                             rel="noopener noreferrer"
@@ -41,7 +45,7 @@ export default function DocumentsMain() {
                             >
                                 {/* Текст */}
                                 <span
-                                    className="text-[24px] relative z-10 transform transition-all duration-300 ease-in-out group-hover:-translate-x-2 group-hover:opacity-0"
+                                    className="text-[17px] md:text-[24px] relative z-10 transform transition-all duration-300 ease-in-out group-hover:-translate-x-2 group-hover:opacity-0"
                                 >
                                   {t("prezemi")}
                                 </span>
@@ -89,7 +93,7 @@ export default function DocumentsMain() {
                     <p className="xl:text-[26px]">{t("prezemiPostapkaZaVseluvanjeVoGoce")}</p>
                     <p className="pt-4  ">
                         <a
-                            href="src/assets/ПОСТАПКА%20ЗА%20ВСЕЛУВАЊЕ%20за%20гоце%202025.docx"
+                            href={postapkaZaVseluvanje}
                             download="Постапка_за_вселуванје_гоце.docx"
                             target="_blank"
                             rel="noopener noreferrer"
@@ -100,7 +104,7 @@ export default function DocumentsMain() {
                             >
                                 {/* Текст */}
                                 <span
-                                    className=" text-[24px] relative z-10 transform transition-all duration-300 ease-in-out group-hover:-translate-x-2 group-hover:opacity-0"
+                                    className=" text-[17px] md:text-[24px] relative z-10 transform transition-all duration-300 ease-in-out group-hover:-translate-x-2 group-hover:opacity-0"
                                 >
                                   {t("prezemi")}
                                 </span>

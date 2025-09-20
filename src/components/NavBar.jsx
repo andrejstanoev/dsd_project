@@ -84,10 +84,14 @@ export default function NavBar() {
             <button onClick={handleToggleMenu}
                     className="md:hidden flex items-center justify-center w-10 h-10 rounded bg-[#ffd166] border-2 border-[#444692] cursor-pointer"
             >
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" strokeWidth="2"
-                     viewBox="0 0 24 24" className="w-6 h-6 text-[#444692]">
+                {isMenuOpen ? <svg className="text-[#444692]" xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 24 24">
+                    <path fill="none" stroke="currentColor" stroke-linecap="round" d="m6 6l12 12m0-12L6 18"
+                          stroke-width="1"/>
+                </svg> : <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" strokeWidth="2"
+                              viewBox="0 0 24 24" className="w-6 h-6 text-[#444692]">
                     <path strokeLinecap="round" strokeLinejoin="round" d="M4 6h16M4 12h16M4 18h16"/>
-                </svg>
+                </svg>}
+
             </button>
             {isMenuOpen && <HamburgerNavMenu setIsMenuOpen={setIsMenuOpen}/>}
         </nav>

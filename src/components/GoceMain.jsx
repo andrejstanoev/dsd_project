@@ -34,7 +34,7 @@ export default function GoceMain() {
         {/*karusel*/}
         <div className="py-12">
             <Carousel responsive={responsive} autoPlay={false} autoPlaySpeed={3000} infinite>
-                <div><img className="h-[350px] w-[507px] px-3 rounded-[10px]" src={goce1slika}
+                <div><img className="h-[350px] w-[507px] px-3 rounded-[10px]" src={goce6slika}
                           alt="Slide 1"/></div>
                 <div><img className="h-[350px] px-3 rounded-[10px]" src={goce2slika} alt="Slide 2"/>
                 </div>
@@ -44,7 +44,7 @@ export default function GoceMain() {
                           alt="Slide 1"/></div>
                 <div><img className="h-[350px] px-3 rounded-[10px]" src={goce5slika} alt="Slide 2"/>
                 </div>
-                <div><img className="h-[350px] px-3 rounded-[10px]" src={goce6slika} alt="Slide 3"/>
+                <div><img className="h-[350px] px-3 rounded-[10px]" src={goce1slika} alt="Slide 3"/>
                 </div>
                 <div><img className="h-[350px] w-[507px] px-3 rounded-[10px]" src={goce7slika}
                           alt="Slide 1"/></div>
@@ -57,9 +57,9 @@ export default function GoceMain() {
 
         {/*ikonki*/}
         <div
-            className="mb-4 px-10 grid grid-cols-2 gap-4 justify-items-center md:flex md:justify-center md:gap-x-7 lg:gap-x-8 lg:text-[19px] xl:text-[22px] xl:gap-x-10">
+            className="mb-4 pt-6 px-10 grid grid-cols-2 gap-4 justify-items-center md:flex md:justify-center md:gap-x-7 lg:gap-x-8 lg:text-[19px] xl:text-[22px] xl:gap-x-10">
             <div
-                className="flex items-center text-[#353767] border-[#353767] justify-center w-fit bg-[#F5C144] px-3 py-1 rounded-[15px] border xl:w-[270px]
+                className="flex items-center text-[#353767] justify-center w-fit bg-[#F5C144] px-3 py-1 rounded-[15px] shadow-lg ring-2 ring-[#e5b42c] border border-[#e5b42c]
 transition-transform duration-300 hover:scale-105 hover:bg-[#FFD75A] text-xl lg:text-[24px] xl:text-[28px]">
                 <span className="pr-1">
                     <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24"><path
@@ -77,7 +77,7 @@ transition-transform duration-300 hover:scale-105 hover:bg-[#FFD75A] text-xl lg:
             </div>
 
             <div
-                className="flex items-center text-[#353767] border-[#353767] justify-center w-fit bg-[#F5C144] px-3 py-1 rounded-[15px] border xl:w-[270px]
+                className="flex items-center text-[#353767] justify-center w-fit bg-[#F5C144] px-3 py-1 rounded-[15px] shadow-lg ring-2 ring-[#e5b42c] border border-[#e5b42c]
 transition-transform duration-300 hover:scale-105 hover:bg-[#FFD75A] text-xl lg:text-[24px] xl:text-[28px]">
                 <span className="pr-1">
                     <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 20 20"><g
@@ -96,7 +96,7 @@ transition-transform duration-300 hover:scale-105 hover:bg-[#FFD75A] text-xl lg:
                rel="noopener noreferrer"
                className="inline-block"
             >
-                <div className="flex items-center text-[#353767] border-[#353767] justify-center w-fit bg-[#F5C144] px-3 py-1 rounded-[15px] border xl:w-[270px]
+                <div className="flex items-center text-[#353767] justify-center w-fit bg-[#F5C144] px-3 py-1 rounded-[15px] shadow-lg ring-2 ring-[#e5b42c] border border-[#e5b42c]
 transition-transform duration-300 hover:scale-105 hover:bg-[#FFD75A] text-xl lg:text-[24px] xl:text-[28px]">
                     <span className="pr-1">
                         <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 512 512"><path
@@ -116,7 +116,7 @@ transition-transform duration-300 hover:scale-105 hover:bg-[#FFD75A] text-xl lg:
                className="inline-block"
             >
                 <div
-                    className="flex items-center text-[#353767] border-[#353767] justify-center w-fit bg-[#F5C144] px-3 py-1 rounded-[15px] border
+                    className="flex items-center text-[#353767] justify-center w-fit bg-[#F5C144] px-3 py-1 rounded-[15px] shadow-lg ring-2 ring-[#e5b42c] border border-[#e5b42c]
 transition-transform duration-300 hover:scale-105 hover:bg-[#FFD75A] text-xl lg:text-[24px] xl:text-[28px]">
                     <span className="pr-1">
                         <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 512 512"><path
@@ -270,9 +270,9 @@ transition-transform duration-300 hover:scale-105 hover:bg-[#FFD75A] text-[19px]
             <div
                 className=" mt-4 px-9 grid grid-cols-2 justify-items-center gap-y-2 md:flex md:justify-center md:gap-x-2 lg:gap-x-6 xl:justify-around ">
 
-                <div className="lg:w-[160px] lg:text-[20px] sm:w-[140px] sm:text-[17px]
-           flex items-center justify-center gap-x-2 px-2 py-1
-           rounded-[15px] bg-[#353767] w-[120px] text-white font-semibold
+                <div className=" lg:text-[20px]  sm:text-[17px]
+           flex items-center justify-center gap-x-2 px-3 py-2
+           rounded-[15px] bg-[#353767] w-fit text-white font-semibold
            transition-transform transition-colors duration-300 ease-in-out
            hover:scale-105 hover:bg-[#40427a]"
                 >
@@ -282,9 +282,9 @@ transition-transform duration-300 hover:scale-105 hover:bg-[#FFD75A] text-[19px]
                     <p>{t("peralna")}</p>
                 </div>
 
-                <div className="lg:w-[160px] lg:text-[20px] sm:w-[140px] sm:text-[17px]
-           flex items-center justify-center gap-x-2 px-2 py-1
-           rounded-[15px] bg-[#353767] w-[120px] text-white font-semibold
+                <div className=" lg:text-[20px]  sm:text-[17px]
+           flex items-center justify-center gap-x-2 px-3 py-2
+           rounded-[15px] bg-[#353767] w-fit text-white font-semibold
            transition-transform transition-colors duration-300 ease-in-out
            hover:scale-105 hover:bg-[#40427a]"
                 >
@@ -294,9 +294,9 @@ transition-transform duration-300 hover:scale-105 hover:bg-[#FFD75A] text-[19px]
                     <p>{t("internet")}</p>
                 </div>
 
-                <div className="lg:w-[160px] lg:text-[20px] sm:w-[140px] sm:text-[17px]
-           flex items-center justify-center gap-x-2 px-2 py-1
-           rounded-[15px] bg-[#353767] w-[120px] text-white font-semibold
+                <div className=" lg:text-[20px]  sm:text-[17px]
+           flex items-center justify-center gap-x-2 px-3 py-2
+           rounded-[15px] bg-[#353767] w-fit text-white font-semibold
            transition-transform transition-colors duration-300 ease-in-out
            hover:scale-105 hover:bg-[#40427a]"
                 >
@@ -306,9 +306,9 @@ transition-transform duration-300 hover:scale-105 hover:bg-[#FFD75A] text-[19px]
                     <p>{t("citalna")}</p>
                 </div>
 
-                <div className="lg:w-[160px] lg:text-[20px] sm:w-[140px] sm:text-[17px]
-           flex items-center justify-center gap-x-2 px-2 py-1
-           rounded-[15px] bg-[#353767] w-[120px] text-white font-semibold
+                <div className=" lg:text-[20px]  sm:text-[17px]
+           flex items-center justify-center gap-x-2 px-3 py-2
+           rounded-[15px] bg-[#353767] w-fit text-white font-semibold
            transition-transform transition-colors duration-300 ease-in-out
            hover:scale-105 hover:bg-[#40427a]"
                 >
@@ -318,9 +318,9 @@ transition-transform duration-300 hover:scale-105 hover:bg-[#FFD75A] text-[19px]
                     <p>{t("parking")}</p>
                 </div>
 
-                <div className="lg:w-[160px] lg:text-[20px] sm:w-[140px] sm:text-[17px]
-           flex items-center justify-center gap-x-2 px-2 py-1
-           rounded-[15px] bg-[#353767] w-[120px] text-white font-semibold
+                <div className=" lg:text-[20px]  sm:text-[17px]
+           flex items-center justify-center gap-x-2 px-3 py-2
+           rounded-[15px] bg-[#353767] w-fit text-white font-semibold
            transition-transform transition-colors duration-300 ease-in-out
            hover:scale-105 hover:bg-[#40427a]"
                 >
@@ -346,10 +346,10 @@ transition-transform duration-300 hover:scale-105 hover:bg-[#FFD75A] text-[19px]
                 </div>
             </div>
 
-            <div className="mt-4 px-9">
+            <div className="mt-4 px-9 space-y-4">
 
                 <div className="flex items-center">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="31" height="31" viewBox="0 0 24 24">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="38" height="38" viewBox="0 0 24 24">
                         <path fill="#5c5eaa" d="M8.59 16.58L13.17 12L8.59 7.41L10 6l6 6l-6 6z"/>
                     </svg>
                     <p className="text-[19px] lg:text-[21px] xl:text-[23px]">{t("rabVreme")}: <strong>9:00-16:00</strong></p>

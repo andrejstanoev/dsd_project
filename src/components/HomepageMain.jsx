@@ -65,7 +65,7 @@ export default function HomepageMain() {
     return (
         <main className=" flex flex-col items-center py-16 pb-7" >
             <div className="pb-14 ">
-                <h1 className="text-[#5c5eaa] text-4xl font-['Poppins'] md:text-[30px] lg:text-[35px] xl:text-[44px] text-[25px] px-5 py-3 rounded-[15px] bg-gradient-to-br from-[#b8baf2] to-[#a3a5d2] shadow-xl shadow-[#6769b7]/40 shadow-xl text-center text-[#353767] font-bold">{t("greetingHomePage")}</h1>
+                <h1 className="text-[#5c5eaa] font-['Poppins'] md:text-[30px] lg:text-[35px] xl:text-[44px] text-[25px] px-5 py-3 rounded-[15px] bg-gradient-to-br from-[#b8baf2] to-[#a3a5d2] shadow-xl shadow-[#6769b7]/40 shadow-xl text-center text-[#353767] font-bold">{t("greetingHomePage")}</h1>
             </div>
             <div className="relative w-full max-w-full sm:max-w-[calc(90vw-8rem)] 2xl:h-[630px] h-[420px] xl:h-[480px] mx-auto overflow-hidden rounded-xl shadow-lg">
                 <p className=" text-center w-full tracking-wide px-4 py-2 absolute top-4 z-2  text-[25px] xl:text-[27px] bg-slate-400/30 rounded shadow text-xl font-semibold ">{images[current].name}</p>

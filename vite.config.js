@@ -6,4 +6,5 @@ import tailwindcss from '@tailwindcss/vite'
 export default defineConfig({
   base:"/dsd_project/",
   plugins: [react(), tailwindcss()],
+  assetsInclude: ["**/*.docx"],
 })

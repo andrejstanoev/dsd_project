@@ -23,7 +23,7 @@ export default function DocumentCard({tekst, url}) {
                 >
                     {/* Текст */}
                     <span className="relative z-10 transform transition-all duration-300 ease-in-out
-                       group-hover:-translate-x-2 group-hover:opacity-0 text-[24px]">
+                       group-hover:-translate-x-2 group-hover:opacity-0 text-[17px] md:text-[24px]">
                         {t("pregledaj")}
                     </span>
 
