@@ -13,7 +13,7 @@ export default function MonNews() {
                 }}
             >
                 <iframe
-                    src="https://mon.gov.mk/mk-MK/odnosi-so-javnost/novosti"
+                    src="https://mon.gov.mk/mk-MK/odnosi-so-javnost/soopstenija?page=1"
                     title="Новости од МОН"
                     width="100%"
                     height="600"
