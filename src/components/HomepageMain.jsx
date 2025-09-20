@@ -1,6 +1,9 @@
 import React, { useEffect, useRef, useState } from "react";
 import {useNavigate} from "react-router-dom";
 import { useTranslation } from 'react-i18next';
+import goce1slika from "../images/goce/goce1slika.jpg"
+import kuzmanSlika from "../images/studenstki-dom-kuzman-josifovski-pitu-1.jpg"
+import stivSlika from "../images/stiv.jpg"
 
 export default function HomepageMain() {
     const [current, setCurrent] = useState(0);
@@ -10,17 +13,17 @@ export default function HomepageMain() {
     const images = [
         {
             name:`${t("studentskiDom")} „Гоце Делчев“`,
-            img:"./src/images/goce/goce1slika.jpg",
+            img:goce1slika,
             page:"goce"
         },
         {
             name:`${t("studentskiDom")} „Кузман Јосифовски Питу“`,
-            img:"https://sdk.mk/wp-content/uploads/2021/01/studenstki-dom-kuzman-josifovski-pitu-1.jpg",
+            img:kuzmanSlika,
             page:"kuzman"
         },
         {
             name:`${t("studentskiDom")} „Стив Наумов“`,
-            img:"https://www.radiomof.mk/wp-content/uploads/2021/02/%D0%A1%D1%82%D1%83%D0%B4%D0%B5%D0%BD%D1%82%D1%81%D0%BA%D0%B8-%D0%B4%D0%BE%D0%BC-%D0%A1%D1%82%D0%B8%D0%B2-%D0%9D%D0%B0%D1%83%D0%BC%D0%BE%D0%B2-%D0%94%D0%A1%D0%94-%D0%A1%D0%BA%D0%BE%D0%BF%D1%98%D0%B5.jpg",
+            img:stivSlika,
             page:"stiv"
         }
     ];

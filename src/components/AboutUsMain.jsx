@@ -3,6 +3,12 @@ import { useTranslation } from 'react-i18next';
 import AccordionItem from "./AccordionItem.jsx";
 import ContactCard from "./ContactCard.jsx";
 import {useDSD} from "../contexts/DSDContext.jsx";
+import zanasSlika from "../images/ZA_nas_slika 1.png"
+import direktorSlika from "../images/direktor_slika 1.png"
+import orgMK from "../images/organogram_mk.png"
+import orgAl from "../images/organogram_sq.png"
+import orgEn from "../images/organogram_en.png"
+
 export default function AboutUsMain() {
     const { t } = useTranslation();
     const {currentLanguage} = useDSD()
@@ -38,7 +44,7 @@ export default function AboutUsMain() {
         <div className="mt-3 mb-6 flex flex-col">
 
             <div className="relative">
-                <img className="w-full h-[300px] lg:h-[500px] object-cover" src="src/images/ZA_nas_slika%201.png"
+                <img className="w-full h-[300px] lg:h-[500px] object-cover" src={zanasSlika}
                      alt="studenti"/>
                 <div className="absolute inset-0 bg-[#5c5eaa]/50 "/>
                 <p className=" text-[#353767] bg-[#a3a5d2]/30 backdrop-blur-md  rounded-[15px] lg:text-[38px] text-lg p-2 font-bold text-center bottom-8 md:bottom-24 -translate-x-1/2 left-1/2 z-10 absolute max-w-[90%]">{t("zanasRecenica")}</p>
@@ -190,7 +196,7 @@ export default function AboutUsMain() {
                 <div
                     className="mt-4 mx-9 px-9 py-3 lg:px-12 flex flex-col md:flex-row  lg:justify-start gap-6 bg-gradient-to-br from-[#b8baf2] shadow-xl shadow-[#6769b7]/50 to-[#a3a5d2] border border-white/20 rounded-[15px]">
                     <div>
-                        <img src="src/images/direktor_slika%201.png" className="w-full max-w-[350px] h-[300px]"
+                        <img src={direktorSlika} className="w-full max-w-[350px] h-[300px]"
                              alt="Директор"/>
                     </div>
                     <div className="text-10px lg:text-[20px]  xl:text-[22px] pt-6 lg:pt-8 px-4 lg:px-6  lg:w-2/3 ">
@@ -288,9 +294,9 @@ export default function AboutUsMain() {
 
                 <div className="px-8 flex justify-center items-center">
                     {currentLanguage === "mk" ?
-                        <img alt="органограм" src="src/images/organogram_mk.png"/> : currentLanguage === "en" ?
-                            <img alt="органограм" src="src/images/organogram_en.png"/> :
-                            <img alt="органограм" src="src/images/organogram_sq.png"/>}
+                        <img alt="органограм" src={orgMK}/> : currentLanguage === "en" ?
+                            <img alt="органограм" src={orgEn}/> :
+                            <img alt="органограм" src={orgAl}/>}
 
                 </div>
 

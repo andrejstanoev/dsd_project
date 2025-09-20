@@ -6,6 +6,15 @@ import React from "react";
 import PhoneIcon from "./PhoneIcon.jsx";
 import EmailIcon from "./EmailIcon.jsx";
 import pravilnikPdf from "../assets/pravilnik.pdf"
+import goce1slika from "../images/goce/goce1slika.jpg"
+import goce2slika from "../images/goce/goce2slika.jpg"
+import goce3slika from "../images/goce/goce3slika.jpg"
+import goce4slika from "../images/goce/goce4slika.jpg"
+import goce5slika from "../images/goce/goce5slika.jpg"
+import goce6slika from "../images/goce/goce6slika.jpg"
+import goce7slika from "../images/goce/goce7slika.jpg"
+import goce8slika from "../images/goce/goce8slika.jpg"
+import goce9slika from "../images/goce/goce9slika.jpg"
 
 export default function GoceMain() {
     const {t} = useTranslation();
@@ -25,23 +34,23 @@ export default function GoceMain() {
         {/*karusel*/}
         <div className="py-12">
             <Carousel responsive={responsive} autoPlay={false} autoPlaySpeed={3000} infinite>
-                <div><img className="h-[350px] w-[507px] px-3 rounded-[10px]" src="src/images/goce/goce1slika.jpg"
+                <div><img className="h-[350px] w-[507px] px-3 rounded-[10px]" src={goce1slika}
                           alt="Slide 1"/></div>
-                <div><img className="h-[350px] px-3 rounded-[10px]" src="src/images/goce/goce2slika.jpg" alt="Slide 2"/>
+                <div><img className="h-[350px] px-3 rounded-[10px]" src={goce2slika} alt="Slide 2"/>
                 </div>
-                <div><img className="h-[350px] px-3 rounded-[10px]" src="src/images/goce/goce3slika.jpg" alt="Slide 3"/>
+                <div><img className="h-[350px] px-3 rounded-[10px]" src={goce3slika} alt="Slide 3"/>
                 </div>
-                <div><img className="h-[350px] w-[507px] px-3 rounded-[10px]" src="src/images/goce/goce4slika.jpg"
+                <div><img className="h-[350px] w-[507px] px-3 rounded-[10px]" src={goce4slika}
                           alt="Slide 1"/></div>
-                <div><img className="h-[350px] px-3 rounded-[10px]" src="src/images/goce/goce5slika.jpg" alt="Slide 2"/>
+                <div><img className="h-[350px] px-3 rounded-[10px]" src={goce5slika} alt="Slide 2"/>
                 </div>
-                <div><img className="h-[350px] px-3 rounded-[10px]" src="src/images/goce/goce6slika.jpg" alt="Slide 3"/>
+                <div><img className="h-[350px] px-3 rounded-[10px]" src={goce6slika} alt="Slide 3"/>
                 </div>
-                <div><img className="h-[350px] w-[507px] px-3 rounded-[10px]" src="src/images/goce/goce7slika.jpg"
+                <div><img className="h-[350px] w-[507px] px-3 rounded-[10px]" src={goce7slika}
                           alt="Slide 1"/></div>
-                <div><img className="h-[350px] px-3 rounded-[10px]" src="src/images/goce/goce8slika.jpg" alt="Slide 2"/>
+                <div><img className="h-[350px] px-3 rounded-[10px]" src={goce8slika} alt="Slide 2"/>
                 </div>
-                <div><img className="h-[350px] px-3 rounded-[10px]" src="src/images/goce/goce9slika.jpg" alt="Slide 3"/>
+                <div><img className="h-[350px] px-3 rounded-[10px]" src={goce9slika} alt="Slide 3"/>
                 </div>
             </Carousel>
         </div>

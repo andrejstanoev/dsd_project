@@ -2,6 +2,7 @@ import React from "react";
 import AccordionItem from "./AccordionItem.jsx";
 import { useTranslation } from 'react-i18next';
 import pravilnikPdf from "../assets/pravilnik.pdf"
+import studentiSlika from "../images/studenti2.png"
 
 export default function StudentsSectionHPV2(){
     const { t } = useTranslation();
@@ -76,7 +77,7 @@ export default function StudentsSectionHPV2(){
                     {/* slika del */}
                     <div className="relative md:w-1/2 w-full">
                         <img
-                            src="src/images/studenti2.png"
+                            src={studentiSlika}
                             alt="Студенти"
                             className="w-full h-auto rounded-[30px] border-1 shadow-xl border-[#5c5eaa]"
                         />
