@@ -5,6 +5,7 @@ import LocationIcon from "./LocationIcon.jsx";
 import React from "react";
 import PhoneIcon from "./PhoneIcon.jsx";
 import EmailIcon from "./EmailIcon.jsx";
+import PolaroidPhoto from "./PolaroidPhoto.jsx";
 import pravilnikPdf from "../assets/pravilnik.pdf"
 import goce1slika from "../images/goce/goce1slika.jpg"
 import goce2slika from "../images/goce/goce2slika.jpg"
@@ -15,6 +16,13 @@ import goce6slika from "../images/goce/goce6slika.jpg"
 import goce7slika from "../images/goce/goce7slika.jpg"
 import goce8slika from "../images/goce/goce8slika.jpg"
 import goce9slika from "../images/goce/goce9slika.jpg"
+import dvToalet1 from "../images/goce/sobi/DvoKrevetnaSoToalet/goce7slika.jpg"
+import dvToalet2 from "../images/goce/sobi/DvoKrevetnaSoToalet/goce-delcev-studentski-dom-9.jpg"
+import dvToalet3 from "../images/goce/sobi/DvoKrevetnaSoToalet/toalet.jpg"
+import dvToalet4 from "../images/goce/sobi/DvoKrevetnaSoToalet/toalet2.jpg"
+import dvKujna1 from "../images/goce/sobi/DvoKrevetnaSoKujna/Goce1.jpg"
+import dvKujna2 from "../images/goce/sobi/DvoKrevetnaSoKujna/20200214-kako-izgleda-renoviraniot-studentski-dom-goce-delchev-5.jpg"
+import dvKujna3 from "../images/goce/sobi/DvoKrevetnaSoKujna/studentski-dom-goce-delcev.jpg"
 
 export default function GoceMain() {
     const {t} = useTranslation();
@@ -218,25 +226,31 @@ transition-transform duration-300 hover:scale-105 hover:bg-[#FFD75A] text-[19px]
                 </div>
             </div>
 
-            {/*<div className=" lg:text-[22px] mt-4 px-9 whitespace-pre-line ">*/}
-            {/*    {t("zaGoceDomotInfo")}*/}
-            {/*</div>*/}
-
-            <div className="pt-4 px-9 space-y-2">
+            <div className="pt-4 px-9 space-y-4">
 
                 <p className="space-x-2 lg:text-[20px]">
                     <span>&#9679;</span>
                     <span className="lg:text-[22px] xl:text-[25px]">{t("dvoKrevetnaToalet")}</span>
                 </p>
                 {/*sliki*/}
-                <div></div>
+                <div className="flex flex-row gap-6 flex-wrap justify-center">
+                    <PolaroidPhoto src={dvToalet1} caption={t("roomCaption1")} rotation={-3}/>
+                    <PolaroidPhoto src={dvToalet2} caption={t("roomCaption1")} rotation={2}/>
+                    <PolaroidPhoto src={dvToalet3} caption={t("roomCaption1")} rotation={1}/>
+                    <PolaroidPhoto src={dvToalet4} caption={t("roomCaption1")} rotation={4}/>
+                </div>
 
                 <p className="space-x-2 lg:text-[20px]">
                     <span>&#9679;</span>
                     <span className="lg:text-[22px] xl:text-[25px]">{t("dvoKrevetnaKujna")}</span>
                 </p>
                 {/*sliki*/}
-                <div></div>
+                <div className="flex flex-row gap-6 flex-wrap justify-center">
+                    <PolaroidPhoto src={dvKujna1} caption={t("roomCaption1")} rotation={-2}/>
+                    <PolaroidPhoto src={dvKujna2} caption={t("roomCaption1")} rotation={5}/>
+                    <PolaroidPhoto src={dvKujna3} caption={t("roomCaption1")} rotation={1}/>
+
+                </div>
 
                 <p className="space-x-2 lg:text-[20px]">
                     <span>&#9679;</span>
