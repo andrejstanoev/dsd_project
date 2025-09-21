@@ -30,7 +30,7 @@ export default function DocumentsMain() {
                     </div>
                 </div>
 
-                <div className=" lg:text-[22px] mt-4 px-9 whitespace-pre-line text-center ">
+                <div className="text-[18px] lg:text-[22px] mt-4 px-9 whitespace-pre-line text-center ">
                     <p className="xl:text-[26px]"> {t("prezemiBaranjeZaPristapDoInformacii")}</p>
                     <p className="pt-4  ">
                         <a
@@ -41,7 +41,7 @@ export default function DocumentsMain() {
                             className="inline-block"
                         >
                             <button
-                                className="group relative cursor-pointer border-2 border-[#353767] rounded-[13px] bg-[#353767] text-white px-5 py-2 font-semibold overflow-hidden transition-all duration-300 ease-in-out hover:bg-white hover:text-[#353767]"
+                                className="group relative cursor-pointer border-2 border-[#353767] rounded-[13px] bg-[#353767] text-white px-3 py-1 md:px-5 md:py-2 font-semibold overflow-hidden transition-all duration-300 ease-in-out hover:bg-white hover:text-[#353767]"
                             >
                                 {/* Текст */}
                                 <span
@@ -89,7 +89,7 @@ export default function DocumentsMain() {
                     </div>
                 </div>
 
-                <div className=" lg:text-[22px] mt-4 px-9 whitespace-pre-line text-center ">
+                <div className="text-[18px] lg:text-[22px] mt-4 px-9 whitespace-pre-line text-center ">
                     <p className="xl:text-[26px]">{t("prezemiPostapkaZaVseluvanjeVoGoce")}</p>
                     <p className="pt-4  ">
                         <a
@@ -100,7 +100,7 @@ export default function DocumentsMain() {
                             className="inline-block"
                         >
                             <button
-                                className="group relative cursor-pointer border-2 border-[#353767] rounded-[13px] bg-[#353767] text-white px-5 py-2 font-semibold overflow-hidden transition-all duration-300 ease-in-out hover:bg-white hover:text-[#353767]"
+                                className="group relative cursor-pointer border-2 border-[#353767] rounded-[13px] bg-[#353767] text-white px-3 py-1 md:px-5 md:py-2 font-semibold overflow-hidden transition-all duration-300 ease-in-out hover:bg-white hover:text-[#353767]"
                             >
                                 {/* Текст */}
                                 <span
