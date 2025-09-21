@@ -9,19 +9,20 @@ export default function NewsAndAnnouncements() {
             <NavBar />
             <div className="flex-1">
                 <NewsNaslov/>
-            </div>
-            <div
-                className="
-          flex flex-col items-center justify-center
-          lg:flex-row lg:items-start lg:justify-center
-          lg:justify-center gap-8 mt-2 md:mt-4 lg:mt-[-60px] max-w-7xl mx-auto px-4 w-full
-        "
-            >
-                <div className="flex-1 w-full max-w-lg">
-                    <NewsSectionFB />
-                </div>
-                <div className="flex-1 w-full max-w-lg">
-                    <MonNews />
+
+                <div
+                    className="
+                flex flex-col items-center justify-center
+              lg:flex-row lg:items-start lg:justify-center
+              lg:justify-center gap-8 mt-2 md:mt-4 max-w-7xl mx-auto px-4 w-full
+            "
+                >
+                    <div className="flex-1 w-full max-w-lg">
+                        <NewsSectionFB />
+                    </div>
+                    <div className="flex-1 w-full max-w-lg">
+                        <MonNews />
+                    </div>
                 </div>
             </div>
             <Footer />
