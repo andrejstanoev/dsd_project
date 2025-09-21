@@ -4,7 +4,7 @@ import {useTranslation} from "react-i18next";
 export default function DocumentCard({tekst, url}) {
     const {t} = useTranslation();
     return (
-        <div className="flex flex-col max-w-3xs  rounded-[15px] overflow-hidden bg-gradient-to-br from-[#b8baf2] to-[#a3a5d2] shadow-xl shadow-[#6769b7]/50 border border-white/20">
+        <div className="flex flex-col max-w-3xs rounded-[20px] overflow-hidden bg-gradient-to-br from-[#b8baf2] to-[#a3a5d2] shadow-2xl shadow-[#6769b7]/70 border border-white/20">
             <div className="py-4 px-2 flex-1">
                 <p className="text-[19px] md:text-[21px] lg:text-[22px] xl:text-[26px] text-center whitespace-normal break-words">
                     {tekst}
