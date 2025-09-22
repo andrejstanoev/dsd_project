@@ -19,10 +19,10 @@ export default function DocumentsMain() {
 
     return (<div className="flex-1 flex flex-col pt-5">
 
-            <div className=" px-4 lg:px-23 pt-8">
+            <div className=" px-4 lg:px-23 pt-8 lg:flex lg:gap-10 lg:items-center lg:h-30">
 
                 <div className="flex items-center">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="31" height="31" viewBox="0 0 24 24">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="31" height="31" viewBox="0 0 24 24" className="mb-[27px]  lg:mb-[0px]">
                         <path fill="#5c5eaa" d="M8.59 16.58L13.17 12L8.59 7.41L10 6l6 6l-6 6z"/>
                     </svg>
                     <div className="text-[#353767] text-[20px]  lg:text-[26px] xl:text-[35px] font-semibold font-['Poppins']">
@@ -31,7 +31,7 @@ export default function DocumentsMain() {
                 </div>
 
                 <div className="text-[18px] lg:text-[22px] mt-4 px-9 whitespace-pre-line text-center ">
-                    <p className="xl:text-[26px]"> {t("prezemiBaranjeZaPristapDoInformacii")}</p>
+                    {/*<p className="xl:text-[26px]"> {t("prezemiBaranjeZaPristapDoInformacii")}</p>*/}
                     <p className="pt-4  ">
                         <a
                             href={baranje}
@@ -41,7 +41,7 @@ export default function DocumentsMain() {
                             className="inline-block"
                         >
                             <button
-                                className="group relative cursor-pointer border-2 border-[#353767] rounded-[13px] bg-[#353767] text-white px-3 py-1 md:px-5 md:py-2 font-semibold overflow-hidden transition-all duration-300 ease-in-out hover:bg-white hover:text-[#353767]"
+                                className="group relative cursor-pointer border-2 lg:mb-[20px] border-[#353767] rounded-[13px] bg-[#353767] text-white px-3 py-1 md:px-5 md:py-2 font-semibold overflow-hidden transition-all duration-300 ease-in-out hover:bg-white hover:text-[#353767]"
                             >
                                 {/* Текст */}
                                 <span
@@ -78,10 +78,10 @@ export default function DocumentsMain() {
                 </div>
             </div>
 
-            <div className=" px-4 lg:px-23 pt-8">
+            <div className=" px-4 lg:px-23 pt-8 lg:flex lg:gap-6 lg:items-center lg:h-30">
 
                 <div className="flex items-center">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="31" height="31" viewBox="0 0 24 24">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="31" height="31" viewBox="0 0 24 24" className="mb-[27px]  lg:mb-[0px]">
                         <path fill="#5c5eaa" d="M8.59 16.58L13.17 12L8.59 7.41L10 6l6 6l-6 6z"/>
                     </svg>
                     <div className="text-[#353767] text-[20px]  lg:text-[26px] xl:text-[35px] font-semibold font-['Poppins']">
@@ -90,7 +90,7 @@ export default function DocumentsMain() {
                 </div>
 
                 <div className="text-[18px] lg:text-[22px] mt-4 px-9 whitespace-pre-line text-center ">
-                    <p className="xl:text-[26px]">{t("prezemiPostapkaZaVseluvanjeVoGoce")}</p>
+                    {/*<p className="xl:text-[26px]">{t("prezemiPostapkaZaVseluvanjeVoGoce")}</p>*/}
                     <p className="pt-4  ">
                         <a
                             href={postapkaZaVseluvanje}
@@ -100,7 +100,7 @@ export default function DocumentsMain() {
                             className="inline-block"
                         >
                             <button
-                                className="group relative cursor-pointer border-2 border-[#353767] rounded-[13px] bg-[#353767] text-white px-3 py-1 md:px-5 md:py-2 font-semibold overflow-hidden transition-all duration-300 ease-in-out hover:bg-white hover:text-[#353767]"
+                                className="group relative cursor-pointer border-2 border-[#353767] rounded-[13px] bg-[#353767] text-white px-3 py-1 md:px-5 md:py-2 lg:mb-[20px] font-semibold overflow-hidden transition-all duration-300 ease-in-out hover:bg-white hover:text-[#353767]"
                             >
                                 {/* Текст */}
                                 <span
@@ -151,7 +151,7 @@ export default function DocumentsMain() {
                 </div>
 
                 <div
-                    className="mt-4 mb-5 px-9 whitespace-pre-line text-center flex flex-col md:flex-row gap-6 md:gap-8 ">
+                    className="mt-4 mb-5 px-9 whitespace-pre-line text-center flex flex-col items-center lg:items-stretch md:flex-row gap-6 md:gap-8 ">
 
                     {/*<div*/}
                     {/*    className=" flex flex-col w-full max-w-xs sm:max-w-sm md:max-w-md bg-violet-300/90 rounded-xl  shadow-xl">*/}
