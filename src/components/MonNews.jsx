@@ -2,10 +2,10 @@ import React from 'react';
 
 export default function MonNews() {
     return (
-        <div className="w-full max-w-7xl my-8 flex justify-center">
+        <div className="w-full max-w-7xl my-8 flex justify-center rounded-xl border border-[#dad8f0] ring-1 ring-indigo-300 shadow-lg xl:shadow-2xl bg-gradient-to-br from-[#a3a5d2] to-[#f2f2fc] p-4 w-full ">
             <div
                 style={{
-                    border: '5px solid #5C5EAA',
+                    border: '2px solid #5C5EAA',
                     borderRadius: '30px',
                     overflow: 'hidden',
                     width: '530px',
