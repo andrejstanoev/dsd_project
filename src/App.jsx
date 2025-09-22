@@ -9,6 +9,7 @@ import ScrollToTop from "./components/ScrollToTop.jsx";
 import NewsAndAnnouncements from "./Pages/NewsAndAnnouncements.jsx";
 import {DSDProvider} from "./contexts/DSDContext.jsx";
 import Documents from "./Pages/Documents.jsx";
+import DnevnoMeniPage from "./Pages/DnevnoMeniPage.jsx";
 
 function App() {
 
@@ -25,6 +26,7 @@ function App() {
                   <Route path="stiv" element={<Stiv/>}/>
                   <Route path="vesti" element={<NewsAndAnnouncements/>}/>
                   <Route path="dokumenti" element={<Documents/>}/>
+                  <Route path="dnevnoMeni" element={<DnevnoMeniPage/>}/>
               </Routes>
           </HashRouter>
       </DSDProvider>

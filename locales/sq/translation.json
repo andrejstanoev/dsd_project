@@ -85,6 +85,7 @@
   "odlukaZaUnapreduvanje": "Vendim për avancimin e një nëpunësi administrativ",
   "pregledaj": "Shiko",
   "akti": "Akte",
+
   "p1": "Aplikohet vetëm në mënyrë elektronike?",
   "o1": "Po, aplikimi bëhet vetëm në mënyrë elektronike, përmes sistemit \"e-shërbime\" të MAS.",
   "p2": "A ka të drejtë një student në universitet privat të vendoset në konvikt?",
@@ -99,6 +100,9 @@
   "o6": "Po, por të ardhurat mund të ndikojnë në vendimin nëse do të pranoheni në konviktin e zgjedhur. Mos harroni të dorëzoni vërtetim për pagën.",
   "bracniSobi": "Dhoma martesore",
   "apsoloventskiSobi": "Dhoma për absolventë"
+
+  "dnevnoMeni": "Menuja javore"
+
 
 
 }

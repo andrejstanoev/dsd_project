@@ -85,6 +85,7 @@
   "odlukaZaUnapreduvanje": "Decision on the promotion of an administrative civil servant",
   "pregledaj": "View",
   "akti": "Acts",
+
   "p1": "Is the application exclusively electronic?",
   "o1": "Yes, the application is exclusively electronic, through the Ministry of Education's \"e-services\" system.",
   "p2": "Does a student at a private university have the right to accommodation in a student dormitory?",
@@ -99,5 +100,8 @@
   "o6": "Yes, but income may influence the decision whether you will be accommodated in the chosen dormitory. Do not forget to submit a salary certificate.",
   "bracniSobi": "Marital rooms",
   "apsoloventskiSobi": "Graduate rooms"
+
+
+  "dnevnoMeni": "Weekly menu"
 
 }
