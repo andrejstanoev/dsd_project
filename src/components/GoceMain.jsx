@@ -149,7 +149,7 @@ export default function GoceMain() {
                     download="Pravilnik_DSD_Skopje.pdf"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="group relative flex items-center justify-center border-2 border-[#353767]
+                    className="group relative flex items-center w-[195px] lg:w-[240px] justify-center border-2 border-[#353767]
              rounded-[13px] bg-[#353767] text-white px-3 py-1 font-semibold cursor-pointer
 
              overflow-hidden transition-all duration-300 ease-in-out
