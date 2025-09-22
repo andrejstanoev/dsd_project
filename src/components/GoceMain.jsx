@@ -23,6 +23,7 @@ import dvToalet4 from "../images/goce/sobi/DvoKrevetnaSoToalet/toalet2.jpg"
 import dvKujna1 from "../images/goce/sobi/DvoKrevetnaSoKujna/Goce1.jpg"
 import dvKujna2 from "../images/goce/sobi/DvoKrevetnaSoKujna/20200214-kako-izgleda-renoviraniot-studentski-dom-goce-delchev-5.jpg"
 import dvKujna3 from "../images/goce/sobi/DvoKrevetnaSoKujna/studentski-dom-goce-delcev.jpg"
+import {Link} from "react-router-dom";
 
 export default function GoceMain() {
     const {t} = useTranslation();
@@ -77,7 +78,11 @@ export default function GoceMain() {
                 {t("pridruziSe")}
             </div>
 
-            <div
+          <Link to="/dnevnoMeni">
+
+
+
+              <div
                 className="flex items-center text-[#353767] justify-center lg:w-[220px] w-[170px] h-16 bg-[#F5C144] rounded-[15px] shadow-lg ring-2 ring-[#e5b42c] border border-[#e5b42c]
     transition-transform duration-300 hover:scale-105 hover:bg-[#FFD75A] text-[17px] lg:text-[24px] xl:text-[24px]"
             >
@@ -85,7 +90,7 @@ export default function GoceMain() {
       {/* иконка */}
     </span>
                 {t("nedelnoMeni")}
-            </div>
+            </div> </Link>
 
             <a
                 href="https://www.google.com/maps/place/Goce+Delcev..."
