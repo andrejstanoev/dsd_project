@@ -13,14 +13,14 @@ const DnevnoMeni = () => {
                 </h1>
             </div>
 
-            <div className="flex items-between">
+            <div className="flex gap-7 items-between justify-center">
                 {/* слика */}
-                <div className="w-[400px] max-w-2xl my-8  flex justify-center rounded-xl border border-[#dad8f0] ring-1 ring-indigo-300 shadow-lg xl:shadow-2xl bg-gradient-to-br from-[#a3a5d2] to-[#f2f2fc] p-4 w-full">
+                <div className=" max-w-xl my-8  flex justify-center rounded-xl border border-[#dad8f0] ring-1 ring-indigo-300 shadow-lg xl:shadow-2xl bg-gradient-to-br from-[#a3a5d2] to-[#f2f2fc] p-4 w-full">
                     <img className="border-3 border-[#5C5EAA] rounded-xl" src={dnevnoMeniImg} alt="Dnevno Meni" />
                 </div>
                 {/* форма */}
                 <div
-                    className="my-8 flex flex-col gap-5 ">
+                    className="my-8 flex flex-col gap-5  ">
 
                     <section id="obrok-prijava" className="max-w-3xl mx-auto p-6 rounded-xl border border-[#dad8f0] ring-1 ring-indigo-300 shadow-lg xl:shadow-2xl bg-gradient-to-br from-[#a3a5d2] to-[#f2f2fc] p-4 w-full">
                         <h3 className="text-2xl font-semibold mb-4">Електронска пријава за оброк</h3>
