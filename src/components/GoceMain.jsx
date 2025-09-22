@@ -268,11 +268,11 @@ transition-transform duration-300 hover:scale-105 hover:bg-[#FFD75A] text-[19px]
             </div>
 
             <div
-                className=" mt-4 px-9 grid grid-cols-2 justify-items-center gap-y-2 md:flex md:justify-center md:gap-x-2 lg:gap-x-6 xl:justify-around ">
+                className=" mt-4 px-9 grid justify-items-start gap-y-2 md:flex md:justify-center md:gap-x-2 lg:gap-x-6 xl:justify-around ">
 
                 <div className=" lg:text-[20px]  sm:text-[17px]
            flex items-center justify-center gap-x-2 px-3 py-2
-           rounded-[15px] bg-[#353767] w-fit text-white font-semibold
+           rounded-[15px] bg-[#353767] w-[150px] lg:w-[170px] text-white font-semibold
            transition-transform transition-colors duration-300 ease-in-out
            hover:scale-105 hover:bg-[#40427a]"
                 >
@@ -284,7 +284,7 @@ transition-transform duration-300 hover:scale-105 hover:bg-[#FFD75A] text-[19px]
 
                 <div className=" lg:text-[20px]  sm:text-[17px]
            flex items-center justify-center gap-x-2 px-3 py-2
-           rounded-[15px] bg-[#353767] w-fit text-white font-semibold
+           rounded-[15px] bg-[#353767] w-[150px] lg:w-[170px] text-white font-semibold
            transition-transform transition-colors duration-300 ease-in-out
            hover:scale-105 hover:bg-[#40427a]"
                 >
@@ -296,7 +296,7 @@ transition-transform duration-300 hover:scale-105 hover:bg-[#FFD75A] text-[19px]
 
                 <div className=" lg:text-[20px]  sm:text-[17px]
            flex items-center justify-center gap-x-2 px-3 py-2
-           rounded-[15px] bg-[#353767] w-fit text-white font-semibold
+           rounded-[15px] bg-[#353767] w-[150px] lg:w-[170px] text-white font-semibold
            transition-transform transition-colors duration-300 ease-in-out
            hover:scale-105 hover:bg-[#40427a]"
                 >
@@ -308,7 +308,7 @@ transition-transform duration-300 hover:scale-105 hover:bg-[#FFD75A] text-[19px]
 
                 <div className=" lg:text-[20px]  sm:text-[17px]
            flex items-center justify-center gap-x-2 px-3 py-2
-           rounded-[15px] bg-[#353767] w-fit text-white font-semibold
+           rounded-[15px] bg-[#353767] w-[150px] lg:w-[170px] text-white font-semibold
            transition-transform transition-colors duration-300 ease-in-out
            hover:scale-105 hover:bg-[#40427a]"
                 >
@@ -320,7 +320,7 @@ transition-transform duration-300 hover:scale-105 hover:bg-[#FFD75A] text-[19px]
 
                 <div className=" lg:text-[20px]  sm:text-[17px]
            flex items-center justify-center gap-x-2 px-3 py-2
-           rounded-[15px] bg-[#353767] w-fit text-white font-semibold
+           rounded-[15px] bg-[#353767] w-[150px] lg:w-[170px] text-white font-semibold
            transition-transform transition-colors duration-300 ease-in-out
            hover:scale-105 hover:bg-[#40427a]"
                 >
