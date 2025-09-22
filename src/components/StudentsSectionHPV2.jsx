@@ -48,7 +48,7 @@ export default function StudentsSectionHPV2(){
             title:`${t("problemiPrijavi")} `,
             body: (
                 <Link to="/zanas#organizacija" className="text-blue-600 underline">
-                    {t("problemiPrijavi")}
+                    {t("konOrganizacija")}
                 </Link>
                     )
         }
