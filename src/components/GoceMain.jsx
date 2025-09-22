@@ -165,7 +165,7 @@ export default function GoceMain() {
         <div
             className="mb-4 pt-6 px-10 grid grid-cols-2 gap-4 justify-items-center md:flex md:justify-center md:gap-x-7 lg:gap-x-8 lg:text-[19px] xl:text-[22px] xl:gap-x-10"
         >
-            <div
+           <a href="https://invite.viber.com/?g2=AQAEvrIF2qeREk%2FzWz%2Bs7Jgign9awVYsSHsIwrCXomq%2FIt%2F2wVcmOnVbnvlqlW3T" target="_blank"> <div
                 className="flex items-center text-[#353767] justify-center lg:w-[220px] w-[170px]  h-16 bg-[#F5C144] rounded-[15px] shadow-lg ring-2 ring-[#e5b42c] border border-[#e5b42c]
     transition-transform duration-300 hover:scale-105 hover:bg-[#FFD75A] text-[17px] lg:text-[24px] xl:text-[24px]"
             >
@@ -173,9 +173,9 @@ export default function GoceMain() {
       {/* иконка */}
     </span>
                 {t("pridruziSe")}
-            </div>
+            </div> </a>
 
-          <Link to="/dnevnoMeni">
+            <Link to="/dnevnoMeni">
 
 
 
@@ -207,7 +207,7 @@ export default function GoceMain() {
             </a>
 
             <a
-                href="https://www.google.com/maps/place/%D0%9A%D0%B0%D1%84%D0%B5..."
+                href="https://www.instagram.com/kafebarcitalna/?hl=en"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-block"
@@ -288,7 +288,7 @@ export default function GoceMain() {
   </span>
                 </a>
 
-
+         <a href="https://forms.gle/fi43Mmtv7AdUidsZ7" target="_blank">
                 <p className=" flex items-center justify-center border-2 border-[#353767] rounded-[13px] bg-[#F5C144] text-[#353767] px-3 py-1 font-semibold
 transition-transform duration-300 hover:scale-105 hover:bg-[#FFD75A] text-[19px] lg:text-[23px] xl:text-[25px]">
                     {/*<span>*/}
@@ -297,6 +297,7 @@ transition-transform duration-300 hover:scale-105 hover:bg-[#FFD75A] text-[19px]
                     {/*</span>*/}
                     <span>{t("prijaviProblem")}</span>
                 </p>
+         </a>
             </div>
         </div>
 
@@ -468,7 +469,7 @@ transition-transform duration-300 hover:scale-105 hover:bg-[#FFD75A] text-[19px]
                         <path fill="#353767"
                               d="M7.8 2h8.4C19.4 2 22 4.6 22 7.8v8.4a5.8 5.8 0 0 1-5.8 5.8H7.8C4.6 22 2 19.4 2 16.2V7.8A5.8 5.8 0 0 1 7.8 2m-.2 2A3.6 3.6 0 0 0 4 7.6v8.8C4 18.39 5.61 20 7.6 20h8.8a3.6 3.6 0 0 0 3.6-3.6V7.6C20 5.61 18.39 4 16.4 4zm9.65 1.5a1.25 1.25 0 0 1 1.25 1.25A1.25 1.25 0 0 1 17.25 8A1.25 1.25 0 0 1 16 6.75a1.25 1.25 0 0 1 1.25-1.25M12 7a5 5 0 0 1 5 5a5 5 0 0 1-5 5a5 5 0 0 1-5-5a5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3a3 3 0 0 0 3 3a3 3 0 0 0 3-3a3 3 0 0 0-3-3"/>
                     </svg>
-                    <p className="pl-2 text-[19px] lg:text-[21px] xl:text-[23px]">{t("sovetNaStanari")}</p>
+                   <a href="https://www.instagram.com/dsd_goce_delcev_official/" target="_blank"> <p className="pl-2 text-[19px] lg:text-[21px] xl:text-[23px]">{t("sovetNaStanari")}</p> </a>
                 </div>
 
                 <div className="flex items-center">
@@ -483,7 +484,7 @@ transition-transform duration-300 hover:scale-105 hover:bg-[#FFD75A] text-[19px]
                             <circle cx="16" cy="18" r="2"/>
                         </g>
                     </svg>
-                    <p className="pl-2 text-[19px] lg:text-[21px] xl:text-[23px]">{t("lokacijaNajbliskaPostojka")}</p>
+                    <a href="https://maps.app.goo.gl/XvuQMoDHsqzfhTns7" target="_blank"><p className="pl-2 text-[19px] lg:text-[21px] xl:text-[23px]">{t("lokacijaNajbliskaPostojka")}</p> </a>
                 </div>
 
             </div>
