@@ -1,5 +1,6 @@
 import React from "react";
 import { useTranslation } from 'react-i18next';
+import {useEffect} from "react";
 import AccordionItem from "./AccordionItem.jsx";
 import ContactCard from "./ContactCard.jsx";
 import {useDSD} from "../contexts/DSDContext.jsx";
@@ -8,10 +9,23 @@ import direktorSlika from "../images/direktor_slika 1.png"
 import orgMK from "../images/organogram_mk.png"
 import orgAl from "../images/organogram_sq.png"
 import orgEn from "../images/organogram_en.png"
+import {useLocation} from "react-router-dom";
 
 export default function AboutUsMain() {
     const { t } = useTranslation();
     const {currentLanguage} = useDSD()
+
+    const location = useLocation();
+
+    useEffect(() => {
+        if (location.hash) {
+            const elementId = location.hash.replace("#", "");
+            const element = document.getElementById(elementId);
+            if (element) {
+                element.scrollIntoView({ behavior: "smooth" });
+            }
+        }
+    }, [location]);
 
     const contacts =[
         {
@@ -218,7 +232,7 @@ export default function AboutUsMain() {
                     <svg xmlns="http://www.w3.org/2000/svg" width="31" height="31" viewBox="0 0 24 24">
                         <path fill="#5c5eaa" d="M8.59 16.58L13.17 12L8.59 7.41L10 6l6 6l-6 6z"/>
                     </svg>
-                    <div
+                    <div id="organizacija"
                         className="text-[#353767] text-[20px]  lg:text-[26px] xl:text-[35px] font-semibold font-['Poppins']">
                         {t("organizacija")}
                     </div>

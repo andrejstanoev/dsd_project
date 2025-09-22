@@ -1,5 +1,6 @@
 import React from "react";
 import AccordionItem from "./AccordionItem.jsx";
+import {Link} from "react-router-dom";
 import { useTranslation } from 'react-i18next';
 import pravilnikPdf from "../assets/pravilnik.pdf"
 import studentiSlika from "../images/studenti2.png"
@@ -45,7 +46,11 @@ export default function StudentsSectionHPV2(){
         {
             id: 4,
             title:`${t("problemiPrijavi")} `,
-            body:"It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like)."
+            body: (
+                <Link to="/zanas#organizacija" className="text-blue-600 underline">
+                    {t("problemiPrijavi")}
+                </Link>
+                    )
         }
     ]
     return(
