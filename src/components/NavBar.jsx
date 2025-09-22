@@ -46,10 +46,10 @@ export default function NavBar() {
                         }
                         {t("domovi")}
                     </div>
-                    { isClicked && <div className=" animate-fade-in rounded-xl  shadow-lg p-4 bg-[#f4f5fa] absolute flex flex-col z-20">
-                        <NavigationLink to="/goce">Гоце</NavigationLink>
-                        <NavigationLink to="/kuzman">Кузман</NavigationLink>
-                        <NavigationLink to="/stiv">Стив</NavigationLink>
+                    { isClicked && <div className=" animate-fade-in rounded-xl   shadow-lg p-4 bg-[#f4f5fa] absolute flex flex-col z-20">
+                        <NavigationLink to="/goce" >Гоце Делчев</NavigationLink>
+                        <NavigationLink to="/kuzman">Кузман Јосифовски- Питу</NavigationLink>
+                        <NavigationLink to="/stiv">Стив Наумов</NavigationLink>
                     </div>}
                 </li>
 

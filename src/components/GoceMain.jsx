@@ -266,6 +266,8 @@ transition-transform duration-300 hover:scale-105 hover:bg-[#FFD75A] text-[19px]
                 {/*sliki*/}
                 <div></div>
 
+
+
             </div>
 
         </div>
@@ -366,17 +368,17 @@ transition-transform duration-300 hover:scale-105 hover:bg-[#FFD75A] text-[19px]
                     <svg xmlns="http://www.w3.org/2000/svg" width="38" height="38" viewBox="0 0 24 24">
                         <path fill="#5c5eaa" d="M8.59 16.58L13.17 12L8.59 7.41L10 6l6 6l-6 6z"/>
                     </svg>
-                    <p className="text-[19px] lg:text-[21px] xl:text-[23px]">{t("rabVreme")}: <strong>9:00-16:00</strong></p>
+                    <p className="text-[19px] lg:text-[21px] xl:text-[23px]">{t("rabVreme")}: <strong>8:00-16:00 | 24/7</strong></p>
                 </div>
 
                 <div className="flex items-center">
                     <PhoneIcon/>
-                    <p className="pl-2 text-[19px] lg:text-[21px] xl:text-[23px]"><strong>888 888 888</strong></p>
+                    <p className="pl-2 text-[19px] lg:text-[21px] xl:text-[23px]"><strong>078 411 152</strong></p>
                 </div>
 
                 <div className="flex items-center">
                     <EmailIcon/>
-                    <p className="pl-2 text-[19px] lg:text-[21px] xl:text-[23px]"><strong>proben.gmail.com</strong></p>
+                    <p className="pl-2 text-[19px] lg:text-[21px] xl:text-[23px]"><strong>contact@dsdskopje.mk</strong></p>
                 </div>
 
                 <div className="flex items-center">

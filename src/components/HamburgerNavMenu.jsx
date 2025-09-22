@@ -31,9 +31,9 @@ export default function HamburgerNavMenu( {setIsMenuOpen} ){
                         {t("domovi")}
                     </div>
                     { isClicked && <div className=" p-4 bg-[#f4f5fa]  flex flex-col z-20">
-                        <NavLink className="py-1 px-1 rounded hover:bg-indigo-200"  to="/goce">Гоце</NavLink>
-                        <NavLink className="py-1 px-1 rounded hover:bg-indigo-200"  to="/kuzman">Кузман</NavLink>
-                        <NavLink className="py-1 px-1 rounded hover:bg-indigo-200"  to="/stiv">Стив</NavLink>
+                        <NavLink className="py-1 px-1 rounded hover:bg-indigo-200"  to="/goce">Гоце Делчев</NavLink>
+                        <NavLink className="py-1 px-1 rounded hover:bg-indigo-200"  to="/kuzman">Кузман Јосифовски- Питу</NavLink>
+                        <NavLink className="py-1 px-1 rounded hover:bg-indigo-200"  to="/stiv">Стив Наумов</NavLink>
                     </div>}
                 </li>
 
