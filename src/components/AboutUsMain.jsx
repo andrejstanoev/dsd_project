@@ -181,7 +181,7 @@ export default function AboutUsMain() {
 
             </div>
 
-            <div className=" px-4 lg:px-23 pt-8">
+            <div className=" px-4 lg:px-23 pt-8 ">
 
                 <div className="flex items-center">
                     <svg xmlns="http://www.w3.org/2000/svg" width="31" height="31" viewBox="0 0 24 24">
@@ -194,7 +194,8 @@ export default function AboutUsMain() {
                 </div>
 
                 <div
-                    className="mt-4 mx-9 px-9 py-3 lg:px-12 flex flex-col md:flex-row  lg:justify-start gap-6 bg-gradient-to-br from-[#b8baf2] shadow-xl shadow-[#6769b7]/50 to-[#a3a5d2] border border-white/20 rounded-[15px]">
+                    className="mt-4 mx-9 px-9 py-3 lg:px-12 flex flex-col md:flex-row  lg:justify-start gap-6 bg-gradient-to-br from-[#b8baf2] shadow-xl shadow-[#6769b7]/50 to-[#a3a5d2] border border-white/20 rounded-[15px]
+                    rounded-xl border border-[#dad8f0] ring-1 ring-indigo-300 shadow-lg xl:shadow-2xl bg-gradient-to-br from-[#a3a5d2] to-[#f2f2fc] p-4 w-full ">
                     <div>
                         <img src={direktorSlika} className="w-full max-w-[350px] h-[300px]"
                              alt="Директор"/>
