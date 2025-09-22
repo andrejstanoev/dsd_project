@@ -50,7 +50,7 @@ const DnevnoMeni = () => {
 
                     </section>
                     <p>
-                        <a href="URL_TO_FORM"
+                        <a href="https://forms.gle/48dAZ4JEgzrScjsd7"  target="_blank"
                            className="inline-block px-4 py-2 bg-[#5c5eaa] text-white rounded-md hover:opacity-90">
                             Пополнете ја формата
                         </a>
