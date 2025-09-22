@@ -23,10 +23,108 @@ import dvToalet4 from "../images/goce/sobi/DvoKrevetnaSoToalet/toalet2.jpg"
 import dvKujna1 from "../images/goce/sobi/DvoKrevetnaSoKujna/Goce1.jpg"
 import dvKujna2 from "../images/goce/sobi/DvoKrevetnaSoKujna/20200214-kako-izgleda-renoviraniot-studentski-dom-goce-delchev-5.jpg"
 import dvKujna3 from "../images/goce/sobi/DvoKrevetnaSoKujna/studentski-dom-goce-delcev.jpg"
+
 import {Link} from "react-router-dom";
+
+import bracna1 from "../images/goce/sobi/biroVoSoba.jpg"
+import bracna2 from "../images/goce/sobi/biroPogled2.jpg"
+import bracna3 from "../images/goce/sobi/biroPogled3.jpg"
+import bracna4 from "../images/goce/sobi/bracenKrevetSoRegal.jpg"
+import bracna5 from "../images/goce/sobi/bracenKrevetSoRegal2.jpg"
+import bracna6 from "../images/goce/sobi/bracenKrevetSoRegal2pogled.jpg"
+import aps1 from "../images/goce/sobi/goce9slika.jpg"
+import aps2 from "../images/goce/goce8slika.jpg"
+import aps3 from "../images/goce/goce7slika.jpg"
+import aps4 from "../images/goce/goce9slika.jpg"
+
+import kuzmanSlika from "../images/studenstki-dom-kuzman-josifovski-pitu-1.jpg";
+import stivSlika from "../images/stiv.jpg";
+import ImagesGallery from "./ImagesGallery.jsx";
+>>>>>>> db8fd0fd7fa5cca58fcb47777c38a8b001920c08
 
 export default function GoceMain() {
     const {t} = useTranslation();
+    const images1 = [
+        {
+            name:"slika1",
+            img:dvToalet1
+        },
+        {
+            name:"slika2",
+            img:dvToalet2
+        },
+        {
+            name:"slika3",
+            img:dvToalet3
+        },
+        {
+            name:"slika4",
+            img:dvToalet4
+        }
+    ]
+
+    const images2 = [
+        {
+            name:"slika1",
+            img:dvKujna1
+        },
+        {
+            name:"slika2",
+            img:dvKujna2
+        },
+        {
+            name:"slika3",
+            img:dvKujna3
+        }
+
+    ]
+
+    const images3 = [
+        {
+            name:"slika1",
+            img:bracna1
+        },
+        {
+            name:"slika2",
+            img:bracna2
+        },
+        {
+            name:"slika3",
+            img:bracna3
+        },
+        {
+            name:"slika1",
+            img:bracna4
+        },
+        {
+            name:"slika2",
+            img:bracna5
+        },
+        {
+            name:"slika3",
+            img:bracna6
+        }
+    ]
+
+    const images4 = [
+        {
+            name:"slika1",
+            img:aps1
+        },
+        {
+            name:"slika2",
+            img:aps2
+        },
+        {
+            name:"slika3",
+            img:aps3
+        },
+        {
+            name:"slika1",
+            img:aps4
+        }
+    ]
+
     const responsive = {
         superLargeDesktop: {breakpoint: {max: 4000, min: 3000}, items: 5},
         desktop: {breakpoint: {max: 3000, min: 1024}, items: 3},
@@ -215,47 +313,42 @@ transition-transform duration-300 hover:scale-105 hover:bg-[#FFD75A] text-[19px]
                 </div>
             </div>
 
-            <div className="pt-4 px-9 space-y-4">
-
-                <p className="space-x-2 lg:text-[20px]">
+            <div className="pt-4 px-9 space-y-4 flex flex-col xl:flex-row xl:flex-wrap xl:justify-center gap-x-20 gap-y-5 xl:gap-y-20">
+                <div>
+                <p className="space-x-2 lg:text-[20px] pb-4">
                     <span>&#9679;</span>
-                    <span className="lg:text-[22px] xl:text-[25px]">{t("dvoKrevetnaToalet")}</span>
+                    <span className="lg:text-[22px] xl:text-[25px] font-semibold">{t("dvoKrevetnaToalet")}</span>
                 </p>
                 {/*sliki*/}
-                <div className="flex flex-row gap-6 flex-wrap justify-center">
-                    <PolaroidPhoto src={dvToalet1} caption={t("roomCaption1")} rotation={-3}/>
-                    <PolaroidPhoto src={dvToalet2} caption={t("roomCaption1")} rotation={2}/>
-                    <PolaroidPhoto src={dvToalet3} caption={t("roomCaption1")} rotation={1}/>
-                    <PolaroidPhoto src={dvToalet4} caption={t("roomCaption1")} rotation={4}/>
+                <ImagesGallery images={images1}/>
                 </div>
 
-                <p className="space-x-2 lg:text-[20px]">
+                <div>
+                <p className="space-x-2 lg:text-[20px] pb-4">
                     <span>&#9679;</span>
-                    <span className="lg:text-[22px] xl:text-[25px]">{t("dvoKrevetnaKujna")}</span>
+                    <span className="lg:text-[22px] xl:text-[25px] font-semibold">{t("dvoKrevetnaKujna")}</span>
                 </p>
                 {/*sliki*/}
-                <div className="flex flex-row gap-6 flex-wrap justify-center">
-                    <PolaroidPhoto src={dvKujna1} caption={t("roomCaption1")} rotation={-2}/>
-                    <PolaroidPhoto src={dvKujna2} caption={t("roomCaption1")} rotation={5}/>
-                    <PolaroidPhoto src={dvKujna3} caption={t("roomCaption1")} rotation={1}/>
-
+                <ImagesGallery images={images2}/>
                 </div>
 
-                <p className="space-x-2 lg:text-[20px]">
+                <div>
+                <p className="space-x-2 lg:text-[20px] pb-4">
                     <span>&#9679;</span>
-                    <span className="lg:text-[22px] xl:text-[25px]">{t("apsoloventskaToalet")}</span>
+                    <span className="lg:text-[22px] xl:text-[25px] font-semibold">Брачни соби</span>
                 </p>
                 {/*sliki*/}
-                <div></div>
+                <ImagesGallery images={images3}/>
+                </div>
 
-                <p className="space-x-2 lg:text-[20px]">
+                <div>
+                <p className="space-x-2 lg:text-[20px] pb-4">
                     <span>&#9679;</span>
-                    <span className="lg:text-[22px] xl:text-[25px]">{t("apsoloventskaKujna")}</span>
+                    <span className="lg:text-[22px] xl:text-[25px] font-semibold">Апсоловентски соби</span>
                 </p>
                 {/*sliki*/}
-                <div></div>
-
-
+                <ImagesGallery images={images4}/>
+                </div>
 
             </div>
 
@@ -267,7 +360,8 @@ transition-transform duration-300 hover:scale-105 hover:bg-[#FFD75A] text-[19px]
                 <svg xmlns="http://www.w3.org/2000/svg" width="31" height="31" viewBox="0 0 24 24">
                     <path fill="#5c5eaa" d="M8.59 16.58L13.17 12L8.59 7.41L10 6l6 6l-6 6z"/>
                 </svg>
-                <div className="text-[#353767] text-[20px]  lg:text-[26px] xl:text-[35px] font-semibold font-['Poppins']">
+                <div
+                    className="text-[#353767] text-[20px]  lg:text-[26px] xl:text-[35px] font-semibold font-['Poppins']">
                     {t("povolnostiVoDomot")}
                 </div>
             </div>
