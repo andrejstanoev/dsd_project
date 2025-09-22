@@ -84,7 +84,21 @@
   "prijavaZaInterenOglas": "Aplikim për njoftimin e brendshëm për avancimin e një nëpunësi administrativ",
   "odlukaZaUnapreduvanje": "Vendim për avancimin e një nëpunësi administrativ",
   "pregledaj": "Shiko",
-  "akti": "Akte"
+  "akti": "Akte",
+  "p1": "Aplikohet vetëm në mënyrë elektronike?",
+  "o1": "Po, aplikimi bëhet vetëm në mënyrë elektronike, përmes sistemit \"e-shërbime\" të MAS.",
+  "p2": "A ka të drejtë një student në universitet privat të vendoset në konvikt?",
+  "o2": "Po, edhe studentët e universiteteve private kanë të drejtë të aplikojnë për konkursin e akomodimit në konvikte studentore.",
+  "p3": "Tani dua të regjistrohem në vitin e parë në fakultet. Kur dhe ku duhet të aplikoj?",
+  "o3": "Studentët që regjistrohen në vitin e parë do të kenë mundësi të aplikojnë për akomodim në konvikt nga 10 deri më 17 shtator.",
+  "p4": "A kemi të drejtë të zgjedhim vetëm një konvikt studentor apo mund të vendosim edhe një të dytë si alternativë?",
+  "o4": "Në aplikacion ju zgjidhni një konvikt studentor (si zgjedhjen primare) + edhe një tjetër si alternativë (në rast se nuk ka vend në zgjedhjen e parë).",
+  "p5": "A kanë të drejtë të aplikojnë studentët që regjistrohen në vitin e pestë?",
+  "o5": "Po, studentët që regjistrohen në vitin e pestë kanë të drejtë të aplikojnë për akomodim në konvikt.",
+  "p6": "A mund të aplikojnë për akomodim studentët që janë të punësuar?",
+  "o6": "Po, por të ardhurat mund të ndikojnë në vendimin nëse do të pranoheni në konviktin e zgjedhur. Mos harroni të dorëzoni vërtetim për pagën.",
+  "bracniSobi": "Dhoma martesore",
+  "apsoloventskiSobi": "Dhoma për absolventë"
 
 
 }

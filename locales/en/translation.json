@@ -43,7 +43,7 @@
   "organizacioniEdinici": "Organizational units",
   "organizacioniEdiniciTekst1": "The dormitory comprises three separate organizational units in the territory of the city of Skopje, namely:\n",
   "dsdKuzman": "Student dormitory \"Kuzman Josifovski Pitu\" – Skopje",
-  "dsdGoce": "Student dormitory \"Kuzman Josifovski Pitu\" – Skopje",
+  "dsdGoce": "Student dormitory \"Goce Delchev\" – Skopje",
   "dsdStiv": "Student settlement \"Stiv Naumov\" – Skopje",
   "organizacioniEdiniciTekst2": "Each of the separate organizational units is managed by a custodian as a responsible person, appointed by the director of the dormitory.",
   "organogram": "Organogram",
@@ -84,5 +84,20 @@
   "prijavaZaInterenOglas": "Application for the internal vacancy notice for the promotion of an administrative civil servant",
   "odlukaZaUnapreduvanje": "Decision on the promotion of an administrative civil servant",
   "pregledaj": "View",
-  "akti": "Acts"
+  "akti": "Acts",
+  "p1": "Is the application exclusively electronic?",
+  "o1": "Yes, the application is exclusively electronic, through the Ministry of Education's \"e-services\" system.",
+  "p2": "Does a student at a private university have the right to accommodation in a student dormitory?",
+  "o2": "Yes, students at private universities also have the right to apply for the student dormitory accommodation competition.",
+  "p3": "I now want to enroll in the first year of university. When and where should I apply?",
+  "o3": "Students enrolling in the first year can apply for dormitory accommodation from September 10 to September 17.",
+  "p4": "Do we have the right to choose only one student dormitory, or can we select a second one as an alternative?",
+  "o4": "In the application, you select one student dormitory (as your primary choice) + one more as an alternative (in case there are no spots in your first choice).",
+  "p5": "Do students who enroll in the fifth year have the right to apply?",
+  "o5": "Yes, students enrolling in the fifth year have the right to apply for dormitory accommodation.",
+  "p6": "Can employed students apply for dormitory accommodation?",
+  "o6": "Yes, but income may influence the decision whether you will be accommodated in the chosen dormitory. Do not forget to submit a salary certificate.",
+  "bracniSobi": "Marital rooms",
+  "apsoloventskiSobi": "Graduate rooms"
+
 }
