@@ -85,7 +85,6 @@
   "odlukaZaUnapreduvanje": "Decision on the promotion of an administrative civil servant",
   "pregledaj": "View",
   "akti": "Acts",
-
   "p1": "Is the application exclusively electronic?",
   "o1": "Yes, the application is exclusively electronic, through the Ministry of Education's \"e-services\" system.",
   "p2": "Does a student at a private university have the right to accommodation in a student dormitory?",
@@ -100,6 +99,17 @@
   "o6": "Yes, but income may influence the decision whether you will be accommodated in the chosen dormitory. Do not forget to submit a salary certificate.",
   "bracniSobi": "Marital rooms",
   "apsoloventskiSobi": "Graduate rooms",
-  "dnevnoMeni": "Weekly menu"
+  "dnevnoMeni": "Weekly menu",
+  "elektronskaPrijavaZaObrok": "Electronic meal application",
+  "elektronskaPrijavaZaObrokSoMali": "electronic meal application",
+  "sekoiStudent": "Each student is required to complete",
+  "prekuFormata": "through\n    the form by entering their student ID ",
+  "zaKojDen": "When applying, you need to choose for which day you are filling out the form and whether you will use",
+  "rucekVecera": "lunch, dinner, or both meals",
+  "sekojStudentImaNaRaspolaganje": "Each student has available",
+  "triDzokeri": "three \"jokers\"",
+  "voTekotNaMesecot": "during the month – the possibility to apply and then not show up for the meal. After using these jokers, appropriate consequences will follow if the system is not respected.",
+  "ovaaPostapka": "This procedure is introduced in order to ensure more precise organization and to reduce unnecessary waste of food.",
+  "popolnetaJaFormata": "Fill out the form"
 
 }

@@ -85,7 +85,6 @@
   "odlukaZaUnapreduvanje": "Vendim për avancimin e një nëpunësi administrativ",
   "pregledaj": "Shiko",
   "akti": "Akte",
-
   "p1": "Aplikohet vetëm në mënyrë elektronike?",
   "o1": "Po, aplikimi bëhet vetëm në mënyrë elektronike, përmes sistemit \"e-shërbime\" të MAS.",
   "p2": "A ka të drejtë një student në universitet privat të vendoset në konvikt?",
@@ -100,8 +99,17 @@
   "o6": "Po, por të ardhurat mund të ndikojnë në vendimin nëse do të pranoheni në konviktin e zgjedhur. Mos harroni të dorëzoni vërtetim për pagën.",
   "bracniSobi": "Dhoma martesore",
   "apsoloventskiSobi": "Dhoma për absolventë",
-  "dnevnoMeni": "Menuja javore"
-
-
+  "dnevnoMeni": "Menuja javore",
+  "elektronskaPrijavaZaObrok": "Aplikim elektronik për ushqim",
+  "elektronskaPrijavaZaObrokSoMali": "aplikim elektronik për ushqim",
+  "sekoiStudent": "Çdo student duhet të kryejë",
+  "prekuFormata": "përmes\n    formularit duke futur ID-në e tij studentore ",
+  "zaKojDen": "Gjatë aplikimit, duhet të zgjidhni për cilin ditë e plotësoni formularin dhe nëse do të përdorni",
+  "rucekVecera": "drekë, darkë ose të dyja vaktet",
+  "sekojStudentImaNaRaspolaganje": "Çdo student ka në dispozicion",
+  "triDzokeri": "tre \"xhokera\"",
+  "voTekotNaMesecot": "gjatë muajit – mundësi për t’u regjistruar dhe më pas të mos paraqitet për vaktin. Pas shfrytëzimit të këtyre xhokerave, do të pasojnë pasojat përkatëse nëse nuk respektohet sistemi.",
+  "ovaaPostapka": "Kjo procedurë është futur me qëllim të sigurimit të një organizimi më të saktë dhe për të reduktuar hedhjen e panevojshme të ushqimit.",
+  "popolnetaJaFormata": "Plotësoni formularin"
 
 }
