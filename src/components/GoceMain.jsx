@@ -40,7 +40,6 @@ import aps4 from "../images/goce/goce9slika.jpg"
 import kuzmanSlika from "../images/studenstki-dom-kuzman-josifovski-pitu-1.jpg";
 import stivSlika from "../images/stiv.jpg";
 import ImagesGallery from "./ImagesGallery.jsx";
->>>>>>> db8fd0fd7fa5cca58fcb47777c38a8b001920c08
 
 export default function GoceMain() {
     const {t} = useTranslation();

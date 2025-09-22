@@ -13,9 +13,9 @@ const DnevnoMeni = () => {
                 </h1>
             </div>
 
-            <div className="flex">
+            <div className="flex items-between">
                 {/* слика */}
-                <div className="w-[400px] max-w-2xl my-8 mx-15 flex justify-center rounded-xl border border-[#dad8f0] ring-1 ring-indigo-300 shadow-lg xl:shadow-2xl bg-gradient-to-br from-[#a3a5d2] to-[#f2f2fc] p-4 w-full">
+                <div className="w-[400px] max-w-2xl my-8  flex justify-center rounded-xl border border-[#dad8f0] ring-1 ring-indigo-300 shadow-lg xl:shadow-2xl bg-gradient-to-br from-[#a3a5d2] to-[#f2f2fc] p-4 w-full">
                     <img className="border-3 border-[#5C5EAA] rounded-xl" src={dnevnoMeniImg} alt="Dnevno Meni" />
                 </div>
                 {/* форма */}
@@ -27,7 +27,7 @@ const DnevnoMeni = () => {
 
                         <p className="mb-3">
                             Секој студент е потребно да изврши <strong>електронска пријава за оброк</strong> преку
-                            формата со внесување на своето студентско
+                            формата со внесување на своето студентско {/*bla*/}
                             <strong>ID</strong>.
                         </p>
 
