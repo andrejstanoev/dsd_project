@@ -166,7 +166,7 @@ export default function GoceMain() {
             className="mb-4 pt-6 px-10 grid grid-cols-2 gap-4 justify-items-center md:flex md:justify-center md:gap-x-7 lg:gap-x-8 lg:text-[19px] xl:text-[22px] xl:gap-x-10"
         >
            <a href="https://invite.viber.com/?g2=AQAEvrIF2qeREk%2FzWz%2Bs7Jgign9awVYsSHsIwrCXomq%2FIt%2F2wVcmOnVbnvlqlW3T" target="_blank"> <div
-                className="flex items-center text-[#353767] justify-center lg:w-[220px] w-[170px]  h-16 bg-[#F5C144] rounded-[15px] shadow-lg ring-2 ring-[#e5b42c] border border-[#e5b42c]
+                className="flex items-center text-[#353767] justify-center lg:w-[220px] w-[140px]  h-16 bg-[#F5C144] rounded-[15px] shadow-lg ring-2 ring-[#e5b42c] border border-[#e5b42c]
     transition-transform duration-300 hover:scale-105 hover:bg-[#FFD75A] text-[17px] lg:text-[24px] xl:text-[24px]"
             >
     <span className="pr-1">
@@ -180,7 +180,7 @@ export default function GoceMain() {
 
 
               <div
-                className="flex items-center text-[#353767] justify-center lg:w-[220px] w-[170px] h-16 bg-[#F5C144] rounded-[15px] shadow-lg ring-2 ring-[#e5b42c] border border-[#e5b42c]
+                className="flex items-center text-[#353767] justify-center lg:w-[220px] w-[140px] h-16 bg-[#F5C144] rounded-[15px] shadow-lg ring-2 ring-[#e5b42c] border border-[#e5b42c]
     transition-transform duration-300 hover:scale-105 hover:bg-[#FFD75A] text-[17px] lg:text-[24px] xl:text-[24px]"
             >
     <span className="pr-1">
@@ -196,7 +196,7 @@ export default function GoceMain() {
                 className="inline-block"
             >
                 <div
-                    className="flex items-center text-[#353767] justify-center lg:w-[220px] w-[170px] h-16 bg-[#F5C144] rounded-[15px] shadow-lg ring-2 ring-[#e5b42c] border border-[#e5b42c]
+                    className="flex items-center text-[#353767] justify-center lg:w-[220px] w-[140px] h-16 bg-[#F5C144] rounded-[15px] shadow-lg ring-2 ring-[#e5b42c] border border-[#e5b42c]
       transition-transform duration-300 hover:scale-105 hover:bg-[#FFD75A] text-[17px] lg:text-[24px] xl:text-[24px]"
                 >
       <span className="pr-1">
@@ -213,8 +213,8 @@ export default function GoceMain() {
                 className="inline-block"
             >
                 <div
-                    className="flex items-center text-[#353767] justify-center lg:w-[220px] w-[170px] h-16 bg-[#F5C144] rounded-[15px] shadow-lg ring-2 ring-[#e5b42c] border border-[#e5b42c]
-      transition-transform duration-300 hover:scale-105 hover:bg-[#FFD75A] text-[17px] lg:text-[24px] xl:text-[24px]"
+                    className="flex items-center text-[#353767] justify-center lg:w-[220px] w-[140px] h-16 bg-[#F5C144] rounded-[15px] shadow-lg ring-2 ring-[#e5b42c] border border-[#e5b42c]
+      transition-transform duration-300 hover:scale-105 hover:bg-[#FFD75A] text-[14px] lg:text-[24px] xl:text-[24px]"
                 >
       <span className="pr-1">
         {/* иконка */}

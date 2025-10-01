@@ -9,7 +9,7 @@ export default function InfoForContact(){
         <div className="  flex flex-col items-center justify-center mt-[-80px] px-4">
             <div className="w-full max-w-lg md:max-w-3xl lg:max-w-5xl xl:max-w-7xl 2xl:max-w-8xl p-6 md:p-10 space-y-6 mx-auto">
 
-                <div>
+                <div >
                     <h2 className="font-['Poppins'] text-[#353767] mb-5 md:text-[23px] lg:text-[25px] xl:text-[42px] text-[24px] px-1 py-1 mb-6 rounded-[15px] w-fit bg-gradient-to-br from-[#b8baf2] to-[#a3a5d2] shadow-xl shadow-[#6769b7]/40 font-bold">
                         {t("infozakontakt")}</h2>
                     <h3 className="text-2xl font-bold xl:text-[27px] pt-2">Марина Карличиќ</h3>
@@ -18,7 +18,7 @@ export default function InfoForContact(){
                     </p>
                 </div>
 
-                <div className="flex items-center space-x-4">
+                <div className="flex flex-col items-start lg:items-center lg:flex-row space-x-4">
                     <div className="flex items-center gap-2">
                         <PhoneIcon/>
                         <span className="text-gray-800 font-medium xl:text-[22px]">078 411 152</span>
