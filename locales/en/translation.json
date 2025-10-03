@@ -111,6 +111,13 @@
   "voTekotNaMesecot": "during the month – the possibility to apply and then not show up for the meal. After using these jokers, appropriate consequences will follow if the system is not respected.",
   "ovaaPostapka": "This procedure is introduced in order to ensure more precise organization and to reduce unnecessary waste of food.",
   "popolnetaJaFormata": "Fill out the form",
-  "konOrganizacija": "To the organization"
-
+  "konOrganizacija": "To the organization",
+  "kontaktirajNe": "Contact us",
+  "ime": "Name",
+  "prezime": "Surname",
+  "email": "Email",
+  "poraka": "Message",
+  "isprati": "Send",
+  "prakjanje": "Sending...",
+  "uspesnoIspratena": "Successfully sent!"
 }

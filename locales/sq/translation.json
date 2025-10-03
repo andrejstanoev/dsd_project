@@ -111,7 +111,14 @@
   "voTekotNaMesecot": "gjatë muajit – mundësi për t’u regjistruar dhe më pas të mos paraqitet për vaktin. Pas shfrytëzimit të këtyre xhokerave, do të pasojnë pasojat përkatëse nëse nuk respektohet sistemi.",
   "ovaaPostapka": "Kjo procedurë është futur me qëllim të sigurimit të një organizimi më të saktë dhe për të reduktuar hedhjen e panevojshme të ushqimit.",
   "popolnetaJaFormata": "Plotësoni formularin",
-  "konOrganizacija": "Në organizatë"
-
+  "konOrganizacija": "Në organizatë",
+  "kontaktirajNe": "Kontaktohu me ne",
+  "ime": "Emri",
+  "prezime": "Mbiemri",
+  "email": "Email",
+  "poraka": "Mesazh",
+  "isprati": "Dërgo",
+  "prakjanje": "Duke dërguar...",
+  "uspesnoIspratena": "U dërgua me sukses!"
 
 }
